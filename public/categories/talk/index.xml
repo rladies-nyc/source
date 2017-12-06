@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Talk on R-Ladies NYC</title>
+    <link>/categories/talk/</link>
+    <description>Recent content in Talk on R-Ladies NYC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 04 Dec 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/talk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>R in the World of Education</title>
+      <link>/2017/12/04/r-in-the-world-of-education/</link>
+      <pubDate>Mon, 04 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/12/04/r-in-the-world-of-education/</guid>
+      <description>Join us for our last event of 2017!
+Erin Grand will speak about how she uses R in the World of Eduction. Visit our Meetup for more details and to RSVP.
+Date: Tuesday, December 12, 2017
+Time: 6:30pm
+Speaker: Erin Grand
+Host: AT&amp;amp;T NYC Data Science Research Center</description>
+    </item>
+    
+    <item>
+      <title>Tour of R in Peer to Peer Lending</title>
+      <link>/2017/04/18/tour-of-r-in-peer-to-peer-lending/</link>
+      <pubDate>Tue, 18 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/04/18/tour-of-r-in-peer-to-peer-lending/</guid>
+      <description>Catherine Pargeter speaks about how Orchard Platform, a fintech company, uses R. Visit our Meetup for more details and to RSVP.
+Date: Tuesday, April 18, 2017
+Time: 6:30pm
+Speaker: Catherine Pargeter
+Host: Orchard Platform</description>
+    </item>
+    
+    <item>
+      <title>A Focus on Health</title>
+      <link>/2017/02/21/a-focus-on-health/</link>
+      <pubDate>Tue, 21 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/02/21/a-focus-on-health/</guid>
+      <description>Elena Colicino and Daniela Vazquez speak about how they use R. Vist our Meetup page for more details and to RSVP.
+Date: Tuesday, February 21, 2017
+Time: 6:30pm
+Speakers: Elena Colicino and Daniela Vazquez
+Host: Flatiron Health</description>
+    </item>
+    
+    <item>
+      <title>Launching R-Ladies NYC!</title>
+      <link>/2016/11/21/launching-r-ladies-nyc/</link>
+      <pubDate>Mon, 21 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/2016/11/21/launching-r-ladies-nyc/</guid>
+      <description>Come meet other local R-Ladies and hear Carissa Shafto speak about her use of R for data science at the Galen College of Nursing. Vist our Meetup page for more details and to RSVP.
+Date: Monday, November 21, 2016
+Time: 6:15pm
+Speaker: Carissa Shafto
+Host: RGGI Inc.</description>
+    </item>
+    
+  </channel>
+</rss>

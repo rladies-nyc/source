@@ -1,0 +1,57 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "R-Ladies NYC"
+theme = "hugo-lithium-theme"
+googleAnalytics = ""
+disqusShortname = ""
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+enableEmoji = true
+publishDir = "../rladies-nyc.github.io"
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 1
+[[menu.main]]
+    name = "Meetup"
+    url = "https://www.meetup.com/rladies-newyork/"
+    weight = 2
+[[menu.main]]
+    name = "Twitter"
+    url = "https://twitter.com/RLadiesNYC"
+    weight = 3
+[[menu.main]]
+    name = "Goodreads"
+    url = "https://www.goodreads.com/group/show/225365-r-ladies-nyc"
+    weight = 4
+[[menu.main]]
+    name = "GitHub"
+    url = "https://github.com/rladies-nyc"
+    weight = 5
+
+[params]
+    description = "R-Ladies NYC is part of a worldwide organization to promote gender diversity in the R community."
+    chapter = "New York, NY"
+    customCSS = ["css/rladies.css"]
+
+    # options for highlight.js (version, additional languages, and theme)
+    highlightjsVersion = "9.11.0"
+    highlightjsCDN = "//cdn.bootcss.com"
+    highlightjsLang = ["r", "yaml"]
+    highlightjsTheme = "github"
+
+    MathJaxCDN = "//cdn.bootcss.com"
+    MathJaxVersion = "2.7.1"
+
+    [params.logo]
+    url = "R-LadiesGlobal_RBG_online_LogoOnly.png"
+    width = 50
+    height = 50
+    alt = "Logo"
+
+
+
+

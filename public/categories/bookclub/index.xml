@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bookclub on R-Ladies NYC</title>
+    <link>/categories/bookclub/</link>
+    <description>Recent content in Bookclub on R-Ladies NYC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Dec 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/bookclub/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Book club: Everybody Lies</title>
+      <link>/2017/12/05/book-club-everybody-lies/</link>
+      <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/12/05/book-club-everybody-lies/</guid>
+      <description>Please join us for our first book club discussion of 2018! Visit our Meetup page for more details and to RSVP.
+Date: Saturday, January 20, 2018
+Time: 3pm
+Book: Everybody Lies: Big Data, New Data, and What the Internet Can Tell Us About Who We Really Are
+Author: Seth Stephens-Davidowitz
+Host: Rizzoli Bookstore</description>
+    </item>
+    
+    <item>
+      <title>Book club: Truth of Truthiness</title>
+      <link>/2017/09/30/book-club-truth-of-truthiness/</link>
+      <pubDate>Sat, 30 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/09/30/book-club-truth-of-truthiness/</guid>
+      <description>Come join us for a discussion for our next book club discussion! Visit our Meetup page for more details and to RSVP.
+Date: Saturday, September 30, 2017
+Time: 12pm
+Book: Truth or Truthiness: Distinguishing Fact from Fiction by Learning to Think Like a Data Scientist
+Author: Howard Wainer
+Host: Rizzoli Bookstore</description>
+    </item>
+    
+    <item>
+      <title>Book club: Weapons of Math Destruction</title>
+      <link>/2017/06/17/book-club-weapons-of-math-destruction/</link>
+      <pubDate>Sat, 17 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/06/17/book-club-weapons-of-math-destruction/</guid>
+      <description>Come join us for a discussion for our next book club discussion! Visit our Meetup page for more details and to RSVP.
+Date: Saturday, June 17, 2017
+Time: 11am
+Book: Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy
+Author: Cathy O’Neil
+Host: Rizzoli Bookstore</description>
+    </item>
+    
+    <item>
+      <title>Book club: Dear Data</title>
+      <link>/2017/03/11/book-club-dear-data/</link>
+      <pubDate>Sat, 11 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/03/11/book-club-dear-data/</guid>
+      <description>Please join us for our inaugural book club event! Visit our Meetup page for more details and to RSVP.
+Date: Saturday, March 11, 2017
+Time: 11am
+Book: Dear Data
+Authors: Giorgia Lupi and Stefanie Posavec
+Host: Rizzoli Bookstore</description>
+    </item>
+    
+  </channel>
+</rss>

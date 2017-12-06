@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Event on R-Ladies NYC</title>
+    <link>/tags/event/</link>
+    <description>Recent content in Event on R-Ladies NYC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 Dec 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/event/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Book club: Everybody Lies</title>
+      <link>/2017/12/05/book-club-everybody-lies/</link>
+      <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/12/05/book-club-everybody-lies/</guid>
+      <description>Please join us for our first book club discussion of 2018! Visit our Meetup page for more details and to RSVP.
+Date: Saturday, January 20, 2018
+Time: 3pm
+Book: Everybody Lies: Big Data, New Data, and What the Internet Can Tell Us About Who We Really Are
+Author: Seth Stephens-Davidowitz
+Host: Rizzoli Bookstore</description>
+    </item>
+    
+    <item>
+      <title>R in the World of Education</title>
+      <link>/2017/12/04/r-in-the-world-of-education/</link>
+      <pubDate>Mon, 04 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/12/04/r-in-the-world-of-education/</guid>
+      <description>Join us for our last event of 2017!
+Erin Grand will speak about how she uses R in the World of Eduction. Visit our Meetup for more details and to RSVP.
+Date: Tuesday, December 12, 2017
+Time: 6:30pm
+Speaker: Erin Grand
+Host: AT&amp;amp;T NYC Data Science Research Center</description>
+    </item>
+    
+    <item>
+      <title>Data Dive Night with Data for Democracy</title>
+      <link>/2017/10/24/data-dive-night-with-data-for-democracy/</link>
+      <pubDate>Tue, 24 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/10/24/data-dive-night-with-data-for-democracy/</guid>
+      <description>Let’s get together with our laptops and R skills and code to continue to explore Medicare spending data. Visit our Meetup page for more details and to RSVP.
+Date: Tuesday, October 24, 2017
+Time: 6:30pm
+Host: Quartet Health</description>
+    </item>
+    
+    <item>
+      <title>Book club: Truth of Truthiness</title>
+      <link>/2017/09/30/book-club-truth-of-truthiness/</link>
+      <pubDate>Sat, 30 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/09/30/book-club-truth-of-truthiness/</guid>
+      <description>Come join us for a discussion for our next book club discussion! Visit our Meetup page for more details and to RSVP.
+Date: Saturday, September 30, 2017
+Time: 12pm
+Book: Truth or Truthiness: Distinguishing Fact from Fiction by Learning to Think Like a Data Scientist
+Author: Howard Wainer
+Host: Rizzoli Bookstore</description>
+    </item>
+    
+    <item>
+      <title>Data Visualization Workshop, Part 1</title>
+      <link>/2017/08/17/data-visualization-workshop-part-1/</link>
+      <pubDate>Thu, 17 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/08/17/data-visualization-workshop-part-1/</guid>
+      <description>Joyce Robbins presents a workshop on creating heatmaps in R, and other more general data visualization tips and tricks. Visit our Meetup page for more details and to RSVP.
+Joyce’s GitHub repo for this talk can be found here.
+Date: Thursday, August 17, 2017
+Time: 7pm
+Instructor: Joyce Robbins
+Host: Byte Academy</description>
+    </item>
+    
+    <item>
+      <title>Summer Social!</title>
+      <link>/2017/07/08/summer-social/</link>
+      <pubDate>Sat, 08 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/07/08/summer-social/</guid>
+      <description>Let’s take a break from the heat and our desks for an R-Ladies summer social event! Visit our Meetup page for more details and to RSVP.
+Date: Saturday, July 8, 2017
+Time: 2pm
+Where: Blue Ribbon Sushi Izakaya</description>
+    </item>
+    
+    <item>
+      <title>Book club: Weapons of Math Destruction</title>
+      <link>/2017/06/17/book-club-weapons-of-math-destruction/</link>
+      <pubDate>Sat, 17 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/06/17/book-club-weapons-of-math-destruction/</guid>
+      <description>Come join us for a discussion for our next book club discussion! Visit our Meetup page for more details and to RSVP.
+Date: Saturday, June 17, 2017
+Time: 11am
+Book: Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy
+Author: Cathy O’Neil
+Host: Rizzoli Bookstore</description>
+    </item>
+    
+    <item>
+      <title>Tour of R in Peer to Peer Lending</title>
+      <link>/2017/04/18/tour-of-r-in-peer-to-peer-lending/</link>
+      <pubDate>Tue, 18 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/04/18/tour-of-r-in-peer-to-peer-lending/</guid>
+      <description>Catherine Pargeter speaks about how Orchard Platform, a fintech company, uses R. Visit our Meetup for more details and to RSVP.
+Date: Tuesday, April 18, 2017
+Time: 6:30pm
+Speaker: Catherine Pargeter
+Host: Orchard Platform</description>
+    </item>
+    
+    <item>
+      <title>Book club: Dear Data</title>
+      <link>/2017/03/11/book-club-dear-data/</link>
+      <pubDate>Sat, 11 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/03/11/book-club-dear-data/</guid>
+      <description>Please join us for our inaugural book club event! Visit our Meetup page for more details and to RSVP.
+Date: Saturday, March 11, 2017
+Time: 11am
+Book: Dear Data
+Authors: Giorgia Lupi and Stefanie Posavec
+Host: Rizzoli Bookstore</description>
+    </item>
+    
+    <item>
+      <title>A Focus on Health</title>
+      <link>/2017/02/21/a-focus-on-health/</link>
+      <pubDate>Tue, 21 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/02/21/a-focus-on-health/</guid>
+      <description>Elena Colicino and Daniela Vazquez speak about how they use R. Vist our Meetup page for more details and to RSVP.
+Date: Tuesday, February 21, 2017
+Time: 6:30pm
+Speakers: Elena Colicino and Daniela Vazquez
+Host: Flatiron Health</description>
+    </item>
+    
+    <item>
+      <title>Launching R-Ladies NYC!</title>
+      <link>/2016/11/21/launching-r-ladies-nyc/</link>
+      <pubDate>Mon, 21 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/2016/11/21/launching-r-ladies-nyc/</guid>
+      <description>Come meet other local R-Ladies and hear Carissa Shafto speak about her use of R for data science at the Galen College of Nursing. Vist our Meetup page for more details and to RSVP.
+Date: Monday, November 21, 2016
+Time: 6:15pm
+Speaker: Carissa Shafto
+Host: RGGI Inc.</description>
+    </item>
+    
+  </channel>
+</rss>

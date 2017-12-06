@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Social on R-Ladies NYC</title>
+    <link>/tags/social/</link>
+    <description>Recent content in Social on R-Ladies NYC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 08 Jul 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/social/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Summer Social!</title>
+      <link>/2017/07/08/summer-social/</link>
+      <pubDate>Sat, 08 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/2017/07/08/summer-social/</guid>
+      <description>Let’s take a break from the heat and our desks for an R-Ladies summer social event! Visit our Meetup page for more details and to RSVP.
+Date: Saturday, July 8, 2017
+Time: 2pm
+Where: Blue Ribbon Sushi Izakaya</description>
+    </item>
+    
+  </channel>
+</rss>
