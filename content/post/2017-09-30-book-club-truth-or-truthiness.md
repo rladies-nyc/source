@@ -1,14 +1,14 @@
 ---
-title: 'Book club: Truth of Truthiness'
+title: 'Book club: Truth or Truthiness'
 author: Emily Zabor
 date: '2017-09-30'
-slug: book-club-truth-of-truthiness
 categories:
   - bookclub
   - event
 tags:
   - bookclub
   - event
+slug: book-club-truth-or-truthiness
 ---
 
 Come join us for a discussion for our next book club discussion! Visit our [Meetup](https://www.meetup.com/rladies-newyork/events/242382626/) page for more details and to RSVP.
