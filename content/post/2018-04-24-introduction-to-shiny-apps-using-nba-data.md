@@ -5,9 +5,11 @@ date: '2018-04-24'
 categories:
   - event
   - talk
+  - workshop
 tags:
   - event
   - talk
+  - workshop
 slug: introduction-to-shiny-apps-using-nba-data
 header:
   caption: ''
@@ -15,6 +17,8 @@ header:
 ---
 
 Come out for our May event for a tutorial on Shiny! Julia Wrobel, a PhD candidate in biostatistics at Columbia University, will be teaching us to make and deploy Shiny apps using NBA data. 
+
+The materials for this talk can be found on [Julia's website](http://juliawrobel.com/tutorials/shiny_tutorial_nba.html).
 
 Bring your laptops so that you can code as you go!
 
