@@ -11,14 +11,41 @@ tags:
   - talk
 ---
 
-New to the R community? Never given a tech talk before? Just have something cool you do in R to share with the group? Sign up to give a lightning talk at our next event! These talks will be 5 minutes in length and the only requirement is that they are about R.
+We have an *awesome* lineup of speakers giving lightning talks! These talks are 5 minutes in length on a wide variety of R and data science topics. Come learn from your peers!
 
-Apply to give a talk [here](https://docs.google.com/forms/d/e/1FAIpQLSfk_URW8ZTHJ9-zREuDX66oD4Jmyw1rg4RTrh1q1eYrMTjBgA/viewform) and feel free to reach out to the organizers via our Slack channel if you want to brainstorm ideas, we are here to help!
+**Agenda:**
 
-And visit our [Meetup](https://www.meetup.com/rladies-newyork/events/250824638/) page to RSVP.
+6:30-6:55: Food & Networking
+
+6:55-7:00: Introduction by our host
+
+7:00-8:30: Lightning talks
+
+8:30-9:00: Networking
+
+**Talks and speakers:**
+
+- Analyzing Recruiting Pipelines with R: Maryam Jahanshahi
+- Freak Your Factors: Luda Janda
+- Cooking Up Statistics: The Science & The Art: Letisha Smith
+- Digital data extraction using R and other tools: Jaya Satagopan
+- Reticulate: An R Interface to Python: Elizabeth Sweeney
+- Who Reads Whom: Text Mining Literary Interviews: Sarah Rankin
+- Teaching the Tidyverse to Coworkers: Erin Grand
+- InteRactive: make your analyses & reports more engaging with R & Plotly: Gulya Radjapova
+- Debugging Data in R: Hannah Flaherty
+- Sum of Nothing: R, Python pandas, and the different ways to do math with missing data: Christine Zhang
+- Non-Representative Polls: Jennifer Kanjana
+- Breathing New Life into Old PowerPoint Templates: Kelly Dietz
+- The Stories behind Missing Data: Policy and Practice in Social Services: Rika Gorn
+- Title TBD: Catherine Zhou
+
+Visit our [Meetup](https://www.meetup.com/rladies-newyork/events/250824638/) page to RSVP.
 
 Date: Thursday, June 14, 2018
 
 Time: 6:30pm
 
 Host: [OppenheimerFunds](https://www.oppenheimerfunds.com/)
+
+
