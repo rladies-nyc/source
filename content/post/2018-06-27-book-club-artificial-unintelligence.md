@@ -20,7 +20,7 @@ Date: Saturday, July 14, 2018
 
 Time: 11am
 
-Book: [Artificial Intelligence: How Computers Misunderstand the World](https://www.rizzolibookstore.com/storytelling-data-data-visualization-guide-business-professionals)
+Book: [Artificial Intelligence: How Computers Misunderstand the World](https://mitpress.mit.edu/books/artificial-unintelligence)
 
 Author: Meredith Broussard
 
