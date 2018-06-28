@@ -28,16 +28,16 @@ We have an *awesome* lineup of speakers giving lightning talks! These talks are 
 - [Using R to Analyze Recruiting Pipelines: Maryam Jahanshahi](/slides/R-Ladies Lightning Talk - Jahanshahi.pdf)
 - [Freak Your Factors: Luda Janda](/slides/r_ladies_five_mins (2).html)
 - [Cooking Up Statistics: The Science & The Art: Letisha Smith](https://docs.google.com/presentation/d/1XXkkRRgh7bmLWU8gvnsCETjE4N7IFsj39tE-LT4LcjU/edit#slide=id.p)
-- [Digital data extraction using R and other tools: Jaya Satagopan](/slides/satagopan-r-ladies-lightning-talk.pptx)
+- [Digital data extraction using R and other tools: Jaya Satagopan](/slides/satagopan-r-ladies-lightning-talk.pdf)
 - [Reticulate: An R Interface to Python: Elizabeth Sweeney](https://docs.google.com/presentation/d/1ShQPtCedKtcjvhM7HDXOuGCBD6Rt0skloumKAWaOBOY/edit#slide=id.p)
 - [Who Reads Whom: Text Mining Literary Interviews: Sarah Rankin](/slides/authors_lightning (1).html)
 - [Teaching the Tidyverse to Coworkers: Erin Grand](/slides/rladies-lightning.pdf)
 - [InteRactive: how to make your reports more engaging with R & Plotly: Gulya Radjapova](https://docs.google.com/presentation/d/1cm0AZxuobeR3rhGDkJGk7q0TjaNcTz14IGYUCZd2_ek/edit#slide=id.g35f391192_00)
 - [Debugging Data in R: Hannah Flaherty](/slides/Debugging Data in R - HF (1).html)
-- Sum of Nothing: R, Python pandas, and the different ways to do math with missing data: Christine Zhang
-- [Non-Representative Polls: Jennifer Kanjana](/slides/Non-Representative Polls.pptx)
+- [Sum of Nothing: R, Python pandas, and the different ways to do math with missing data: Christine Zhang](/slides/sum_of_nothing.pdf)
+- [Non-Representative Polls: Jennifer Kanjana](/slides/Non-Representative Polls.pdf)
 - [Breathing New Life into Old PowerPoint Templates: Kelly Dietz](https://docs.google.com/presentation/d/1OmmV4DKkgXTL5ljDNlIFDQYwupZBsL1cQH9TPXIZSvA/edit?ts=5b219b84#slide=id.p)
-- [The Stories behind Missing Data: Policy and Practice in Social Services: Rika Gorn](/slides/Rika Gorn slides.pptx)
+- [The Stories behind Missing Data: Policy and Practice in Social Services: Rika Gorn](/slides/Rika Gorn slides.pdf)
 - [Cracking the Data Science Interview: Learning from Both Sides of the Interview Table: Catherine Zhou](https://docs.google.com/presentation/d/1i-hlC07RDPvGm8GgmlwyD45MtUZhR7R32EgekRvlIZ0/edit#slide=id.g29c23c0132_0_21)
 
 Visit our [Meetup](https://www.meetup.com/rladies-newyork/events/250824638/) page to RSVP.
