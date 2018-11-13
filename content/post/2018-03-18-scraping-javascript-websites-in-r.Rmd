@@ -282,7 +282,8 @@ filtered_names = bind_rows(filtered_names, bigshaqdf) %>%
 ```{r, echo=FALSE, message=FALSE, warning=FALSE, eval = TRUE}
 # write_csv(filtered_names, "content/data/2018-03-17-scraping-javascript-websites-in-r/filtered_names.csv")
 library(tidyverse)
-filtered_names = read_csv("G:/GitHub/source/static/img/2018-03-18-scraping-javascript-websites-in-r/filtered_names.csv")
+# filtered_names = read_csv("G:/GitHub/source/static/img/2018-03-18-scraping-javascript-websites-in-r/filtered_names.csv")
+filtered_names = read_csv("C:/Users/zabore/Documents/GitHub/Rladiesnycblogdown/source/static/img/2018-03-18-scraping-javascript-websites-in-r/filtered_names.csv")
 ```
 
 Let's take a look at the table we used to transfer the old names to the new ones: 
