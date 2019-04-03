@@ -35,3 +35,5 @@ Emily Zabor and Erin Grand are also going to be serving has TAs for this worksho
 
 Sebastian is a data scientist at Vroom, an ecommerce start-up that focuses on selling used cars that are delivered to your door. Previously, Sebastian was doing research on cancer genomics as a postdoc at Yale University. He has also been a strong advocate for R-Ladies and is an experienced CRAN package author.
 
+Slides from Sebastian's talk can be found on their [GitHub page](https://github.com/Seborinos/rladiesnyc_package_workshop).
+

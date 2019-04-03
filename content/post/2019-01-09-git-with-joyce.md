@@ -32,3 +32,5 @@ This is a hands on workshop so please bring your laptop to follow along and plea
 ## About Joyce
 
 Joyce Robbins, Ph.D., is Lecturer in Discipline in the Statistics Department at Columbia University, where she specializes in data visualization. She is a member of the R Forwards (R Foundation taskforce on women and other under-represented groups) teaching team, and elected to serve as publications officer of the Statistical Graphics Section of the American Statistical Association Section beginning in 2018. Robbins received her doctorate in sociology from Columbia University, her M.A. in sociology and anthropology from Tel Aviv University and her B.S.E. in civil engineering and operations research from Princeton University.
+
+Slides from Joyce's talk can be found at their [GitHub page](https://github.com/jtr13/codehelp/blob/master/GitHubWorkflow.pdf).
