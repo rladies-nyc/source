@@ -26,6 +26,10 @@ Soumya Kalra is currently a quantitative analyst the within the Market Risk Grou
 
 #### Alejandra Gerosa
 
+<img src="/img/alejandra.jpg" style="width:20%";/>
+
+Alejandra works in fundraising in social organizations (now at the ACLU, previously at TECHO and Doctors Without Borders). With the goal to become more data-driven in her work, she earned an MBA from Duke University. There, she discovered R and fell in love with all things related to business intelligence and marketing analytics. Since then, she has been learning R and statistics through friends, online classes and the wonderful R-Ladies community. Alejandra is from Argentina, lived in Spain for 5 years, and now lives in Queens.
+
 
 #### Rika Gorn
 
