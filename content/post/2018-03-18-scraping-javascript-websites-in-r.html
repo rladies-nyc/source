@@ -313,7 +313,10 @@ unlink(&quot;wav&quot;, recursive = TRUE, force = TRUE)</code></pre>
 <p>Now that I had all the audio files in the right place with the right names, I just had to change the name of my main function and update some paths.</p>
 <p>Like beepr, I wanted BRRR to also have a single function. Mine is called <code>skrrrahh()</code>, named for 2017’s most iconic Roadman, Big Shaq.</p>
 <p>The bones of the function are the same. I started by cloning the beepr <a href="https://github.com/rasmusab/beepr">Github repo</a> and fiddling around in the guts of the main function, <code>beep()</code>. Most of my changes were to internal file paths - including hard-coding links to to the new filenames we just generated. I mostly hacked at this using <a href="https://www.sublimetext.com/3">Sublime Text</a> and heavy amounts of Copy-Paste. Really inquiring minds can see the changes in the <a href="https://github.com/brooke-watson/BRRR/commits/master">commit log</a>.</p>
-<p><img src="/img/2018-03-18-scraping-javascript-websites-in-r/inst.png" /></p>
+<div class="figure">
+<img src="/img/2018-03-18-scraping-javascript-websites-in-r/inst.png" />
+
+</div>
 </div>
 <div id="wrapping-it-all-into-a-package" class="section level1">
 <h1>Wrapping it all into a package</h1>
@@ -346,6 +349,9 @@ skrrrahh &lt;- function(sound=26, expr = NULL) {</code></pre>
 <p>But once I pushed this to Github, I immediately became an open source developer and maintainer. That’s all it takes. Folks saw it on Twitter, got a good chuckle, and immediately started using it, fixing bugs and typos, and offering suggestions for the next version.</p>
 <p>This is the thing I didn’t realize before building this package. When you make something open source, and put it out into the world, people will often just start fixing things for you, for free. I got lucky with BRRR - apparently, the Venn diagram <a href="https://www.instagram.com/p/S6OS2YAWQI/">overlap</a> between rap nerds and stats nerds is much larger than I thought, and more people saw this package than I ever imagined. But this is the beauty of open source - projects become bigger, better, and more creative than they ever could if they live and die on one person’s computer. Four people have fixed bugs or typos in my repo, which I in turn built off the back of <a href="https://github.com/rasmusab">Rasmus’s</a>. Someone has already ported beepr into <a href="https://pypi.python.org/pypi/brrr">Python</a>. The community <a href="https://twitter.com/brookLYNevery1/status/940359216480636928">shared</a> beepr with friends and colleagues they thought would like it.</p>
 <p>Hopefully, someone else who has never made a package will take this and run with it, remixing the remix until it is unrecognizable. In the wise words of the Godfather of my very first R package:</p>
-<p><img src="/img/2018-03-18-scraping-javascript-websites-in-r/gucci-nevertoolate.png" /></p>
+<div class="figure">
+<img src="/img/2018-03-18-scraping-javascript-websites-in-r/gucci-nevertoolate.png" />
+
+</div>
 <p><br></p>
 </div>
