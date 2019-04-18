@@ -20,3 +20,5 @@ Time: 6:30pm - 8:30pm
 Speakers: Angeline Protacio and Kaelen Medeiros
 
 Host: JP Morgan
+
+Event Organizer: Emily Robinson
