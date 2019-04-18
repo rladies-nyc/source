@@ -58,7 +58,7 @@ Interests: Statistics, economics, ethics in algorithms, data visualization, trav
 
 <img src="/img/ludmila.jpg" style="width:20%";/>
 
-Ludmila Janda is a Data Scientist at Amplify, a pioneer in K–12 education since 2000, leading the way in next-generation curriculum and assessment. Today, Amplify serves four million students in all 50 states. Luda’s work provides insights on student and teacher usage, student success, and Amplify’s broader impact. She has a Master’s in Public Policy from the University of North Carolina-Chapel Hill. Her interests include board games, salsa dancing, and the tidyverse. Follow her on twitter at @luuuda_janda.
+Ludmila Janda is a Data Scientist at Amplify, a pioneer in K–12 education since 2000, leading the way in next-generation curriculum and assessment. Today, Amplify serves four million students in all 50 states. Luda’s work provides insights on student and teacher usage, student success, and Amplify’s broader impact. She has a Master’s in Public Policy from the University of North Carolina-Chapel Hill. Her interests include board games, salsa dancing, and the tidyverse. Follow her on twitter at @ludmila_janda.
 
 
 #### Elizabeth Sweeney
