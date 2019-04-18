@@ -11,12 +11,12 @@ tags:
   - talk
 ---
 
-Come listen to two women who have come into Data Science.
+Come hear about to two women's transitions into Data Science.
 
 Date: Thursday, May 23rd, 2019
 
 Time: 6:15pm
 
-Speaker: Angeline and Kaelen
+Speakers: Angeline Protacio and Kaelen Medeiros
 
 Host: JP Morgan
