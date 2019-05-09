@@ -21,5 +21,5 @@ Here are some examples for inspiration:
 
 [R-Ladies CDMX](https://secure.meetupstatic.com/photos/event/8/0/8/b/600_476852907.jpeg)
 
-[R-Ladies CDMX](https://secure.meetupstatic.com/photos/event/5/3/a/8/600_480981416.jpeg)
+[R-Ladies Xalapa](https://secure.meetupstatic.com/photos/event/5/3/a/8/600_480981416.jpeg)
 
