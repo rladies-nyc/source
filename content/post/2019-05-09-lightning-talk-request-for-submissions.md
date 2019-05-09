@@ -9,6 +9,9 @@ categories:
 tags:
   - event
   - talk
+header:
+  caption: ''
+  image: ''
 ---
 
 R-Ladies NYC are excited to be hosting an evening of lightning talks on Wednesday June 19! We held this event last year and it was a tremendous success, so we are really excited about the event this year! 
@@ -20,5 +23,6 @@ We would especially love to hear from people who've never presented at a meetup 
 Interested in proposing a talk but want to brainstorm ideas, get feedback, or some encouragement? We're here to help! You can join the #lightningtalks channel in our slack channel or email nyc@rladies.org. We would be happy to set up a time to talk with you!
 
 To celebrate the diversity in the R Community, we're limiting presenters to those who identify as a minority gender (including but not limited to cis/trans women, trans men, non-binary, genderqueer, agender).  
+
 
 [Please submit talk proposals here](https://docs.google.com/forms/d/e/1FAIpQLSeJom9L9SBqYPr0gU_GVwPXPvYqv167tLafrv2SaBJYvXJK7Q/viewform)
