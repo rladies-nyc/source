@@ -15,7 +15,7 @@ Design notes: the R-Ladies font is Open Sans and the colors are #88398a (Purple)
 
 Please email your submissions to nyc@rladies.org with the subject line "hex sticker design". We will hold a public vote for the logo!
 
-Here are some examples for inspiration:
+Here are some examples for inspiration: 
 
 [R-Ladies Austin](https://community.rstudio.com/uploads/default/original/2X/e/e3d6e7312a2e01e0fae8ee76d9d3ccaebe902b83.jpeg)
 

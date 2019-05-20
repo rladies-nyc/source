@@ -1,8 +1,8 @@
 ---
-title: Getting into Data Science
+title: Data Science Journeys and Fantasy Baseball with R
 author: Soumya Kalra
 date: '2019-04-17'
-slug: launching-r-ladies-nyc
+slug: getting-into-data-science
 categories:
   - event
   - talk
@@ -22,3 +22,5 @@ Speakers: Angeline Protacio and Kaelen Medeiros
 Host: JP Morgan
 
 Event Organizer: Emily Robinson
+
+[Meetup page](https://www.meetup.com/rladies-newyork/events/261228248/)
