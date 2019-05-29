@@ -35,7 +35,7 @@ Speakers: Ludmila Janda, Emily Robinson, Emily Dodwell, Gabriela Hempfling, Eliz
 
 - Use the speakers' lounge to prepare and decompress 
 
-- Lightning talks can be a great way to practice! They are five minute talks in front of a smaller audience that can help you get the format down and trial run an idea. [You can submit a talk for the upcoming R-Ladies NYC lightning talks event here!](https://docs.google.com/forms/d/e/1FAIpQLSeJom9L9SBqYPr0gU_GVwPXPvYqv167tLafrv2SaBJYvXJK7Q/viewform) [Last year's lightning talks](http://www.rladiesnyc.org/post/lightning-talks-roundup/)
+- Lightning talks can be a great way to practice! They are five minute talks in front of a smaller audience that can help you get the format down and trial run an idea. [You can submit a talk for the upcoming R-Ladies NYC lightning talks event here!](https://docs.google.com/forms/d/e/1FAIpQLSeJom9L9SBqYPr0gU_GVwPXPvYqv167tLafrv2SaBJYvXJK7Q/viewform) [Last year's lightning talks can be found here](http://www.rladiesnyc.org/post/lightning-talks-roundup/)
 
 - [More tips from Emily Robinson on her blog](https://hookedondata.org/giving-your-first-data-science-talk/)
 
