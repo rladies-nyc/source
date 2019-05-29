@@ -18,3 +18,5 @@ Date: Saturday, May 25th, 2019
 Time: 2:00pm
 
 Host: Rizzoli Bookstore, 1133 Broadway (between 25th & 26th)
+
+[Meetup page](https://www.meetup.com/rladies-newyork/events/261214466/)
