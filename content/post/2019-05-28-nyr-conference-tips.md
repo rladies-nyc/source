@@ -101,4 +101,4 @@ Amanda Dobbyn (This Talk is on Fire: Using Twitter and Google to Track Fires in 
 
 Letisha Smith (Cooking Up Statistics: The Science & The Art): I'm Every Woman
 
-![](/img/2019-05-28-nyr-conference-tips/rladies.png)
+![](/img/2019-05-28-nyr-conference-tips/rladies.jpg)
