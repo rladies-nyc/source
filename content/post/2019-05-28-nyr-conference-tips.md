@@ -35,7 +35,7 @@ Speakers: Ludmila Janda, Emily Robinson, Emily Dodwell, Gabriela Hempfling, Eliz
 
 - Use the speakers' lounge to prepare and decompress 
 
-- R Ladies Lightning talks can be a great way to practice! They are five minute talks for a smaller audience can help you get the format down and trial run a broader idea. [You can submit a talk for this year here!](https://docs.google.com/forms/d/e/1FAIpQLSeJom9L9SBqYPr0gU_GVwPXPvYqv167tLafrv2SaBJYvXJK7Q/viewform) [Last year's lightning talks](http://www.rladiesnyc.org/post/lightning-talks-roundup/)
+- Lightning talks can be a great way to practice! They are five minute talks in front of a smaller audience that can help you get the format down and trial run an idea. [You can submit a talk for the upcoming R-Ladies NYC lightning talks event here!](https://docs.google.com/forms/d/e/1FAIpQLSeJom9L9SBqYPr0gU_GVwPXPvYqv167tLafrv2SaBJYvXJK7Q/viewform) [Last year's lightning talks](http://www.rladiesnyc.org/post/lightning-talks-roundup/)
 
 - [More tips from Emily Robinson on her blog](https://hookedondata.org/giving-your-first-data-science-talk/)
 
@@ -45,36 +45,27 @@ Speakers: Ludmila Janda, Emily Robinson, Emily Dodwell, Gabriela Hempfling, Eliz
 
 ### Slides 
 
-![](/img/2019-05-28-nyr-conference-tips/slides.png)
-
 Often, one of the hardest things about giving a talk is getting yourself to start preparing your slides. Sometimes, it can feel hard to even choose what to use to make the slides. Therefore, we are including a section on what we used to make our slides. 
 
 Powerpoint:
 
 - As timeless as Michael Scott, there’s no shame in “Powerpoint, Powerpoint, Powerpoint”
-
 - Can be helpful even if you want to just storyboard the idea first
-
 - Used by: Gabriela, Emily R, Elizabeth 
 
 
 Keynote:
 
 - Powerpoint for Millenials™
-
 - Rumored to be used by Hadley Wickham
-
 - Used by: Brooke 
 
 
 Xaringan: 
 
 - Cool newish package in R! 
-
 - Benefits: you can easily make your slides in R and immediately see updates to the slides, easily incorporate talk notes, includes a presentation mode with a timer, formats slides very easily and nicely, allows you to experiment with interesting themes
-
 - Drawbacks: Has a bit of learning curve, can be a bit buggy (sometimes having the immediate viewing of changes on can really slow down ability to edit the slides), it was a bit hard to deal with unmirroring the display and dragging one set of slides to the big screen, not as easy as using presenter mode in something like powerpoint, but if you don’t need notes there is no need to worry about this 
-
 - Used by: Ludmila, Amanda, and Soumya 
 
 </br>
