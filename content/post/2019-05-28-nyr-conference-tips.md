@@ -68,6 +68,13 @@ Xaringan:
 - Drawbacks: Has a bit of learning curve, can be a bit buggy (sometimes having the immediate viewing of changes on can really slow down ability to edit the slides), it was a bit hard to deal with unmirroring the display and dragging one set of slides to the big screen, not as easy as using presenter mode in something like powerpoint, but if you don’t need notes there is no need to worry about this 
 - Used by: Ludmila, Amanda, and Soumya 
 
+Google Slides: 
+
+- Benefits: Google slides makes it very easy to create beautiful slides with the Explore feature. If you type text or paste an image on the slide, Google will automatically recommend 10 ways to better format the slide. Plus, using the Google Slides app makes it very easy to practice your presentation during your commute
+- Drawback: While Google supports version control with the Version History feature, it does not allow reproducible research
+- Used by: Letisha
+
+
 </br>
 
 ### Walk out Music 
@@ -90,6 +97,9 @@ Brooke Watson (Using R to defend immigrant's rights at the ACLU): Freedom - Beyo
 
 Amanda Dobbyn (This Talk is on Fire: Using Twitter and Google to Track Fires in NYC): We Didn’t Start the Fire, Billy Joel
 
-Letisha Smith (Cooking Up Statistics: The Science & The Art): I'm Every Woman
+Letisha Smith (Cooking Up Statistics: The Science & The Art): I'm Every Woman - Chaka Khan
+
+Spotify’s [Tech Ladies](https://open.spotify.com/playlist/0VAHe4mcJDB5iWBgypMq2X) playlist also has a lot of empowering singles to choose from!
+
 
 ![](/img/2019-05-28-nyr-conference-tips/rladies.jpg)
