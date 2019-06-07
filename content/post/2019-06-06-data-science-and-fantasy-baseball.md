@@ -12,7 +12,7 @@ header:
   image: ''
 ---
 
-*Thank you so much to Anisha Bharath Singh, who originally wrote this post for her blog, found [here](https://journeytodatascientist.blog/2019/05/24/data-science-and-fantasy-baseball/). We are reposting her post with her consent. If you are an R-Lady interested in writing a blog post or cross-posting a blog post on your own blog, please let us know (via email nyc@rladies.org or via DM on twitter @RLadiesNYC)!*
+*Thank you so much to Anisha BharathSingh, who originally wrote this post for her blog, found [here](https://journeytodatascientist.blog/2019/05/24/data-science-and-fantasy-baseball/). We are reposting her post with her consent. If you are an R-Lady interested in writing a blog post or cross-posting a blog post on your own blog, please let us know (via email nyc@rladies.org or via DM on twitter @RLadiesNYC)!*
 
 On Thursday, May 23, I attended my first R-Ladies NYC meetup! R-Ladies NYC is an organization that promotes gender diversity amongst the R community by organizing a series of events (including this meetup) to support women who want to learn R or want to share their experiences as R programmers.
 
