@@ -11,7 +11,7 @@ tags:
   - event
 ---
 
-Join us to discuss **Data Visualization: A Practical Introduction** by Kieran Healy
+Join us to discuss [*Data Visualization: A Practical Introduction*](https://kieranhealy.org/publications/dataviz/) by Kieran Healy
 
 Date: Saturday, August 31, 2019
 
