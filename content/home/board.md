@@ -17,11 +17,11 @@ weight = 60
 
 # Meet our board members
 
-#### Soumya Kalra (Founder and Organizer)
+#### Emily Dodwell (Organizer)
 
-<img src="/img/soumya.jpg" style="width:20%";/>
+<img src="/img/emilyd.jpg" style="width:20%";/>
 
-Soumya Kalra is currently a quantitative analyst the within the Market Risk Group for Supervision at the New York Federal Reserve Bank.  Previously she worked as a researcher at the Office of Financial Research at the Department of Treasury focusing covering commodities and private funds from a financial stability perspective.  She is very passionate about using R in the statistical and data visualization work she performs in her current role.  Her vision for R-Ladies New York is to create gender diverse and open forum where we can educate and contribute to the development of R as a community.  She holds a Masters in Mathematical Finance and a Bachelor’s degree in Economics from Rutgers University.
+Emily Dodwell is a Senior Inventive Scientist in the Data Science and AI Research organization at AT&T Labs, where she currently focuses on predictive modeling for advertising applications, the creation of interactive tools for data analysis and visualization, and research concerning ethics and fairness in machine learning. Emily is an R enthusiast committed to promoting gender diversity in the community, and she is a member of Forwards, the R Foundation task force on women and other underrepresented groups. Prior to joining AT&T Labs in 2015, Emily taught high school math for three years at Choate Rosemary Hall. She received her M.A. in statistics from Yale University and B.A. in mathematics from Smith College.
 
 
 #### Alejandra Gerosa
@@ -77,6 +77,12 @@ Brooke Watson is a Research Scientist at EcoHealth Alliance, where she studies h
 
 
 ## Past board members
+
+#### Soumya Kalra (Founder and Organizer) (2016-2019)
+
+<img src="/img/soumya.jpg" style="width:20%";/>
+
+Soumya Kalra is currently a quantitative analyst the within the Market Risk Group for Supervision at the New York Federal Reserve Bank.  Previously she worked as a researcher at the Office of Financial Research at the Department of Treasury focusing covering commodities and private funds from a financial stability perspective.  She is very passionate about using R in the statistical and data visualization work she performs in her current role.  Her vision for R-Ladies New York is to create gender diverse and open forum where we can educate and contribute to the development of R as a community.  She holds a Masters in Mathematical Finance and a Bachelor’s degree in Economics from Rutgers University.
 
 
 #### Birunda Chelliah (2016-2019)
