@@ -58,21 +58,21 @@ Interests: Statistics, economics, ethics in algorithms, data visualization, trav
 
 <img src="/img/ludmila.jpg" style="width:20%";/>
 
-Ludmila Janda is a Data Scientist at Amplify, a pioneer in K–12 education since 2000, leading the way in next-generation curriculum and assessment. Today, Amplify serves four million students in all 50 states. Luda’s work provides insights on student and teacher usage, student success, and Amplify’s broader impact. She has a Master’s in Public Policy from the University of North Carolina-Chapel Hill. Her interests include board games, salsa dancing, and the tidyverse. Follow her on twitter at @ludmila_janda.
+Ludmila Janda is a Data Scientist at Amplify. Amplify is a pioneer in K–12 education since 2000, leading the way in next-generation curriculum and assessment. Today, Amplify serves four million students in all 50 states. Luda’s work provides insights on student and teacher usage, student success, and Amplify’s broader impact. She has a Master’s in Public Policy from the University of North Carolina-Chapel Hill. Her interests include board games, salsa dancing, and causal inference. Follow her on twitter at @ludmila_janda
 
 
 #### Elizabeth Sweeney
 
 <img src="/img/elizabeth.jpg" style="width:20%";/>
 
-Elizabeth Sweeney is an assistant professor in the Division of Biostatistics and Epidemiology at Weill Cornell. Previously, she was a senior data scientists at Covera health and before that Flatiron health.  At both Covera and Flatiron she worked on research with electronic medical records (EMR) data.  Elizabeth completed her PhD in Biostatistics at the Johns Hopkins Bloomberg School of Public health in 2016.  Her dissertation research made contributions to the improved analysis of structural magnetic resonance imaging (MRI) in patients with multiple sclerosis.   Elizabeth has co-taught a number of tutorials and courses on neuroimage data analysis in R, including a Coursera course.  When not analyzing structural MRI or EMR data, Elizabeth enjoys hiking and biking and is currently working towards her Catskills 3500 Club hiking badge.
+Elizabeth Sweeney is an assistant professor in the Division of Biostatistics and Epidemiology at Weill Cornell. Previously, she was a senior data scientists at Covera health and before that Flatiron health. At both Covera and Flatiron she worked on research with electronic medical records (EMR) data. Elizabeth completed her PhD in Biostatistics at the Johns Hopkins Bloomberg School of Public health in 2016. Her dissertation research made contributions to the improved analysis of structural magnetic resonance imaging (MRI) in patients with multiple sclerosis. Elizabeth has co-taught a number of tutorials and courses on neuroimage data analysis in R, including a Coursera course.  When not analyzing structural MRI or EMR data, Elizabeth enjoys hiking and biking and is currently working towards her Catskills 3500 Club hiking badge.
 
 
 #### Brooke Watson
 
-<img src="/img/brooke.jpg" style="width:20%";/>
+<img src="/img/brooke_w.jpg" style="width:20%";/>
 
-Brooke Watson is a Research Scientist at EcoHealth Alliance, where she studies how the environment affects infectious disease emergence and transmission. In her work, Brooke applies epidemiological methods to study the distribution and determinants of diseases in both humans and wildlife. Brooke uses R to build economic models of the cost of pandemics, map the spatial distributions of zoonotic outbreaks, and identify health risk factors in different populations. Brooke swam for the University of Tennessee in college and earned her Masters degree in Epidemiology from the London School of Hygiene and Tropical Medicine. 
+Brooke Watson is a Senior Data Scientist at the American Civil Liberties Union national office, where she conducts quantitative analyses, performs statistical hypothesis tests, and uses standard data science and machine learning techniques to study the impacts of government policies on populations. Prior to her current role, she worked as a Research Scientist studying zoonotic disease at the nonprofit organization EcoHealth Alliance. She holds a Master's degree in Epidemiology from the London School of Hygiene and Tropical Medicine and a Bachelor's degree in Microbiology from the University of Tennessee, where she swam for the Lady Vols. 
 
 
 
@@ -82,7 +82,7 @@ Brooke Watson is a Research Scientist at EcoHealth Alliance, where she studies h
 
 <img src="/img/soumya.jpg" style="width:20%";/>
 
-Soumya Kalra is currently a quantitative analyst the within the Market Risk Group for Supervision at the New York Federal Reserve Bank.  Previously she worked as a researcher at the Office of Financial Research at the Department of Treasury focusing covering commodities and private funds from a financial stability perspective.  She is very passionate about using R in the statistical and data visualization work she performs in her current role.  Her vision for R-Ladies New York is to create gender diverse and open forum where we can educate and contribute to the development of R as a community.  She holds a Masters in Mathematical Finance and a Bachelor’s degree in Economics from Rutgers University.
+Soumya Kalra is currently a Senior Quant Risk Specialist in Banking Supervision at the Federal Reserve Bank of San Francisco. Previously, she worked as a quantitative analyst at the New York Federal Reserve Bank and as a researcher focused on private funds and commodities at the Office of Financial Research at the Department of Treasury. She is very passionate about using R in the statistical and data visualization work she performs in her current role. Prior to her move to the Bay area, she was lead organizer of the R-Ladies New York chapter with a mission to promote gender diversity and create a forum to engage with the open source community. She holds a Masters in Mathematical Finance and a Bachelor’s degree in Economics from Rutgers University.
 
 
 #### Birunda Chelliah (2016-2019)
@@ -91,7 +91,7 @@ Soumya Kalra is currently a quantitative analyst the within the Market Risk Grou
 
 Birunda Chelliah is a Research Analyst with the Office of Research, Evaluation, and Program Support at the City University of New York (CUNY), where she works with the development and implementation of evaluation assessments for collaborative programs and other CUNY initiatives. In addition, her experience with data related projects range in various industries from shopper marketing research for Coca-Cola at Ogilvy & Mather to quantitative program evaluation at the United Nations Department of Economic and Social Affairs. Birunda received a B.B.A from Hong Kong University of Science & Technology in Global Business and Marketing and a M.A in Data Analytics and Applied Social Research from Queens College. Lastly, she is passionate about learning and teaching R, with a focus on visualization, data-mining, statistics, research methods, reproducible research to name a few. 
 
-Interests: Data Analysis, Data Visualization, Statistics, Research Methods, Reproducible Research, Continued learning of  R
+Interests: Data Analysis, Data Visualization, Statistics, Research Methods, Reproducible Research, Continued learning of R
 
 
 #### Emily Robinson (2017-2019)
