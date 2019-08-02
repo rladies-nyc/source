@@ -98,7 +98,7 @@ Interests: Data Analysis, Data Visualization, Statistics, Research Methods, Repr
 
 <img src="/img/emilyr.jpg" style="width:20%";/>
 
-I work as a Data Analyst at Etsy with our search team to design, implement, and analyze experiments on the ranking algorithm, UI changes, and new features. In summer 2016, I completed Metis’s three-month, full-time Data Science Bootcamp, where I did several data science projects, ranging from using random forests to predict successful projects on DonorsChoose.org to building an application in R Shiny that helps data science freelancers find their best-fit jobs. Before Metis, I graduated in June from INSEAD with a Master’s degree in Management (specialization in Organizational Behavior). I also earned my bachelor’s degree from Rice University in Decision Sciences, an interdisciplinary major I designed that focused on understanding how people behave and make decisions.
+I work at DataCamp as a Data Scientist on the growth team. Previously, I was a Data Scientist at Etsy working with their search team to design, implement, and analyze experiments on the ranking algorithm, UI changes, and new features. I’m also an author of the upcoming book, [Build Your Career in Data Science](https://www.manning.com/books/build-your-career-in-data-science?a_aid=buildcareer&a_bid=76784b6a), with Jacqueline Nolis, to be published by Manning in early 2020.
 
 
 #### Jasmine Williams (2016-2019)
