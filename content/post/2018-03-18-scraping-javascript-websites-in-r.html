@@ -44,7 +44,7 @@ editor_options:
 <iframe src="https://giphy.com/embed/1uv4CWggzI7te" width="240" height="360" frameBorder="0" class="giphy-embed" allowFullScreen>
 </iframe>
 </center>
-<p>When I saw <a href="https://twitter.com/rabaath">Rasmus Baath</a>’s amazing <a href="https://github.com/rasmusab/beepr">beepr</a> package <a href="https://twitter.com/dannagifford/status/937670231291564032">retweeted</a>, I knew I wanted to sample it. Beepr includes one function, <code>beep()</code>, which plays a sound when a script is done running. It’s immediately useful to me, as I am constantly running short 2-5 minute jobs, but getting distracted and spending 30 minutes away from my code because I don’t realize it’s done. Beepr’s built in sounds are pretty fun – <code>beep(&quot;mario&quot;)</code> and <code>beep(&quot;treasure&quot;)</code> play old-school video game celebrations, and you can include html links to wav files to play any .wav that exists on the internet.</p>
+<p>When I saw <a href="https://twitter.com/rabaath">Rasmus Baath</a>’s amazing <a href="https://github.com/rasmusab/beepr">beepr</a> package <a href="https://twitter.com/dannagifford/status/937670231291564032">retweeted</a>, I knew I wanted to sample it. Beepr includes one function, <code>beep()</code>, which plays a sound when a script is done running. It’s immediately useful to me, as I am constantly running short 2-5 minute jobs, but getting distracted and spending 30 minutes away from my code because I don’t realize it’s done. Beepr’s built in sounds are pretty fun – <code>beep("mario")</code> and <code>beep("treasure")</code> play old-school video game celebrations, and you can include html links to wav files to play any .wav that exists on the internet.</p>
 <p>For my beepr remix, I wanted to use ad libs from rap songs. I often want to shout “GUCCI” or “WE THE BEST” when a long script is done, but I have over the years come to understand that “most people” don’t “appreciate” this kind of action in a “workplace environment.” I can settle for letting DJ Khaled and Gucci Mane shout them for me.</p>
 <p>If these had been on the internet in <code>.wav</code> form, I probably wouldn’t have spent any time learning how to scrape audio files from the internet and build them into a custom package. But they weren’t. Thus, <a href="https://github.com/brooke-watson/BRRR">BRRR</a> was born.</p>
 <p>It can be installed and run with the following command:</p>
@@ -212,7 +212,7 @@ lookup_table = data_frame(wav_names, artist)</code></pre>
 </div>
 <div id="tidying-file-names" class="section level2">
 <h2>Tidying file names</h2>
-<p>Luckily, the files tend to fall under a general <code>artist_uniqueid</code> naming convention. The next section cleans up the unique IDs. If a rapper has any sound board sounds, you’ll be able to call it with <code>skrrrahh(&quot;name&quot;)</code>. To cycle through the various sounds, use <code>skrrrahh(&quot;name1&quot;)</code>, <code>skrrrahh(&quot;name2&quot;)</code>, etc. until you get an error.</p>
+<p>Luckily, the files tend to fall under a general <code>artist_uniqueid</code> naming convention. The next section cleans up the unique IDs. If a rapper has any sound board sounds, you’ll be able to call it with <code>skrrrahh("name")</code>. To cycle through the various sounds, use <code>skrrrahh("name1")</code>, <code>skrrrahh("name2")</code>, etc. until you get an error.</p>
 <pre class="r"><code># make the filenames more consistent 
 filtered_names = selected %&gt;% 
   group_by(artist) %&gt;% 

@@ -18,7 +18,7 @@ tags_include = ["blog"]
 tags_exclude = []
 
 # Number of posts to list.
-count = 5
+count = 4
 
 +++
 
