@@ -112,5 +112,5 @@ Jasmine Williams is a graduate of the Masters of Science in Biostatistics at the
 
 <img src="/img/emilyz.jpg" style="width:20%";/>
 
-Emily has been a board member since November 2016. Emily works as a Research Biostatistician at Memorial Sloan Kettering Cancer Center while also pursuing a DrPH in biostatistics at Columbia University. Her dissertation research is focused on statistical methods for the study of etiologic heterogeneity in cancer. In her free time, Emily enjoys riding her bike to breweries, reading books and magazines, and doing crossword puzzles. Learn more about Emily at her [website](http://www.emilyzabor.com).
+Emily works as a biostatistician in the Department of Quantitative Health Sciences at Cleveland Clinic, with a joint appointment in the Taussig Cancer Institute. Previously, Emily worked as a Research Biostatistician at Memorial Sloan Kettering Cancer Center for 9 years, while simultaneously earning her DrPH in biostatistics from Columbia University. Emily is interested in clinical trials design, statistical methods for retrospective data analyses, and teaching biostatistics to clinical collaborators. Learn more about Emily at her [website](http://www.emilyzabor.com).
 
