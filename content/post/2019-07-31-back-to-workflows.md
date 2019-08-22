@@ -2,7 +2,7 @@
 title: Back to WoRk(flows)
 author: Ludmila Janda
 date: '2019-07-31'
-slug: r-ladies-lighting-talks
+slug: back-to-workflows
 categories:
   - event
   - talk
