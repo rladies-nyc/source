@@ -21,7 +21,7 @@ weight = 60
 
 <img src="/img/emilyd.jpg" style="width:20%";/>
 
-Emily Dodwell is a Senior Inventive Scientist in the Data Science and AI Research organization at AT&T Labs, where she currently focuses on predictive modeling for advertising applications, the creation of interactive tools for data analysis and visualization, and research concerning ethics and fairness in machine learning. Emily is an R enthusiast committed to promoting gender diversity in the community, and she is a member of Forwards, the R Foundation task force on women and other underrepresented groups. Prior to joining AT&T Labs in 2015, Emily taught high school math for three years at Choate Rosemary Hall. She received her M.A. in statistics from Yale University and B.A. in mathematics from Smith College.
+Emily Dodwell is a Principal Inventive Scientist in the Data Science and AI Research organization at AT&T Labs, where she currently focuses on predictive modeling for advertising applications, the creation of interactive tools for data analysis and visualization, and research concerning ethics and fairness in machine learning. Emily is an R enthusiast committed to promoting gender diversity in the community, and she is a member of Forwards, the R Foundation task force on women and other underrepresented groups. Prior to joining AT&T Labs in 2015, Emily taught high school math for three years at Choate Rosemary Hall. She received her M.A. in statistics from Yale University and B.A. in mathematics from Smith College.
 
 
 #### Alejandra Gerosa
