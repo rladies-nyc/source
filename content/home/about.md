@@ -43,4 +43,6 @@ Join the R-Ladies NYC [Slack](https://slack.com/) team! Email [nyc@rladies.org](
 
 For more information about R-Ladies Global, visit [rladies.org](http://rladies.org/).
 
+R-Ladies is dedicated to providing a harassment-free experience for everyone. We do not tolerate harassment of participants in any form. We follow the [R-Ladies Global code of conduct](https://rladies.org/code-of-conduct).
+
 
