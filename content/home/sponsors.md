@@ -16,4 +16,4 @@ weight = 75
 +++
 
 
-<img src="/img/RConsortium_Horizontal_Pantone.png" style="width:80%";/>
+<img src="/img/RConsortium_Horizontal_Pantone.png" style="width:60%";/>
