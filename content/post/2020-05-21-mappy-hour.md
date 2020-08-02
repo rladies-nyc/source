@@ -29,7 +29,6 @@ This event will be hosted over Zoom, and a link will be sent to all attendees at
 
 7:55-8:15: Questions and wrap-up
 
-6:30-6:55 pm Introductions and Social Time
 
 
 ## **Title:** Uncharted Territory: An Introduction to Making Clear and Accurate Maps
