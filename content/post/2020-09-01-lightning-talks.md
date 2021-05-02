@@ -2,7 +2,7 @@
 title: 'R-Ladies NYC Lightning Talks'
 author: Anisha BharathSingh
 date: '2020-09-01'
-slug: lightning-talks
+slug: lightning-talks-2020
 categories:
   - event
   - talk
