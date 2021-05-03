@@ -24,8 +24,11 @@ This event will be hosted over Zoom, and the link will be available on this Meet
 ## Agenda (times approximate):
 
 7-7:05 pm: R-Ladies NYC Announcements
+
 7:05-7:30: "Text Analysis in R: Gender Bias in Wikipedia Biographies" by Yipeng Lai
+
 7:30-7:55: "R is for Resilience: Learning R through Data Visualization" by Stacy Lansey
+
 7:55-8:15: Questions and wrap-up
 
 ## Talk Abstracts

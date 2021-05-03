@@ -22,7 +22,9 @@ This event will be hosted over Zoom, and the link will be available on this Meet
 ## Agenda (subject to change):
 
 7:30-7:35 pm: R-Ladies NYC Announcements
+
 7:35-8:05: Book talk
+
 8:05 - end Audience Q&A
 
 ## Book Description
