@@ -11,7 +11,7 @@ tags:
   - event
 ---
 
-Details
+## Details
 
 For our September book club, we'll be discussing "How Charts Lie: Getting Smarter about Visual Information" by Alberto Cairo.
 
