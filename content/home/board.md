@@ -17,18 +17,19 @@ weight = 60
 
 # Meet our board members
 
-#### Anisha BharathSingh
-
-<img src="/img/anisha.png" style="width:20%";/>    
-
-Anisha BharathSingh (she/her) is a Digital & SEO Specialist at AIG where she uses data to optimize the company’s website for search engine performance, conducts social media behavioral testing to improve social media content and targeting strategies, and provides analytical reporting and insight across the company’s corporate external digital channels. Her passion for R started as an Economics undergrad at Bryn Mawr College and she has since explored R, Data Science and Data for Social Good through Meetups like R-Ladies NYC and the creation of her own data science blog. 
-
 
 #### Emily Dodwell (Organizer)
 
 <img src="/img/emilyd.jpg" style="width:20%";/>
 
 Emily Dodwell is a Principal Inventive Scientist in the Data Science and AI Research organization at AT&T Labs, where she currently focuses on predictive modeling for advertising applications, the creation of interactive tools for data analysis and visualization, and research concerning ethics and fairness in machine learning. Emily is an R enthusiast committed to promoting gender diversity in the community, and she is a member of Forwards, the R Foundation task force on women and other underrepresented groups. Prior to joining AT&T Labs in 2015, Emily taught high school math for three years at Choate Rosemary Hall. She received her M.A. in statistics from Yale University and B.A. in mathematics from Smith College.
+
+
+#### Anisha BharathSingh
+
+<img src="/img/anisha.png" style="width:20%";/>    
+
+Anisha BharathSingh (she/her) is a Digital & SEO Specialist at AIG where she uses data to optimize the company’s website for search engine performance, conducts social media behavioral testing to improve social media content and targeting strategies, and provides analytical reporting and insight across the company’s corporate external digital channels. Her passion for R started as an Economics undergrad at Bryn Mawr College and she has since explored R, Data Science and Data for Social Good through Meetups like R-Ladies NYC and the creation of her own data science blog.
 
 
 #### Alejandra Gerosa
