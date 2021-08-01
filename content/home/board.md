@@ -29,7 +29,7 @@ Emily Dodwell is a Principal Inventive Scientist in the Data Science and AI Rese
 
 <img src="/img/anisha.png" style="width:20%";/>    
 
-Anisha BharathSingh (she/her) is a Digital & SEO Specialist at AIG where she uses data to optimize the company’s website for search engine performance, conducts social media behavioral testing to improve social media content and targeting strategies, and provides analytical reporting and insight across the company’s corporate external digital channels. Her passion for R started as an Economics undergrad at Bryn Mawr College and she has since explored R, Data Science and Data for Social Good through Meetups like R-Ladies NYC and the creation of her own data science blog.
+Anisha BharathSingh (she/her) is a digital marketing expert with four years of experience using data to tell stories and discover opportunities for growth in the digital space. Her passion for R started as an Economics undergrad at Bryn Mawr College and she has since explored R, Data Science and Data for Social Good through Meetups like R-Ladies NYC and the creation of her own data science blog. She is now pursuing her Master of Science in Analytics at The University of Chicago to further her data science and analytics skills.
 
 
 #### Alejandra Gerosa
@@ -38,6 +38,11 @@ Anisha BharathSingh (she/her) is a Digital & SEO Specialist at AIG where she use
 
 Alejandra works in fundraising in social organizations (now at the ACLU, previously at TECHO and Doctors Without Borders). With the goal to become more data-driven in her work, she earned an MBA from Duke University. There, she discovered R and fell in love with all things related to business intelligence and marketing analytics. Since then, she has been learning R and statistics through friends, online classes and the wonderful R-Ladies community. Alejandra is from Argentina, lived in Spain for 5 years, and now lives in Queens.
 
+### Ayanthi Gunawardana
+
+<img src="/img/ayanthi.png" style="width:20%";/>
+
+Ayanthi Gunawardana (she/her/hers) is a Research Analyst at the New York City Department of Transportation, where she currently analyzes crash and other transportation data to inform street design and transportation policy across all five boroughs. Previously, she worked as a Data Analyst at the NYC Taxi and Limousine Commission (TLC), the regulating body for all for-hire transportation in New York City, where she first learned R and analyzed the TLC’s extensive trip data to inform public policy. She holds a Bachelor of Arts in Sociology from Emory University and a Master of City and Regional Planning from Rutgers University. Ayanthi enjoys training Brazilian Jiu Jitsu, running, taking all forms of public transportation, and cooking/eating spicy food. 
 
 #### Erin Grand
 
