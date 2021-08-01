@@ -29,7 +29,7 @@ Emily Dodwell is a Principal Inventive Scientist in the Data Science and AI Rese
 
 <img src="/img/anisha.png" style="width:20%";/>    
 
-Anisha BharathSingh (she/her) is a digital marketing expert with four years of experience using data to tell stories and discover opportunities for growth in the digital space. Her passion for R started as an Economics undergrad at Bryn Mawr College and she has since explored R, Data Science and Data for Social Good through Meetups like R-Ladies NYC and the creation of her own data science blog. She is now pursuing her Master of Science in Analytics at The University of Chicago to further her data science and analytics skills.
+Anisha BharathSingh (she/her) is a digital marketing expert with four years of experience using data to tell stories and discover opportunities for growth in the digital space. Her passion for R started as an Economics undergrad at Bryn Mawr College and she has since explored R, Data Science and Data for Social Good through Meetups like R-Ladies NYC and the creation of her own data science blog. She is now pursuing her Master of Science in Analytics at The University of Chicago to expand upon her data science and analytics skills.
 
 
 #### Alejandra Gerosa
