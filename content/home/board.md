@@ -74,69 +74,13 @@ Angeline Protacio (she/her) is a Data Scientist at Quartet Health, where she use
 
 ## Past board members
 
-#### Soumya Kalra (Founder and Organizer) (2016-2019)
-
-<img src="/img/soumya.jpg" style="width:20%";/>
-
-Soumya Kalra is currently a Senior Quant Risk Specialist in Banking Supervision at the Federal Reserve Bank of San Francisco. Previously, she worked as a quantitative analyst at the New York Federal Reserve Bank and as a researcher focused on private funds and commodities at the Office of Financial Research at the Department of Treasury. She is very passionate about using R in the statistical and data visualization work she performs in her current role. Prior to her move to the Bay area, she was lead organizer of the R-Ladies New York chapter with a mission to promote gender diversity and create a forum to engage with the open source community. She holds a Masters in Mathematical Finance and a Bachelor’s degree in Economics from Rutgers University.
-
-
+#### [Soumya Kalra (Founder and Organizer)](https://www.linkedin.com/soumyakalra) (2016-2019)
 #### Birunda Chelliah (2016-2019)
-
-<img src="/img/birunda.jpg" style="width:20%";/>
-
-Birunda Chelliah is a Research Analyst with the Office of Research, Evaluation, and Program Support at the City University of New York (CUNY), where she works with the development and implementation of evaluation assessments for collaborative programs and other CUNY initiatives. In addition, her experience with data related projects range in various industries from shopper marketing research for Coca-Cola at Ogilvy & Mather to quantitative program evaluation at the United Nations Department of Economic and Social Affairs. Birunda received a B.B.A from Hong Kong University of Science & Technology in Global Business and Marketing and a M.A in Data Analytics and Applied Social Research from Queens College. Lastly, she is passionate about learning and teaching R, with a focus on visualization, data-mining, statistics, research methods, reproducible research to name a few. 
-
-Interests: Data Analysis, Data Visualization, Statistics, Research Methods, Reproducible Research, Continued learning of R
-
-
-#### Rika Gorn
-
-<img src="/img/rika.jpg" style="width:20%";/>
-
-Rika Gorn is the Director of Data Analytics & Reporting at Covenant House International, a privately funded agency that provides shelter, immediate crisis care, and other services, to homeless and trafficked youth in the United States, Canada, and Latin America. Her work focuses on providing statistical analysis, data visualization, and reporting support to 21 sites across the agency. Previously, she worked on quality assurance for a mobile mental health team at Coordinated Behavioral Care, strategic management and evaluation at TCC Group, and program analysis at the Vera Institute of Justice. Rika received her Bachelors in Political Science from Hunter College and her Masters in Public Administration at the NYU Wagner School of Public Service.
-
-
-#### Gabriela Hempfling
-
-<img src="/img/gabriela.png" style="width:20%";/>
-
-I graduated from Columbia University in 2013 with a degree in Economics/Math. I began using R in a datamining course. After graduation, I worked at NERA Economic Consulting and found R to be extremely useful in statistical analysis.
-
-Interests: Statistics, economics, ethics in algorithms, data visualization, travel, pop science/math/data books, more travel.
-
-
-#### Emily Robinson (2017-2019)
-
-<img src="/img/emilyr.jpg" style="width:20%";/>
-
-I work at DataCamp as a Data Scientist on the growth team. Previously, I was a Data Scientist at Etsy working with their search team to design, implement, and analyze experiments on the ranking algorithm, UI changes, and new features. I’m also an author of the upcoming book, [Build Your Career in Data Science](https://www.manning.com/books/build-your-career-in-data-science?a_aid=buildcareer&a_bid=76784b6a), with Jacqueline Nolis, to be published by Manning in early 2020.
-
-
-#### Elizabeth Sweeney
-
-<img src="/img/elizabeth.jpg" style="width:20%";/>
-
-Elizabeth Sweeney is an assistant professor in the Division of Biostatistics and Epidemiology at Weill Cornell. Previously, she was a senior data scientists at Covera health and before that Flatiron health. At both Covera and Flatiron she worked on research with electronic medical records (EMR) data. Elizabeth completed her PhD in Biostatistics at the Johns Hopkins Bloomberg School of Public health in 2016. Her dissertation research made contributions to the improved analysis of structural magnetic resonance imaging (MRI) in patients with multiple sclerosis. Elizabeth has co-taught a number of tutorials and courses on neuroimage data analysis in R, including a Coursera course.  When not analyzing structural MRI or EMR data, Elizabeth enjoys hiking and biking and is currently working towards her Catskills 3500 Club hiking badge.
-
-
-#### Brooke Watson
-
-<img src="/img/brooke_w.jpg" style="width:20%";/>
-
-Brooke Watson is a Senior Data Scientist at the American Civil Liberties Union national office, where she conducts quantitative analyses, performs statistical hypothesis tests, and uses standard data science and machine learning techniques to study the impacts of government policies on populations. Prior to her current role, she worked as a Research Scientist studying zoonotic disease at the nonprofit organization EcoHealth Alliance. She holds a Master's degree in Epidemiology from the London School of Hygiene and Tropical Medicine and a Bachelor's degree in Microbiology from the University of Tennessee, where she swam for the Lady Vols. 
-
-
-#### Jasmine Williams (2016-2019)
-
-<img src="/img/jasmine.jpg" style="width:20%";/>
-
-Jasmine Williams is a graduate of the Masters of Science in Biostatistics at the Mailman School of Public Health and graduated from City University of New York – Hunter College in May 2014 with a BA in Mathematics. She first became interested in biostatistics and its applications to minority health and health disparities research during the Columbia University summer program in 2013. She worked with Dr. Jose Luchsinger and Dr. Dana March (both affiliated with the Northern Manhattan Center of Excellence on Minority Health and Health Disparities) on a project entitled “Discrimination and Depression among Urban Hispanics with Poorly Controlled Diabetes” where the prevalence of type 2 diabetes and its impacts on mental health due to experiences of discrimination was investigated. She has continued this type of work at Columbia University’s Biomedical Informatics and Biostatistics departments on a project called “Mobile Diabetes Detective” which is a web-based application that aims to help individuals manage their health and currently a statistician at ActiveHealth Management. 
-
-
-#### Emily Zabor (2016-2019)
-
-<img src="/img/emilyz.jpg" style="width:20%";/>
-
-Emily works as a biostatistician in the Department of Quantitative Health Sciences at Cleveland Clinic, with a joint appointment in the Taussig Cancer Institute. Previously, Emily worked as a Research Biostatistician at Memorial Sloan Kettering Cancer Center for 9 years, while simultaneously earning her DrPH in biostatistics from Columbia University. Emily is interested in clinical trials design, statistical methods for retrospective data analyses, and teaching biostatistics to clinical collaborators. Learn more about Emily at her [website](http://www.emilyzabor.com).
+#### [Rika Gorn](https://www.linkedin.com/in/rika-gorn) (2019-2021)
+#### [Gabriela Hempfling](https://www.linkedin.com/in/gabriela-hempfling-b342591a) (2017-2020)
+#### [Emily Robinson](http://hookedondata.org/) (2017-2019)
+#### [Elizabeth Sweeney](http://emsweene.github.io/) (2019-2020)
+#### [Brooke Watson](https://brooke.science/) (2016-2020)
+#### [Jasmine Williams](http://linkedin.com/in/jaswilliams) (2016-2019)
+#### [Emily Zabor](http://www.emilyzabor.com/) (2016-2019)
 
