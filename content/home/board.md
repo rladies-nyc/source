@@ -74,7 +74,7 @@ Angeline Protacio (she/her) is a Data Scientist at Quartet Health, where she use
 
 ## Past board members
 
-#### [Soumya Kalra (Founder and Organizer)](https://www.linkedin.com/soumyakalra) (2016-2019)
+#### [Soumya Kalra (Founder)](https://www.linkedin.com/in/soumyakalra) (2016-2019)
 #### Birunda Chelliah (2016-2019)
 #### [Rika Gorn](https://www.linkedin.com/in/rika-gorn) (2019-2021)
 #### [Gabriela Hempfling](https://www.linkedin.com/in/gabriela-hempfling-b342591a) (2017-2020)
