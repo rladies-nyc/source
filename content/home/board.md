@@ -64,6 +64,12 @@ Emily Halford works at the New York State Psychiatric Institute and currently fo
 
 Ludmila Janda is a Data Scientist at Amplify. Amplify is a pioneer in K–12 education since 2000, leading the way in next-generation curriculum and assessment. Today, Amplify serves four million students in all 50 states. Luda’s work provides insights on student and teacher usage, student success, and Amplify’s broader impact. She has a Master’s in Public Policy from the University of North Carolina-Chapel Hill. Her interests include board games, salsa dancing, and causal inference. Follow her on twitter at @ludmila_janda
 
+#### Kaelen Medeiros
+
+<img src="/img/kaelen.jpg" style="width:20%";/>
+
+Kaelen is a lead data scientist at Calibrate where they’re working to build out data for the company as their first data science hire. They’ve also worked at Medidata, Spring Health, DataCamp, HERE Technologies, and have done a fair amount of R and Shiny consulting on the side. Kaelen has been at various times in their life a film theorist, preschool teacher, test prep tutor, videographer, and nanny before getting a MS in Biostatistics from LSU Health Sciences Center in 2016 and starting work as a statistician and data scientist. They have one cat named Lucy, named for the dispatcher in ‘Twin Peaks’. Outside of work they enjoy podcasts, cats, aliens, nail polish, and data.
+
 
 #### Angeline Protacio
 
