@@ -17,7 +17,7 @@ header:
 
 ## Details
 
-For our August book club, we will be discussing "Algorithms of Oppression: How Search Engines Reinforce Racism" by Safiya Umoja Noble.
+For our August book club, we'll be discussing "Algorithms of Oppression: How Search Engines Reinforce Racism" by Safiya Umoja Noble.
 
 ---
 
