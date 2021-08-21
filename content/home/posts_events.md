@@ -6,7 +6,7 @@ active = true
 date = "2016-04-20T00:00:00"
 
 title = "Recent & Upcoming Events"
-subtitle = ""
+subtitle = "See our [Meetup Page](https://www.meetup.com/rladies-newyork/) for the most up-to-date info about our upcoming events!"
 
 # Order that this section will appear in.
 weight = 40
