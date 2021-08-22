@@ -15,5 +15,6 @@ weight = 75
 
 +++
 
+Would you like to support R-Ladies NYC? You can make a tax-free donation to our chapter via [Open Collective](https://opencollective.com/rladies-nyc).
 
 <img src="/img/RConsortium_Horizontal_Pantone.png" style="width:60%";/>
