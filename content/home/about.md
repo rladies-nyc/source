@@ -37,9 +37,7 @@ weight = 5
 
 R-Ladies NYC is part of a world-wide organization to promote gender diversity in the R community. 
 
-We aspire to encourage and support women interested in learning and sharing their experience in R programming by hosting a variety of events including talks, workshops, book clubs, data dives, and socials. 
-
-Join the R-Ladies NYC [Slack](https://slack.com/) team! Email [nyc@rladies.org](mailto:nyc@rladies.org) to request an invitation. Then check back here or visit our Meetup page for event details.
+We aspire to encourage and support women and gender minorities interested in learning and sharing their experiences in R programming by hosting a variety of events including talks, workshops, book clubs, data dives, and socials. 
 
 For more information about R-Ladies Global, visit [rladies.org](http://rladies.org/).
 
