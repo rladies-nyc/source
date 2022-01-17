@@ -44,7 +44,7 @@ editor_options:
 <iframe src="https://giphy.com/embed/1uv4CWggzI7te" width="240" height="360" frameBorder="0" class="giphy-embed" allowFullScreen>
 </iframe>
 </center>
-<p>When I saw <a href="https://twitter.com/rabaath">Rasmus Baath</a>’s amazing <a href="https://github.com/rasmusab/beepr">beepr</a> package <a href="https://twitter.com/dannagifford/status/937670231291564032">retweeted</a>, I knew I wanted to sample it. Beepr includes one function, <code>beep()</code>, which plays a sound when a script is done running. It’s immediately useful to me, as I am constantly running short 2-5 minute jobs, but getting distracted and spending 30 minutes away from my code because I don’t realize it’s done. Beepr’s built in sounds are pretty fun – <code>beep("mario")</code> and <code>beep("treasure")</code> play old-school video game celebrations, and you can include html links to wav files to play any .wav that exists on the internet.</p>
+<p>When I saw <a href="https://twitter.com/rabaath">Rasmus Baath</a>’s amazing <a href="https://github.com/rasmusab/beepr">beepr</a> package <a href="https://twitter.com/dannagifford/status/937670231291564032">retweeted</a>, I knew I wanted to sample it. Beepr includes one function, <code>beep()</code>, which plays a sound when a script is done running. It’s immediately useful to me, as I am constantly running short 2-5 minute jobs, but getting distracted and spending 30 minutes away from my code because I don’t realize it’s done. Beepr’s built in sounds are pretty fun – <code>beep(&quot;mario&quot;)</code> and <code>beep(&quot;treasure&quot;)</code> play old-school video game celebrations, and you can include html links to wav files to play any .wav that exists on the internet.</p>
 <p>For my beepr remix, I wanted to use ad libs from rap songs. I often want to shout “GUCCI” or “WE THE BEST” when a long script is done, but I have over the years come to understand that “most people” don’t “appreciate” this kind of action in a “workplace environment.” I can settle for letting DJ Khaled and Gucci Mane shout them for me.</p>
 <p>If these had been on the internet in <code>.wav</code> form, I probably wouldn’t have spent any time learning how to scrape audio files from the internet and build them into a custom package. But they weren’t. Thus, <a href="https://github.com/brooke-watson/BRRR">BRRR</a> was born.</p>
 <p>It can be installed and run with the following command:</p>
@@ -212,7 +212,7 @@ lookup_table = data_frame(wav_names, artist)</code></pre>
 </div>
 <div id="tidying-file-names" class="section level2">
 <h2>Tidying file names</h2>
-<p>Luckily, the files tend to fall under a general <code>artist_uniqueid</code> naming convention. The next section cleans up the unique IDs. If a rapper has any sound board sounds, you’ll be able to call it with <code>skrrrahh("name")</code>. To cycle through the various sounds, use <code>skrrrahh("name1")</code>, <code>skrrrahh("name2")</code>, etc. until you get an error.</p>
+<p>Luckily, the files tend to fall under a general <code>artist_uniqueid</code> naming convention. The next section cleans up the unique IDs. If a rapper has any sound board sounds, you’ll be able to call it with <code>skrrrahh(&quot;name&quot;)</code>. To cycle through the various sounds, use <code>skrrrahh(&quot;name1&quot;)</code>, <code>skrrrahh(&quot;name2&quot;)</code>, etc. until you get an error.</p>
 <pre class="r"><code># make the filenames more consistent 
 filtered_names = selected %&gt;% 
   group_by(artist) %&gt;% 
@@ -313,7 +313,10 @@ unlink(&quot;wav&quot;, recursive = TRUE, force = TRUE)</code></pre>
 <p>Now that I had all the audio files in the right place with the right names, I just had to change the name of my main function and update some paths.</p>
 <p>Like beepr, I wanted BRRR to also have a single function. Mine is called <code>skrrrahh()</code>, named for 2017’s most iconic Roadman, Big Shaq.</p>
 <p>The bones of the function are the same. I started by cloning the beepr <a href="https://github.com/rasmusab/beepr">Github repo</a> and fiddling around in the guts of the main function, <code>beep()</code>. Most of my changes were to internal file paths - including hard-coding links to to the new filenames we just generated. I mostly hacked at this using <a href="https://www.sublimetext.com/3">Sublime Text</a> and heavy amounts of Copy-Paste. Really inquiring minds can see the changes in the <a href="https://github.com/brooke-watson/BRRR/commits/master">commit log</a>.</p>
-<p><img src="/img/2018-03-18-scraping-javascript-websites-in-r/inst.png" /></p>
+<div class="figure">
+<img src="/img/2018-03-18-scraping-javascript-websites-in-r/inst.png" />
+
+</div>
 </div>
 <div id="wrapping-it-all-into-a-package" class="section level1">
 <h1>Wrapping it all into a package</h1>
@@ -346,6 +349,9 @@ skrrrahh &lt;- function(sound=26, expr = NULL) {</code></pre>
 <p>But once I pushed this to Github, I immediately became an open source developer and maintainer. That’s all it takes. Folks saw it on Twitter, got a good chuckle, and immediately started using it, fixing bugs and typos, and offering suggestions for the next version.</p>
 <p>This is the thing I didn’t realize before building this package. When you make something open source, and put it out into the world, people will often just start fixing things for you, for free. I got lucky with BRRR - apparently, the Venn diagram <a href="https://www.instagram.com/p/S6OS2YAWQI/">overlap</a> between rap nerds and stats nerds is much larger than I thought, and more people saw this package than I ever imagined. But this is the beauty of open source - projects become bigger, better, and more creative than they ever could if they live and die on one person’s computer. Four people have fixed bugs or typos in my repo, which I in turn built off the back of <a href="https://github.com/rasmusab">Rasmus’s</a>. Someone has already ported beepr into <a href="https://pypi.python.org/pypi/brrr">Python</a>. The community <a href="https://twitter.com/brookLYNevery1/status/940359216480636928">shared</a> beepr with friends and colleagues they thought would like it.</p>
 <p>Hopefully, someone else who has never made a package will take this and run with it, remixing the remix until it is unrecognizable. In the wise words of the Godfather of my very first R package:</p>
-<p><img src="/img/2018-03-18-scraping-javascript-websites-in-r/gucci-nevertoolate.png" /></p>
+<div class="figure">
+<img src="/img/2018-03-18-scraping-javascript-websites-in-r/gucci-nevertoolate.png" />
+
+</div>
 <p><br></p>
 </div>
