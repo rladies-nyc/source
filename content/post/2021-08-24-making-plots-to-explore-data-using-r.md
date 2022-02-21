@@ -1,5 +1,5 @@
 ---
-title: R-Ladies Book Club - Algorithms of Oppression
+title: Making Plots to Explore Data Using R
 author: Ayanthi Gunawardana
 date: '2021-08-24'
 slug: making-plots-to-explore-data-using-r
