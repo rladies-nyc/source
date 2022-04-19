@@ -53,4 +53,4 @@ Bio: Dorota is a masters-level statistician currently working as a data analyst 
 
 Bio: Alyssa is the Senior Marketing Analyst at the law firm Debevoise & Plimpton LLP.
 
-[Meetup page](https://www.meetup.com/rladies-newyork/events/280338696/)
+[Meetup page](https://www.meetup.com/rladies-newyork/events/281847904/)
