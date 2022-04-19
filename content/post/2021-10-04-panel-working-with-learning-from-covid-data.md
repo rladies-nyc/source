@@ -1,5 +1,5 @@
 ---
-title: Panel Discussion: Working with and Learning from COVID-19 data
+title: Panel Discussion Working with and Learning from COVID-19 data
 author: Ayanthi Gunawardana
 date: '2021-10-04'
 slug: panel-working-with-covid-data
