@@ -18,11 +18,11 @@ weight = 60
 # Meet our board members
 
 
-#### Emily Dodwell (Organizer)
+#### Dorota Rizik (Organizer)
 
-<img src="/img/emilyd.jpg" style="width:20%";/>
+<img src="/img/dorota-rizik.jpg" style="width:20%";/>
 
-Emily Dodwell is a Principal Inventive Scientist in the Data Science and AI Research organization at AT&T Labs, where she currently focuses on predictive modeling for advertising applications, the creation of interactive tools for data analysis and visualization, and research concerning ethics and fairness in machine learning. Emily is an R enthusiast committed to promoting gender diversity in the community, and she is a member of Forwards, the R Foundation task force on women and other underrepresented groups. Prior to joining AT&T Labs in 2015, Emily taught high school math for three years at Choate Rosemary Hall. She received her M.A. in statistics from Yale University and B.A. in mathematics from Smith College.
+Dorota (she/her) is a data analyst with a passion for programming, automating repetitive tasks, and workflow efficiency. She has a masters in applied statistics from NYU and currently works at MDRC, a nonprofit policy research organization. She loves fries, dogs, and going to the cinema.
 
 
 #### Alejandra Gerosa
@@ -72,11 +72,6 @@ Kristen Akey (she/her) is a Data Analyst at Civitech, where she helps build tool
 Mei Guan is a Lead Data Analyst at New Visions for Public Schools where she  helps build an academic planning data product used by every district public school in New York City. Previously, Mei has worked as high school science teacher in Brooklyn and as a data analyst at the New York City Department of Education. She holds a B.S. in Biology from Cornell University and a M.S. in Applied Urban Science and Informatics from New York University.
 
 
-#### Dorota Rizik
-
-<img src="/img/dorota-rizik.jpg" style="width:20%";/>
-
-Dorota (she/her) is a data analyst with a passion for programming, automating repetitive tasks, and workflow efficiency. She has a masters in applied statistics from NYU and currently works at MDRC, a nonprofit policy research organization. She loves fries, dogs, and going to the cinema.
 
 
 
@@ -94,5 +89,6 @@ Dorota (she/her) is a data analyst with a passion for programming, automating re
 #### Ludmila Janda (2019-2021)
 #### Kaelen Medeiros (2020-2021)
 #### Anisha BharathSingh (2021)
+#### Emily Dodwell (2019-2022)
 
 
