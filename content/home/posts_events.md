@@ -9,7 +9,7 @@ title = "Recent & Upcoming Events"
 subtitle = "See our [Meetup Page](https://www.meetup.com/rladies-newyork/) for the most up-to-date info about our upcoming events!"
 
 # Order that this section will appear in.
-weight = 40
+weight = 45
 
 # Filter posts by tag.
 #  By default, show all recent posts.
