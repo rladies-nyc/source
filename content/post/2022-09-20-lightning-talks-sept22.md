@@ -43,11 +43,15 @@ Tonight's lineup of speakers is:
 To celebrate the diversity in the R Community, we're prioritizing presenters who identify as a minority gender (including but not limited to cis/trans women, trans men, non-binary, genderqueer, agender).
 
 Important Dates
-- Submissions due: Thursday 9/1
-- Notification of acceptance: Sunday 9/4
-- Speakers to Confirm Participation: Wednesday 9/7
-- Submit slides to R-Ladies: Friday 9/16
-- Lightning Talk Event: Tuesday 9/20
+* Submissions due: Thursday Sept. 1
+
+* Notification of acceptance: Sunday Sept. 4
+
+* Speakers to Confirm Participation: Wednesday Sept. 7
+
+* Submit slides to R-Ladies: Friday Sept. 16
+
+* Lightning Talk Event: Tuesday Sept. 20
 
 ---
 

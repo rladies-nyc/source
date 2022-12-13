@@ -25,37 +25,12 @@ weight = 55
 Dorota (she/her) is a data analyst with a passion for programming, automating repetitive tasks, and workflow efficiency. She has a masters in applied statistics from NYU and currently works at MDRC, a nonprofit policy research organization. She loves fries, dogs, and going to the cinema.
 
 
-#### Alejandra Gerosa
-
-<img src="/img/alejandra.jpg" style="width:20%";/>
-
-Alejandra works in fundraising in social organizations (now at the ACLU, previously at TECHO and Doctors Without Borders). With the goal to become more data-driven in her work, she earned an MBA from Duke University. There, she discovered R and fell in love with all things related to business intelligence and marketing analytics. Since then, she has been learning R and statistics through friends, online classes and the wonderful R-Ladies community. Alejandra is from Argentina, lived in Spain for 5 years, and now lives in Queens.
 
 ### Ayanthi Gunawardana
 
 <img src="/img/ayanthi.png" style="width:20%";/>
 
-Ayanthi Gunawardana (she/her/hers) is a Data Analytics Manager at the Wunderkind. Previously, Ayanthi worked at the NYC Department of Transportation where she analyzed crash and other transportation data to inform street design and transportation policy across all five boroughs. She holds a Bachelor of Arts in Sociology from Emory University and a Master of City and Regional Planning from Rutgers University. Ayanthi enjoys training Brazilian Jiu Jitsu, running, taking all forms of public transportation, and cooking/eating spicy food. 
-
-#### Erin Grand
-
-<img src="/img/erin.jpg" style="width:20%";/>
-
-Erin works as a Data Scientist at Uncommon Schools where she trains coworker in R as well as maintaining two R packages. Prior to Uncommon, she worked as a Data Scientist at Crisis Text Line while and a software programmer at NASA while completing her Data Science Masters at Columbia University. Before data science, Erin researched star formation and taught introductory courses in astronomy and physics at the University of Maryland. 
-
-
-#### Emily Halford
-
-<img src="/img/emilyh.jpg" style="width:20%";/>
-
-Emily Halford works at the New York State Psychiatric Institute and currently focuses on evaluations of suicide crisis services and suicide prevention media campaigns, as well as examining the impact of the COVID-19 pandemic on suicidality. She is enthusiastic about all things R, and is keenly interested in applications of data science in mental health. Emily received her MPH in Epidemiology from Columbia University’s Mailman School of Public Health and her BA in Biology and Environmental Studies from Bates College.
-
-
-#### Angeline Protacio
-
-<img src="/img/angeline.jpg" style="width:20%";/>
-
-Angeline Protacio (she/her) is a Data Scientist at Quartet Health, where she uses healthcare claims and product data to improve access to mental health care, and builds tools to support value based care for mental health providers. She has worked with data in a variety of settings, previously leading mental health data surveillance for the NYC Department of Health and Mental Hygiene, as well as dabbling in freelance data science consulting. She has an MPH in Epidemiology, and is passionate about health equity, social determinants of health, and data for social good. She moved to New York ten years ago from California, and remains perfectly happy with her decision to trade driving cars for riding the subway. When she's not playing with data for work, she's still playing with data to help her fantasy baseball team win, while trying to eat everything NYC has to offer.
+Ayanthi Gunawardana (she/her/hers) is a Senior Data Analyst at 1-800-FLOWERS. Previously, Ayanthi worked at the NYC Department of Transportation where she analyzed crash and other transportation data to inform street design and transportation policy across all five boroughs. She holds a Bachelor of Arts in Sociology from Emory University and a Master of City and Regional Planning from Rutgers University. Ayanthi enjoys training Brazilian Jiu Jitsu, running, taking all forms of public transportation, and cooking/eating spicy food. 
 
 
 #### Kristin Akey
@@ -72,7 +47,18 @@ Kristen Akey (she/her) is a Data Analyst at Civitech, where she helps build tool
 Mei Guan is a Lead Data Analyst at New Visions for Public Schools where she  helps build an academic planning data product used by every district public school in New York City. Previously, Mei has worked as high school science teacher in Brooklyn and as a data analyst at the New York City Department of Education. She holds a B.S. in Biology from Cornell University and a M.S. in Applied Urban Science and Informatics from New York University.
 
 
+#### Clara Wang
 
+<img src="/img/ClaraWang.jpg" style="width:20%";/>
+
+Clara (she/her/hers) is a data scientist currently working on cloud resource usage analytics. Previously, she worked on analyzing China's tech industry at the media publication, Protocol, and she also worked on campaigns doing political analytics. She loves making data visualizations, biking around NYC, and learning new things.
+
+
+#### Jacqueline Buros
+
+<img src="/img/Jacqui.jpg" style="width:20%";/>
+
+Jacki (she/hers) is a co-founder and CTO at a start-up company called [Generable](https://www.generable.com), which uses biologically-inspired Bayesian models to estimate treatment effects for oncology drugs from small-sample clinical data. She has over 10 years of experience in R, is an experienced Python developer, and is either author of or contributor to several open-source packages. She is passionate about improving oncology through Bayesian analysis and bioinformatics.
 
 
 ## Past board members
@@ -90,5 +76,9 @@ Mei Guan is a Lead Data Analyst at New Visions for Public Schools where she  hel
 #### Kaelen Medeiros (2020-2021)
 #### Anisha BharathSingh (2021)
 #### Emily Dodwell (2019-2022)
+#### Alejandra Gerosa (2019-2022)
+#### Erin Grand (2019-2022)
+#### Emily Halford (2022)
+#### Angeline Protacio (2021-2022)
 
 
