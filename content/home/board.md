@@ -80,5 +80,6 @@ Jacki (she/hers) is a co-founder and CTO at a start-up company called [Generable
 #### Erin Grand (2019-2022)
 #### Emily Halford (2022)
 #### Angeline Protacio (2021-2022)
+#### Ayanthi Gunawardana (2019-2023)
 
 
