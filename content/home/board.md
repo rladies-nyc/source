@@ -24,15 +24,6 @@ weight = 55
 
 Dorota (she/her) is a data analyst with a passion for programming, automating repetitive tasks, and workflow efficiency. She has a masters in applied statistics from NYU and currently works at MDRC, a nonprofit policy research organization. She loves fries, dogs, and going to the cinema.
 
-
-
-### Ayanthi Gunawardana
-
-<img src="/img/ayanthi.png" style="width:20%";/>
-
-Ayanthi Gunawardana (she/her/hers) is a Senior Data Analyst at 1-800-FLOWERS. Previously, Ayanthi worked at the NYC Department of Transportation where she analyzed crash and other transportation data to inform street design and transportation policy across all five boroughs. She holds a Bachelor of Arts in Sociology from Emory University and a Master of City and Regional Planning from Rutgers University. Ayanthi enjoys training Brazilian Jiu Jitsu, running, taking all forms of public transportation, and cooking/eating spicy food. 
-
-
 #### Kristin Akey
 
 <img src="/img/kristin-akey.jpg" style="width:20%";/>
