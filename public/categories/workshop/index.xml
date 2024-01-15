@@ -1,24 +1,126 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Workshop on R-Ladies NYC</title>
+    <title>workshop on R-Ladies NYC</title>
     <link>/categories/workshop/</link>
-    <description>Recent content in Workshop on R-Ladies NYC</description>
+    <description>Recent content in workshop on R-Ladies NYC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Aug 2017 00:00:00 +0000</lastBuildDate>
+    <copyright>&amp;copy; 2017 R-Ladies NYC</copyright>
+    <lastBuildDate>Mon, 10 Oct 2022 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/workshop/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Workshop Writing Meaningful Alt-Texts for Data Visualizations in R</title>
+      <link>/post/workshop-alt-text/</link>
+      <pubDate>Mon, 10 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/post/workshop-alt-text/</guid>
+      <description>Details For our October Meetup, we welcome Liz Hare, who will lead a workshop titled &amp;ldquo;Writing Meaningful Alt-Texts for Data Visualizations in R.&amp;rdquo; Liz will introduce &amp;ldquo;alt-text&amp;rdquo; and offer guidance on best practices. Alt-text is important to incorporated into your work not only to adhere to accessibility laws but also to ensure your work reaches everyone.
+During the workshop, Liz will give the audience an opportunity to share their own data visualizations and discuss how they could be improved with alt-text.</description>
+    </item>
+    
+    <item>
+      <title>Workshop An Introduction to Working with Geospatial Data in R</title>
+      <link>/post/workshop-geospatial-data-r/</link>
+      <pubDate>Thu, 24 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/post/workshop-geospatial-data-r/</guid>
+      <description>Details For our February Meetup, we welcome R-Ladies NYC board member Ayanthi Gunawardana, who will teaching a workshop titled &amp;ldquo;An Introduction to Working with Geospatial Data in R.&amp;rdquo; She will show participants how to import, process, and map geospatial data in R. Ayanthi will also introduce some basic geospatial concepts, different file formats, and best practices in creating maps. She will primarily be working with the sf package for processing the geospatial data, and ggplot2 for plotting the data.</description>
+    </item>
+    
+    <item>
+      <title>Package Development Workshop (Day 1) - Your First Package</title>
+      <link>/post/package-development-2022/</link>
+      <pubDate>Wed, 12 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/post/package-development-2022/</guid>
+      <description>Details We are thrilled to kick off our 2022 programming by welcoming Joyce Robbins to lead us through a two-day interactive package development workshop! This first module will guide participants through creation of their first package. Besides familiarity with R/RStudio and basic function writing, there are no prerequisites.
+RSVP for this workshop is via Google Form: https://forms.gle/3rkuU8CZDMBrudfK8/. For more information about “Package Development Day 2 - Package Documentation,” see Meetup event https://www.</description>
+    </item>
+    
+    <item>
+      <title>Package Development Workshop (Day 2) - Your First Package</title>
+      <link>/post/package-development-2022-2/</link>
+      <pubDate>Wed, 12 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/post/package-development-2022-2/</guid>
+      <description>Details We are thrilled to kick off our 2022 programming by welcoming Joyce Robbins to lead us through a two-day interactive package development workshop! This second hour-long module will guide participants through types of and tools for package documentation. It builds upon material from “Package Development Day 1 - Your First Package” (see Meetup event https://www.meetup.com/rladies-newyork/events/283033216/), however participants can join this second session independently. Besides familiarity with R/RStudio and basic function writing, there are no prerequisites.</description>
+    </item>
+    
+    <item>
+      <title>Tidy Tuesday Code-laboration</title>
+      <link>/post/tidy-tuesday-code-laboration/</link>
+      <pubDate>Thu, 04 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/tidy-tuesday-code-laboration/</guid>
+      <description>Details Join us for a collaborative exploration of the Tidy Tuesday dataset of the week! First, we will have a short demo of working through a previous Tidy Tuesday dataset, led by Ludmila Janda. Then we will work in groups to do some exploration and visualization of the dataset of the week and then we will come together to share our work. No preparation is necessary but participants are welcome to check out the dataset(s) and come with any ideas they may have.</description>
+    </item>
+    
+    <item>
+      <title>R Package Workshop</title>
+      <link>/post/r-package-workshop/</link>
+      <pubDate>Wed, 03 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/r-package-workshop/</guid>
+      <description>Bring your laptop and come out to our next workshop to learn about building your very own R package!
+Visit our Meetup page to RSVP.
+Details Sebastian&amp;rsquo;s workshop will focus on R package development from the ground up. We will cover package structure, set-up, creating functions, documentation, testing, dependencies, sharing the package with others, package vignettes, hex stickers, and other methods. An example package will be developed during the workshop so attendees can follow along and create their own.</description>
+    </item>
+    
+    <item>
+      <title>Git with Joyce</title>
+      <link>/post/git-with-joyce/</link>
+      <pubDate>Wed, 09 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/git-with-joyce/</guid>
+      <description>We are kicking off this year with an introduction to Github by Joyce Robbins.
+Visit our Meetup page to RSVP.
+Details This is a hands on workshop so please bring your laptop to follow along and please be prompt to make sure the workshop kicks off on time:)
+Date: Wednesday, January 9, 2019
+Time: 6:30pm
+Host: Columbia University (1255 Amsterdam Ave, Room 903)
+About Joyce Joyce Robbins, Ph.D., is Lecturer in Discipline in the Statistics Department at Columbia University, where she specializes in data visualization.</description>
+    </item>
+    
+    <item>
+      <title>Introduction to Shiny Apps using NBA data</title>
+      <link>/post/introduction-to-shiny-apps-using-nba-data/</link>
+      <pubDate>Tue, 24 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/introduction-to-shiny-apps-using-nba-data/</guid>
+      <description>Come out for our May event for a tutorial on Shiny! Julia Wrobel, a PhD candidate in biostatistics at Columbia University, will be teaching us to make and deploy Shiny apps using NBA data.
+The materials for this talk can be found on Julia&amp;rsquo;s website.
+Bring your laptops so that you can code as you go!
+Visit our Meetup page for more details and to RSVP.
+Date: Tuesday, May 8, 2018</description>
+    </item>
+    
+    <item>
+      <title>Workshop: Functional Programming with Purrr</title>
+      <link>/post/workshop-functional-programming-with-purrr/</link>
+      <pubDate>Wed, 10 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/workshop-functional-programming-with-purrr/</guid>
+      <description>Join us for our first R Ladies NYC event of 2018!
+Joyce Robbins presents a workshop on the purrr package, a complete and coherent packae for working with functions and vectors in R. Visit our Meetup page for more details and to RSVP.
+Joyce&amp;rsquo;s GitHub repo for this talk can be found here.
+Date: Wednesday, January 10, 2018
+Time: 6:30pm
+Instructor: Joyce Robbins
+Host: Schapiro Center Columbia University</description>
+    </item>
+    
+    <item>
       <title>Data Visualization Workshop, Part 1</title>
-      <link>/2017/08/17/data-visualization-workshop-part-1/</link>
+      <link>/post/data-visualization-workshop-part-1/</link>
       <pubDate>Thu, 17 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>/2017/08/17/data-visualization-workshop-part-1/</guid>
+      <guid>/post/data-visualization-workshop-part-1/</guid>
       <description>Joyce Robbins presents a workshop on creating heatmaps in R, and other more general data visualization tips and tricks. Visit our Meetup page for more details and to RSVP.
-Joyce’s GitHub repo for this talk can be found here.
+Joyce&amp;rsquo;s GitHub repo for this talk can be found here.
 Date: Thursday, August 17, 2017
 Time: 7pm
 Instructor: Joyce Robbins

@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.52" />
+  <meta name="author" content="R-Ladies NYC">
+  
+
+  
+  <link rel="alternate" hreflang="en-us" href="/post/data-science-and-fantasy-baseball/">
+
+  
+  
+
+
+  
+
+  
+  
+  
+  
+    
+  
+  
+    
+    
+      
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+      
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  
+  
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="/styles.css">
+  
+  <link rel="stylesheet" href="/css/rladies.css">
+  
+
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="R-Ladies NYC">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="R-Ladies NYC">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/post/data-science-and-fantasy-baseball/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@RLadiesNYC">
+  <meta property="twitter:creator" content="@RLadiesNYC">
+  
+  <meta property="og:site_name" content="R-Ladies NYC">
+  <meta property="og:url" content="/post/data-science-and-fantasy-baseball/">
+  <meta property="og:title" content="Data Science and Fantasy Baseball? | R-Ladies NYC">
+  <meta property="og:description" content="">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2019-06-06T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2019-06-06T00:00:00&#43;00:00">
+  
+
+  
+
+  <title>Data Science and Fantasy Baseball? | R-Ladies NYC</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/"><img src="/img/R-LadiesNYC_RBG_online_LogoWithText_Horizontal.png" alt="R-Ladies NYC"></a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>About</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#posts_events">
+            
+            <span>Events</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#posts_blog">
+            
+            <span>Blog</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#board">
+            
+            <span>Board</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+  <div class="article-container">
+    <div class="article-inner">
+      <h1 itemprop="name">Data Science and Fantasy Baseball?</h1>
+
+      
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2019-06-06 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Jun 6, 2019
+    </time>
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    3 min read
+  </span>
+  
+
+  
+  
+
+  
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fa fa-folder"></i>
+    
+    <a href="/categories/blog">blog</a
+    >
+    
+  </span>
+  
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Data%20Science%20and%20Fantasy%20Baseball%3f&amp;url=%2fpost%2fdata-science-and-fantasy-baseball%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=%2fpost%2fdata-science-and-fantasy-baseball%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpost%2fdata-science-and-fantasy-baseball%2f&amp;title=Data%20Science%20and%20Fantasy%20Baseball%3f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=%2fpost%2fdata-science-and-fantasy-baseball%2f&amp;title=Data%20Science%20and%20Fantasy%20Baseball%3f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Data%20Science%20and%20Fantasy%20Baseball%3f&amp;body=%2fpost%2fdata-science-and-fantasy-baseball%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+      <div class="article-style" itemprop="articleBody">
+        
+
+<p><em>Thank you so much to Anisha BharathSingh, who originally wrote this post for her blog, found <a href="https://journeytodatascientist.blog/2019/05/24/data-science-and-fantasy-baseball/" target="_blank">here</a>. We are reposting her post with her consent. If you are an R-Lady interested in writing a blog post or cross-posting a blog post on your own blog, please let us know (via email nyc@rladies.org or via DM on twitter @RLadiesNYC)!</em></p>
+
+<p>On Thursday, May 23, I attended my first R-Ladies NYC meetup! R-Ladies NYC is an organization that promotes gender diversity amongst the R community by organizing a series of events (including this meetup) to support women who want to learn R or want to share their experiences as R programmers.</p>
+
+<h3 id="drafting-a-fantasy-baseball-team-with-r">Drafting a Fantasy Baseball Team with R</h3>
+
+<p>This meetup included an interesting take on data science – using R to draft a fantasy baseball team! This was presented by Angeline Protacio, a self-employed data scientist at Protacio Analytics LLC.</p>
+
+<p>Outside of work, Angeline spends her time playing fantasy baseball. For those not familiar with fantasy baseball, as Angeline explained, you create your own fantasy baseball team with real players from any existing team. Each day, you decide what your lineup will be, and how well your team does depends on each players actual performance that day.</p>
+
+<p>Angeline wanted to use her data science skills to draft a competitive fantasy baseball team. To do so, Angeline used a series of <a href="http://m.mlb.com/glossary/standard-stats" target="_blank">player scoring categories</a> including: R, HR, RBI, SO, SB, OPS, WAR. She first took a look at how a player’s position affected their scoring categories with ggplot visualizations. From this, she found that outfielders had better offensive stats and suggests to draft your outfielders first.</p>
+
+<p><strong>Create a Metric Comparing Overall Performance for Players</strong></p>
+
+<p>Next, in order to determine which specific players to draft, Angeline tried looking for a summary statistic of all scoring categories to compare all players to each other, but could not find any. While there is the WAR (Wins Above Replacement) scoring category that summarizes a players contribution to their team, this only does so with respect to being substituted by a replacement player.</p>
+
+<p>This led her to creating her own metric. With the help of the tidyverse package she: 1) filtered for players who had an average plate appearance above 300; 2) selected player id, position, Name, Team and all scoring categories; and 3) mutated her data frame with the players information to include a z-score for each scoring category.</p>
+
+<p>This z-score is used to determine how much better a player performed than the mean for that category. Summing these z-scores provided an overall performance metric for each player in comparison to all other players.</p>
+
+<p><strong>Top MLB Players of 2018</strong></p>
+
+<p>Using her new metric, Angeline arranged her new data frame in a descending order to find the Top 5 MLB players for 2018:</p>
+
+<ol>
+<li>Mike Trout (Angels) – total z-score: 11.889</li>
+<li>Giancarlo Stanton (Yankees) – total z-score: 11.869</li>
+<li>Nolan Arenado (Rockies) – total z-score: 8.766</li>
+<li>Bryce Harper (Phillies) – total z-score: 8.646</li>
+<li>Anthony Rizzo (Cubs) – total z-score: 8.343</li>
+</ol>
+
+<p><a href="https://github.com/angelinepro/rladiesnyc_may2019" target="_blank">Click Here</a> for the repository with all of Angeline’s code.</p>
+
+<p>While this only accounts for one part of drafting a fantasy baseball team, this just goes to show that you can use data science for pretty much anything!</p>
+
+      </div>
+
+      
+
+
+<div class="article-tags">
+  
+  <a class="btn btn-primary btn-outline" href="/tags/blog">blog</a>
+  
+</div>
+
+
+
+    </div>
+  </div>
+
+</article>
+
+
+
+<div class="article-container article-widget">
+  <div class="hr-light"></div>
+  <h3>Related</h3>
+  <ul>
+    
+    <li><a href="/post/2019-nyr-conference-tips/">NYR 2019 Speaker Experience and Tips</a></li>
+    
+    <li><a href="/post/an-rladys-first-r-conference/">Benjana Guraziu: An RLady’s First R Conference</a></li>
+    
+    <li><a href="/post/my-first-step-to-healing-from-wisdom-women-in-stats-data-science-and-omics/">Jasmine Williams: My first step to healing from WISDOM (Women in Stats, Data Science, and Omics)</a></li>
+    
+    <li><a href="/post/coming-soon/">Coming soon!</a></li>
+    
+  </ul>
+</div>
+
+
+
+
+<div class="article-container">
+  
+
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2017 R-Ladies NYC &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+
+  </body>
+</html>
+

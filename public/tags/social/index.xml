@@ -1,23 +1,83 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Social on R-Ladies NYC</title>
+    <title>social on R-Ladies NYC</title>
     <link>/tags/social/</link>
-    <description>Recent content in Social on R-Ladies NYC</description>
+    <description>Recent content in social on R-Ladies NYC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 08 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <copyright>&amp;copy; 2017 R-Ladies NYC</copyright>
+    <lastBuildDate>Thu, 08 Dec 2022 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/social/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>End-of-Year Celebration for Women and Gender Minorities</title>
+      <link>/post/eoy-celebration-2022/</link>
+      <pubDate>Thu, 08 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/post/eoy-celebration-2022/</guid>
+      <description>Happy Holidays! Come celebrate how far R-Ladies New York has come this year at this fun, end-of-the-year social at Whiskey Ward. This event will be in-person, and a great gathering to close out our year!
+We want to thank you all for your incredible support and for being part of the R-Ladies community. We hope to see you there!
+Drinks will be available for purchase. Dress in casual or holiday gear - we welcome it all!</description>
+    </item>
+    
+    <item>
+      <title>Summer Social</title>
+      <link>/post/summer-social/</link>
+      <pubDate>Thu, 21 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/post/summer-social/</guid>
+      <description>Come hang out with R-Ladies at the Lucky backyard for an evening social full of fun and splendid R conversation!
+Drinks will be available for purchase. But you are also welcome to bring in your own food!
+Meetup page</description>
+    </item>
+    
+    <item>
+      <title>End-of-Year Celebration for Women and Gender Minorities</title>
+      <link>/post/eoy-celebration-2021/</link>
+      <pubDate>Wed, 15 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/eoy-celebration-2021/</guid>
+      <description>[Please note: At the request of members of our community for an R-Ladies space exclusively for minority genders, this event is limited to those who identify as such (including but not limited to women, trans men, non-binary, and gender nonconforming individuals). Male allies have been great supporters of our chapter and the R-Ladies mission to promote gender diversity in the R Community &amp;ndash; for which we are grateful! &amp;ndash; and we believe the best way male allies can support us this month is by honoring the need for and benefit of such a space.</description>
+    </item>
+    
+    <item>
+      <title>Summer Social</title>
+      <link>/post/summer-social/</link>
+      <pubDate>Sat, 29 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/summer-social/</guid>
+      <description>Come hang out with R-Ladies at the Royale Bar outdoor patio for an afternoon social full of fun, board games, and splendid R conversation!
+Drinks and food will be available for purchase. Collaborative, multi-player and two-player table games will be provided, but feel free to bring your own!
+Date: Saturday, July 13, 2019
+Time: 2:00pm - 5:00pm
+Location: Royale, 157 Loisaida Ave, New York, NY, 10009
+Meetup page</description>
+    </item>
+    
+    <item>
+      <title>2018 End of Year Social</title>
+      <link>/post/2018-end-of-year-social/</link>
+      <pubDate>Mon, 10 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2018-end-of-year-social/</guid>
+      <description>Happy Holidays! For the end of the year we are looking to celebrate how far R-Ladies New York has come and thank all of you for your incredible support.
+Visit our Meetup page to RSVP.
+Details We are doing this potluck style so sign up here to bring something to the party!
+Dress in casual or holiday gear - we welcome it all!
+Date: Monday, December 10, 2018
+Time: 6:30pm</description>
+    </item>
+    
+    <item>
       <title>Summer Social!</title>
-      <link>/2017/07/08/summer-social/</link>
+      <link>/post/summer-social/</link>
       <pubDate>Sat, 08 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>/2017/07/08/summer-social/</guid>
-      <description>Let’s take a break from the heat and our desks for an R-Ladies summer social event! Visit our Meetup page for more details and to RSVP.
+      <guid>/post/summer-social/</guid>
+      <description>Let&amp;rsquo;s take a break from the heat and our desks for an R-Ladies summer social event! Visit our Meetup page for more details and to RSVP.
 Date: Saturday, July 8, 2017
 Time: 2pm
 Where: Blue Ribbon Sushi Izakaya</description>

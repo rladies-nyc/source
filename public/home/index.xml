@@ -8,7 +8,87 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2017 R-Ladies NYC</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/home/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/home/about/</guid>
+      <description>About R-Ladies NYC is part of a world-wide organization to promote gender diversity in the R community.
+We aspire to encourage and support women and gender minorities interested in learning and sharing their experiences in R programming by hosting a variety of events including talks, workshops, book clubs, data dives, and socials.
+For more information about R-Ladies Global, visit rladies.org.
+R-Ladies is dedicated to providing a harassment-free experience for everyone.</description>
+    </item>
+    
+    <item>
+      <title>Recent &amp; Upcoming Events</title>
+      <link>/home/posts_events/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/home/posts_events/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent Blog Posts</title>
+      <link>/home/posts_blog/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/home/posts_blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Board</title>
+      <link>/home/board/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/home/board/</guid>
+      <description>Meet our board members Dorota Rizik (Organizer) Dorota (she/her) is a data analyst with a passion for programming, automating repetitive tasks, and workflow efficiency. She has a masters in applied statistics from NYU and currently works at MDRC, a nonprofit policy research organization. She loves fries, dogs, and going to the cinema.
+Kristin Akey Kristen Akey (she/her) is a Data Analyst at Civitech, where she helps build tools to increase civic participation.</description>
+    </item>
+    
+    <item>
+      <title>Accessibility</title>
+      <link>/home/accessibility/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/home/accessibility/</guid>
+      <description>To ensure that our Meetups are accessible for all members of our community, we ask you to please review and implement the below presentation recommendations. Let us know if you have any questions.
+Please email your slides to nyc@rladies.org by noon the day before your talk, or provide the link where you have them available online. It is fine if they represent a draft at this point, although let us know that &amp;ndash; in the event that someone requests the slides ahead of the Meetup for accessibility reasons, we’d like to be able to share them.</description>
+    </item>
+    
+    <item>
+      <title>Tags</title>
+      <link>/home/tags/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 -0400</pubDate>
+      
+      <guid>/home/tags/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/home/contact/</guid>
+      <description>Interested in giving a talk for R-Ladies NYC? Please fill out this form with your talk information.
+Connect with us on slack! Please fill out this Google form to receive an invitation.</description>
+    </item>
+    
+    <item>
+      <title>Sponsors</title>
+      <link>/home/sponsors/</link>
+      <pubDate>Sun, 26 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/home/sponsors/</guid>
+      <description>Would you like to support R-Ladies NYC? You can make a tax-free donation to our chapter via Open Collective.</description>
+    </item>
     
   </channel>
 </rss>

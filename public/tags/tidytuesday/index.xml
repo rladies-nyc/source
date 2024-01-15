@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tidytuesday on R-Ladies NYC</title>
+    <link>/tags/tidytuesday/</link>
+    <description>Recent content in tidytuesday on R-Ladies NYC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 R-Ladies NYC</copyright>
+    <lastBuildDate>Mon, 25 Apr 2022 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/tidytuesday/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Virtual Code-laboration TidyTuesday (RSVP Link in Description)</title>
+      <link>/post/r-code-illaboration-tidy-tuesday/</link>
+      <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/post/r-code-illaboration-tidy-tuesday/</guid>
+      <description>Details Want to come code and learn with us? For June’s NYC R-ladies meetup, we are planning a #TidyTuesday code-laboration event! This event will be held online via Zoom. Please register via the Google Form below:
+https://forms.gle/RN5FkyEaRGnLbxx37
+The zoom link will be emailed ONLY to those who register in advance via the form above the morning of the event.
+We ask participants to pick a TidyTuesday dataset from the month of May or June and create (or attempt to create!</description>
+    </item>
+    
+  </channel>
+</rss>

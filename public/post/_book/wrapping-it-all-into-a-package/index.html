@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>5 Wrapping it all into a package | Brooke Watson: Scraping Javascript websites in R</title>
+  <meta name="description" content="5 Wrapping it all into a package | Brooke Watson: Scraping Javascript websites in R" />
+  <meta name="generator" content="bookdown 0.12 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="5 Wrapping it all into a package | Brooke Watson: Scraping Javascript websites in R" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="5 Wrapping it all into a package | Brooke Watson: Scraping Javascript websites in R" />
+  
+  
+  
+
+<meta name="author" content="Brooke Watson" />
+
+
+<meta name="date" content="2018-03-18" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="remixing-the-beep-function.html">
+<link rel="next" href="maintaining-an-open-source-package-in-r.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<style type="text/css">
+code.sourceCode > span { display: inline-block; line-height: 1.25; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; }  
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; }  
+code span.at { color: #7d9029; }  
+code span.bn { color: #40a070; }  
+code span.bu { }  
+code span.cf { color: #007020; font-weight: bold; }  
+code span.ch { color: #4070a0; }  
+code span.cn { color: #880000; }  
+code span.co { color: #60a0b0; font-style: italic; }  
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; }  
+code span.do { color: #ba2121; font-style: italic; }  
+code span.dt { color: #902000; }  
+code span.dv { color: #40a070; }  
+code span.er { color: #ff0000; font-weight: bold; }  
+code span.ex { }  
+code span.fl { color: #40a070; }  
+code span.fu { color: #06287e; }  
+code span.im { }  
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; }  
+code span.kw { color: #007020; font-weight: bold; }  
+code span.op { color: #666666; }  
+code span.ot { color: #007020; }  
+code span.pp { color: #bc7a00; }  
+code span.sc { color: #4070a0; }  
+code span.ss { color: #bb6688; }  
+code span.st { color: #4070a0; }  
+code span.va { color: #19177c; }  
+code span.vs { color: #4070a0; }  
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; }  
+</style>
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="1" data-path="background-remixing-packages-in-r.html"><a href="background-remixing-packages-in-r.html"><i class="fa fa-check"></i><b>1</b> Background: remixing packages in R</a></li>
+<li class="chapter" data-level="2" data-path="javascript-webscraping-in-r.html"><a href="javascript-webscraping-in-r.html"><i class="fa fa-check"></i><b>2</b> Javascript webscraping in R</a><ul>
+<li class="chapter" data-level="2.1" data-path="javascript-webscraping-in-r.html"><a href="javascript-webscraping-in-r.html#download-phantomjs-using-homebrew"><i class="fa fa-check"></i><b>2.1</b> Download PhantomJS using homebrew</a></li>
+<li class="chapter" data-level="2.2" data-path="javascript-webscraping-in-r.html"><a href="javascript-webscraping-in-r.html#writing-scrape.js"><i class="fa fa-check"></i><b>2.2</b> Writing scrape.js</a></li>
+<li class="chapter" data-level="2.3" data-path="javascript-webscraping-in-r.html"><a href="javascript-webscraping-in-r.html#scraping-therapboard.com"><i class="fa fa-check"></i><b>2.3</b> Scraping TheRapBoard.com</a></li>
+<li class="chapter" data-level="2.4" data-path="javascript-webscraping-in-r.html"><a href="javascript-webscraping-in-r.html#extracting-audio-files"><i class="fa fa-check"></i><b>2.4</b> Extracting audio files</a></li>
+<li class="chapter" data-level="2.5" data-path="javascript-webscraping-in-r.html"><a href="javascript-webscraping-in-r.html#downloading-mp3s"><i class="fa fa-check"></i><b>2.5</b> Downloading mp3s</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="organizing-an-r-package.html"><a href="organizing-an-r-package.html"><i class="fa fa-check"></i><b>3</b> Organizing an R package</a><ul>
+<li class="chapter" data-level="3.1" data-path="organizing-an-r-package.html"><a href="organizing-an-r-package.html#converting-mp3s-to-wavs"><i class="fa fa-check"></i><b>3.1</b> Converting mp3s to wavs</a></li>
+<li class="chapter" data-level="3.2" data-path="organizing-an-r-package.html"><a href="organizing-an-r-package.html#cleaning-up-and-filtering-.wav-file-names"><i class="fa fa-check"></i><b>3.2</b> Cleaning up and filtering .wav file names</a></li>
+<li class="chapter" data-level="3.3" data-path="organizing-an-r-package.html"><a href="organizing-an-r-package.html#tidying-file-names"><i class="fa fa-check"></i><b>3.3</b> Tidying file names</a></li>
+<li class="chapter" data-level="3.4" data-path="organizing-an-r-package.html"><a href="organizing-an-r-package.html#renaming-file-paths-from-within-r"><i class="fa fa-check"></i><b>3.4</b> Renaming file paths from within R</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="remixing-the-beep-function.html"><a href="remixing-the-beep-function.html"><i class="fa fa-check"></i><b>4</b> Remixing the beep() function</a></li>
+<li class="chapter" data-level="5" data-path="wrapping-it-all-into-a-package.html"><a href="wrapping-it-all-into-a-package.html"><i class="fa fa-check"></i><b>5</b> Wrapping it all into a package</a></li>
+<li class="chapter" data-level="6" data-path="maintaining-an-open-source-package-in-r.html"><a href="maintaining-an-open-source-package-in-r.html"><i class="fa fa-check"></i><b>6</b> Maintaining an open source package in R</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Brooke Watson: Scraping Javascript websites in R</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="wrapping-it-all-into-a-package" class="section level1">
+<h1><span class="header-section-number">5</span> Wrapping it all into a package</h1>
+<p>I believe Hilary Parker’s <a href="https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/">post</a> on making an R package from scratch is the seminal reference text for this activity. I’ve seen it attributed all over the internet, and as promised, it’s a tremendously simple and straightforward step-by-step guide.</p>
+<p>I did run into a few hiccups along the way, due to my complete inexperience with <code>roxygen</code>. For future reference, or for anyone in a similar boat, here are some notes based on bugs and fixes I discovered:</p>
+<ol style="list-style-type: decimal">
+<li>All documentation code begins with <code>#'</code>, not the single <code>#</code>.</li>
+<li>You have to include <code>#'@export</code> in the documentation of every function if you want it to be available to use in the package.</li>
+<li>I had issues when I included a space between the last documentation line and the first line of the function, and also when <code>@export</code> wasn’t the last line of my documentation. I’m not sure if this is truly necessary, but I’m superstitious enough to keep doing it this way.</li>
+</ol>
+<p>For example, the bit between my documentation and my function looks like this:</p>
+<div class="sourceCode" id="cb17"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb17-1"><a href="wrapping-it-all-into-a-package.html#cb17-1"></a><span class="co">#&#39; ...(more documentation above)</span></span>
+<span id="cb17-2"><a href="wrapping-it-all-into-a-package.html#cb17-2"></a><span class="co">#&#39;@export</span></span>
+<span id="cb17-3"><a href="wrapping-it-all-into-a-package.html#cb17-3"></a>skrrrahh &lt;-<span class="st"> </span><span class="cf">function</span>(<span class="dt">sound=</span><span class="dv">26</span>, <span class="dt">expr =</span> <span class="ot">NULL</span>) {</span></code></pre></div>
+<p><em>Not</em> like this:</p>
+<div class="sourceCode" id="cb18"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb18-1"><a href="wrapping-it-all-into-a-package.html#cb18-1"></a><span class="co">#&#39; @export </span></span>
+<span id="cb18-2"><a href="wrapping-it-all-into-a-package.html#cb18-2"></a><span class="co">#&#39; @params sound expr </span></span>
+<span id="cb18-3"><a href="wrapping-it-all-into-a-package.html#cb18-3"></a><span class="co">#&#39; </span></span>
+<span id="cb18-4"><a href="wrapping-it-all-into-a-package.html#cb18-4"></a></span>
+<span id="cb18-5"><a href="wrapping-it-all-into-a-package.html#cb18-5"></a></span>
+<span id="cb18-6"><a href="wrapping-it-all-into-a-package.html#cb18-6"></a>skrrrahh &lt;-<span class="st"> </span><span class="cf">function</span>(<span class="dt">sound=</span><span class="dv">26</span>, <span class="dt">expr =</span> <span class="ot">NULL</span>) {</span></code></pre></div>
+<ol start="4" style="list-style-type: decimal">
+<li><p>If any of the functions rely on other packages, you have to <code>@import</code> them for the function to work properly. If the packages you’re importing are huge, and you only want to import certain functions, you can do that as well.</p></li>
+<li><p>Generally, especially if this is your first package, it’s best to shoot for a <em>minimum viable product</em>. MVPs may not include all the examples or links to other documentation that you will eventually want your code to have, but they get it up and running as quickly as possible. You can add additional documentation later. It’s also easier to troubleshoot issues if you’re building a package step-by-step. When you’ve got a ton of well-documented functions, it will be harder to identify the source of the problem if your package fails to build properly.</p></li>
+</ol>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="remixing-the-beep-function.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="maintaining-an-open-source-package-in-r.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

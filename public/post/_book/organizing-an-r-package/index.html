@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>3 Organizing an R package | Brooke Watson: Scraping Javascript websites in R</title>
+  <meta name="description" content="3 Organizing an R package | Brooke Watson: Scraping Javascript websites in R" />
+  <meta name="generator" content="bookdown 0.12 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="3 Organizing an R package | Brooke Watson: Scraping Javascript websites in R" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="3 Organizing an R package | Brooke Watson: Scraping Javascript websites in R" />
+  
+  
+  
+
+<meta name="author" content="Brooke Watson" />
+
+
+<meta name="date" content="2018-03-18" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="javascript-webscraping-in-r.html">
+<link rel="next" href="remixing-the-beep-function.html">
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<style type="text/css">
+code.sourceCode > span { display: inline-block; line-height: 1.25; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; }  
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; }  
+code span.at { color: #7d9029; }  
+code span.bn { color: #40a070; }  
+code span.bu { }  
+code span.cf { color: #007020; font-weight: bold; }  
+code span.ch { color: #4070a0; }  
+code span.cn { color: #880000; }  
+code span.co { color: #60a0b0; font-style: italic; }  
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; }  
+code span.do { color: #ba2121; font-style: italic; }  
+code span.dt { color: #902000; }  
+code span.dv { color: #40a070; }  
+code span.er { color: #ff0000; font-weight: bold; }  
+code span.ex { }  
+code span.fl { color: #40a070; }  
+code span.fu { color: #06287e; }  
+code span.im { }  
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; }  
+code span.kw { color: #007020; font-weight: bold; }  
+code span.op { color: #666666; }  
+code span.ot { color: #007020; }  
+code span.pp { color: #bc7a00; }  
+code span.sc { color: #4070a0; }  
+code span.ss { color: #bb6688; }  
+code span.st { color: #4070a0; }  
+code span.va { color: #19177c; }  
+code span.vs { color: #4070a0; }  
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; }  
+</style>
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="1" data-path="background-remixing-packages-in-r.html"><a href="background-remixing-packages-in-r.html"><i class="fa fa-check"></i><b>1</b> Background: remixing packages in R</a></li>
+<li class="chapter" data-level="2" data-path="javascript-webscraping-in-r.html"><a href="javascript-webscraping-in-r.html"><i class="fa fa-check"></i><b>2</b> Javascript webscraping in R</a><ul>
+<li class="chapter" data-level="2.1" data-path="javascript-webscraping-in-r.html"><a href="javascript-webscraping-in-r.html#download-phantomjs-using-homebrew"><i class="fa fa-check"></i><b>2.1</b> Download PhantomJS using homebrew</a></li>
+<li class="chapter" data-level="2.2" data-path="javascript-webscraping-in-r.html"><a href="javascript-webscraping-in-r.html#writing-scrape.js"><i class="fa fa-check"></i><b>2.2</b> Writing scrape.js</a></li>
+<li class="chapter" data-level="2.3" data-path="javascript-webscraping-in-r.html"><a href="javascript-webscraping-in-r.html#scraping-therapboard.com"><i class="fa fa-check"></i><b>2.3</b> Scraping TheRapBoard.com</a></li>
+<li class="chapter" data-level="2.4" data-path="javascript-webscraping-in-r.html"><a href="javascript-webscraping-in-r.html#extracting-audio-files"><i class="fa fa-check"></i><b>2.4</b> Extracting audio files</a></li>
+<li class="chapter" data-level="2.5" data-path="javascript-webscraping-in-r.html"><a href="javascript-webscraping-in-r.html#downloading-mp3s"><i class="fa fa-check"></i><b>2.5</b> Downloading mp3s</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="organizing-an-r-package.html"><a href="organizing-an-r-package.html"><i class="fa fa-check"></i><b>3</b> Organizing an R package</a><ul>
+<li class="chapter" data-level="3.1" data-path="organizing-an-r-package.html"><a href="organizing-an-r-package.html#converting-mp3s-to-wavs"><i class="fa fa-check"></i><b>3.1</b> Converting mp3s to wavs</a></li>
+<li class="chapter" data-level="3.2" data-path="organizing-an-r-package.html"><a href="organizing-an-r-package.html#cleaning-up-and-filtering-.wav-file-names"><i class="fa fa-check"></i><b>3.2</b> Cleaning up and filtering .wav file names</a></li>
+<li class="chapter" data-level="3.3" data-path="organizing-an-r-package.html"><a href="organizing-an-r-package.html#tidying-file-names"><i class="fa fa-check"></i><b>3.3</b> Tidying file names</a></li>
+<li class="chapter" data-level="3.4" data-path="organizing-an-r-package.html"><a href="organizing-an-r-package.html#renaming-file-paths-from-within-r"><i class="fa fa-check"></i><b>3.4</b> Renaming file paths from within R</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="remixing-the-beep-function.html"><a href="remixing-the-beep-function.html"><i class="fa fa-check"></i><b>4</b> Remixing the beep() function</a></li>
+<li class="chapter" data-level="5" data-path="wrapping-it-all-into-a-package.html"><a href="wrapping-it-all-into-a-package.html"><i class="fa fa-check"></i><b>5</b> Wrapping it all into a package</a></li>
+<li class="chapter" data-level="6" data-path="maintaining-an-open-source-package-in-r.html"><a href="maintaining-an-open-source-package-in-r.html"><i class="fa fa-check"></i><b>6</b> Maintaining an open source package in R</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Brooke Watson: Scraping Javascript websites in R</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="organizing-an-r-package" class="section level1">
+<h1><span class="header-section-number">3</span> Organizing an R package</h1>
+<div id="converting-mp3s-to-wavs" class="section level2">
+<h2><span class="header-section-number">3.1</span> Converting mp3s to wavs</h2>
+<p>Now that the mp3 files were downloaded into my computer, I had to convert them to .wav files so that they worked with the <a href="https://rforge.net/audio/">audio</a> R package. I used <a href="https://www.ffmpeg.org/">ffmpeg</a> to do this. It’s easiest to do this by downloading ffmepg <a href="https://www.ffmpeg.org/">from the website</a> and running a command from the terminal, but we can wrap them in a <code>system()</code> call like such if we again insist on doing everything from within R. The text inside the system call loops over all the <code>.mp3</code> files in the <code>/mp3</code> folder and converts them to .wav, keeping the rest of the file name the same. I then moved them to their own folder and deleted the mp3s - we won’t need those anymore.</p>
+<p>Again, command line syntax is different in Windows. Them’s the breaks. ¯\_(ツ)_/¯</p>
+<center>
+<iframe src="https://giphy.com/embed/zNXvBiNNcrjDW" width="360" height="347" frameBorder="0" class="giphy-embed" allowFullScreen>
+</iframe>
+</center>
+<div class="sourceCode" id="cb10"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb10-1"><a href="organizing-an-r-package.html#cb10-1"></a><span class="co"># convert mp3s to wav files </span></span>
+<span id="cb10-2"><a href="organizing-an-r-package.html#cb10-2"></a><span class="kw">system</span>(<span class="st">&#39;for file in mp3s/*.mp3; do</span></span>
+<span id="cb10-3"><a href="organizing-an-r-package.html#cb10-3"></a><span class="st">   ffmpeg -i &quot;$file&quot; -acodec pcm_s16le -ac 1 -ar 44100 &quot;${file%.mp3}&quot;.wav</span></span>
+<span id="cb10-4"><a href="organizing-an-r-package.html#cb10-4"></a><span class="st">done&#39;</span>) </span>
+<span id="cb10-5"><a href="organizing-an-r-package.html#cb10-5"></a></span>
+<span id="cb10-6"><a href="organizing-an-r-package.html#cb10-6"></a><span class="co"># make a new folder for the wav files </span></span>
+<span id="cb10-7"><a href="organizing-an-r-package.html#cb10-7"></a><span class="kw">dir.create</span>(<span class="st">&#39;wav&#39;</span>) </span>
+<span id="cb10-8"><a href="organizing-an-r-package.html#cb10-8"></a></span>
+<span id="cb10-9"><a href="organizing-an-r-package.html#cb10-9"></a><span class="co"># move wavs to the wav folder </span></span>
+<span id="cb10-10"><a href="organizing-an-r-package.html#cb10-10"></a><span class="kw">system</span>(<span class="st">&quot;mv mp3s/*.wav wav&quot;</span>) </span>
+<span id="cb10-11"><a href="organizing-an-r-package.html#cb10-11"></a></span>
+<span id="cb10-12"><a href="organizing-an-r-package.html#cb10-12"></a><span class="co"># delete the mp3s </span></span>
+<span id="cb10-13"><a href="organizing-an-r-package.html#cb10-13"></a><span class="kw">unlink</span>(<span class="st">&quot;mp3s&quot;</span>, <span class="dt">recursive =</span> <span class="ot">TRUE</span>, <span class="dt">force =</span> <span class="ot">TRUE</span>)</span></code></pre></div>
+</div>
+<div id="cleaning-up-and-filtering-.wav-file-names" class="section level2">
+<h2><span class="header-section-number">3.2</span> Cleaning up and filtering .wav file names</h2>
+<p>The audio files from The Rap Board don’t have much of a consistent structure for unique IDs. Some are numbered, while some include segments of the lyric. The numbered files don’t always fall in order. This is more than fine for them, but since we’ll often be calling particular sounds from inside the function by name, I don’t particularly want to have to remember whether Gucci yelling “BRRR” is called “gucci_brr” or “gucci_brrr” or, inexplicably, “gucci_14”, as it was when we downloaded it.</p>
+<p>I was doing a lot of <code>str_split</code>ting, so I wrote a convenience function to extract the first component from the rest of the list.</p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb11-1"><a href="organizing-an-r-package.html#cb11-1"></a>extract_first =<span class="st"> </span><span class="cf">function</span>(string, pattern) {</span>
+<span id="cb11-2"><a href="organizing-an-r-package.html#cb11-2"></a></span>
+<span id="cb11-3"><a href="organizing-an-r-package.html#cb11-3"></a>  x =<span class="st"> </span>stringr<span class="op">::</span><span class="kw">str_split</span>(string, pattern) </span>
+<span id="cb11-4"><a href="organizing-an-r-package.html#cb11-4"></a>  y =<span class="st"> </span>purrr<span class="op">::</span><span class="kw">map_chr</span>(<span class="kw">seq_along</span>(string), <span class="op">~</span>x[[.x]][<span class="dv">1</span>])</span>
+<span id="cb11-5"><a href="organizing-an-r-package.html#cb11-5"></a>  </span>
+<span id="cb11-6"><a href="organizing-an-r-package.html#cb11-6"></a>}</span>
+<span id="cb11-7"><a href="organizing-an-r-package.html#cb11-7"></a><span class="co"># create a lookup table matching the artist to the unique .wav file </span></span>
+<span id="cb11-8"><a href="organizing-an-r-package.html#cb11-8"></a>wavs =<span class="st"> </span><span class="kw">list.files</span>(<span class="st">&quot;wav&quot;</span>)</span>
+<span id="cb11-9"><a href="organizing-an-r-package.html#cb11-9"></a>wav_names =<span class="st"> </span><span class="kw">map_chr</span>(wavs, str_replace , <span class="st">&quot;.wav&quot;</span>, <span class="st">&quot;&quot;</span>)</span>
+<span id="cb11-10"><a href="organizing-an-r-package.html#cb11-10"></a>artist =<span class="st"> </span><span class="kw">extract_first</span>(wav_names, <span class="st">&quot;_&quot;</span>)  </span>
+<span id="cb11-11"><a href="organizing-an-r-package.html#cb11-11"></a>lookup_table =<span class="st"> </span><span class="kw">data_frame</span>(wav_names, artist)</span></code></pre></div>
+<p>We’re in a good shape - we now have a dataframe with the names of 319 wav files. That is way too many to include in a package. At this point, I went through all of them and chose my favorites, based on my personal preferences. This part is manual, arbitrary, and important.</p>
+<div class="sourceCode" id="cb12"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb12-1"><a href="organizing-an-r-package.html#cb12-1"></a>selected =<span class="st"> </span>lookup_table <span class="op">%&gt;%</span><span class="st"> </span></span>
+<span id="cb12-2"><a href="organizing-an-r-package.html#cb12-2"></a><span class="st">  </span><span class="kw">filter</span>(wav_names <span class="op">%in%</span><span class="st"> </span><span class="kw">c</span>(<span class="st">&quot;2chainz_tru&quot;</span>, <span class="st">&quot;2chainz_whistle&quot;</span>, <span class="st">&quot;bigboi_1&quot;</span>, <span class="st">&quot;biggie_2&quot;</span>, <span class="st">&quot;bigsean_boi2&quot;</span>, <span class="st">&quot;bigsean_doit&quot;</span>, <span class="st">&quot;bigsean_holdup2&quot;</span>, <span class="st">&quot;bigsean_ohgod&quot;</span>, <span class="st">&quot;bigsean_stop&quot;</span>, <span class="st">&quot;bigsean_whoathere&quot;</span>, <span class="st">&quot;birdman_1&quot;</span>, <span class="st">&quot;birdman_4&quot;</span>, <span class="st">&quot;birdman_respeck&quot;</span>, <span class="st">&quot;busta_6&quot;</span>, <span class="st">&quot;chance_aghh2&quot;</span>, <span class="st">&quot;desiigner_rahhh&quot;</span>, <span class="st">&quot;diddy_5&quot;</span>, <span class="st">&quot;drake_5&quot;</span>, <span class="st">&quot;drake_worst&quot;</span>, <span class="st">&quot;drummaboy_1&quot;</span>, <span class="st">&quot;fetty_yeahbaby&quot;</span>, <span class="st">&quot;flava_1&quot;</span>, <span class="st">&quot;future_brrr&quot;</span>, <span class="st">&quot;gucci_1&quot;</span>, <span class="st">&quot;gucci_14&quot;</span>, <span class="st">&quot;gucci_4&quot;</span>, <span class="st">&quot;jayz_itsyoboy&quot;</span>, <span class="st">&quot;jayz5&quot;</span>, <span class="st">&quot;kendrick_tootoo&quot;</span>, <span class="st">&quot;khaled_blessup2&quot;</span>, <span class="st">&quot;khaled_majorkey3&quot;</span>, <span class="st">&quot;khaled_theydontwant&quot;</span>, <span class="st">&quot;khaled_wethebest&quot;</span>, <span class="st">&quot;liljon_2&quot;</span>, <span class="st">&quot;liljon_3&quot;</span>, <span class="st">&quot;nicki_laugh2&quot;</span>, <span class="st">&quot;pitbull_6&quot;</span>, <span class="st">&quot;ross_1&quot;</span>, <span class="st">&quot;ross_2&quot;</span>, <span class="st">&quot;schoolboy_yawk&quot;</span>, <span class="st">&quot;snoop_4&quot;</span>, <span class="st">&quot;soulja_5&quot;</span>, <span class="st">&quot;takeoff_money&quot;</span>, <span class="st">&quot;tpain1&quot;</span>, <span class="st">&quot;traviscott_straightup&quot;</span>, <span class="st">&quot;treysongz_uhunh&quot;</span>, <span class="st">&quot;trick_2&quot;</span>, <span class="st">&quot;waka_1&quot;</span>, <span class="st">&quot;weezy_4&quot;</span>, <span class="st">&quot;yg_skrrt&quot;</span>))</span></code></pre></div>
+</div>
+<div id="tidying-file-names" class="section level2">
+<h2><span class="header-section-number">3.3</span> Tidying file names</h2>
+<p>Luckily, the files tend to fall under a general <code>artist_uniqueid</code> naming convention. The next section cleans up the unique IDs. If a rapper has any sound board sounds, you’ll be able to call it with <code>skrrrahh("name")</code>. To cycle through the various sounds, use <code>skrrrahh("name1")</code>, <code>skrrrahh("name2")</code>, etc. until you get an error.</p>
+<div class="sourceCode" id="cb13"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb13-1"><a href="organizing-an-r-package.html#cb13-1"></a><span class="co"># make the filenames more consistent </span></span>
+<span id="cb13-2"><a href="organizing-an-r-package.html#cb13-2"></a>filtered_names =<span class="st"> </span>selected <span class="op">%&gt;%</span><span class="st"> </span></span>
+<span id="cb13-3"><a href="organizing-an-r-package.html#cb13-3"></a><span class="st">  </span><span class="kw">group_by</span>(artist) <span class="op">%&gt;%</span><span class="st"> </span></span>
+<span id="cb13-4"><a href="organizing-an-r-package.html#cb13-4"></a><span class="st">  </span><span class="kw">mutate</span>(<span class="dt">n =</span> <span class="kw">row_number</span>()<span class="op">-</span><span class="dv">1</span>) <span class="op">%&gt;%</span><span class="st"> </span></span>
+<span id="cb13-5"><a href="organizing-an-r-package.html#cb13-5"></a><span class="st">  </span><span class="kw">mutate</span>(<span class="dt">newnames =</span> <span class="kw">paste0</span>(artist, n)) </span>
+<span id="cb13-6"><a href="organizing-an-r-package.html#cb13-6"></a></span>
+<span id="cb13-7"><a href="organizing-an-r-package.html#cb13-7"></a><span class="co"># remove the &quot;0s&quot; so that you can call some files just by the artist name</span></span>
+<span id="cb13-8"><a href="organizing-an-r-package.html#cb13-8"></a>filtered_names<span class="op">$</span>newnames =<span class="st"> </span><span class="kw">map</span>(filtered_names<span class="op">$</span>newnames, str_replace, </span>
+<span id="cb13-9"><a href="organizing-an-r-package.html#cb13-9"></a>                              <span class="dt">pattern =</span> <span class="st">&quot;0&quot;</span>, <span class="dt">replacement =</span> <span class="st">&quot;&quot;</span>) <span class="op">%&gt;%</span><span class="st"> </span></span>
+<span id="cb13-10"><a href="organizing-an-r-package.html#cb13-10"></a><span class="st">  </span><span class="kw">unlist</span>()</span>
+<span id="cb13-11"><a href="organizing-an-r-package.html#cb13-11"></a></span>
+<span id="cb13-12"><a href="organizing-an-r-package.html#cb13-12"></a><span class="co"># two are stilled a mess - let&#39;s fix these manually. </span></span>
+<span id="cb13-13"><a href="organizing-an-r-package.html#cb13-13"></a>filtered_names<span class="op">$</span>newnames =<span class="st"> </span><span class="kw">str_replace</span>(filtered_names<span class="op">$</span>newnames, <span class="st">&quot;jayz5&quot;</span>, <span class="st">&quot;jayz1&quot;</span>)</span>
+<span id="cb13-14"><a href="organizing-an-r-package.html#cb13-14"></a>filtered_names<span class="op">$</span>newnames =<span class="st"> </span><span class="kw">str_replace</span>(filtered_names<span class="op">$</span>newnames, <span class="st">&quot;tpain1&quot;</span>, <span class="st">&quot;tpain&quot;</span>)</span></code></pre></div>
+<p>Finally, I couldn’t make this package without including <a href="https://www.youtube.com/watch?v=3M_5oYU-IsU">Big Shaq</a>. He’s not on the Rap Board yet, so I made his clip in garageband and manually dragged it into <code>inst/adlibs</code>. That means this walkthrough is not <em>entirely</em> reproducible, but as Ralph Waldo Emerson says, _“a foolish consistency is the hobgoblin of little minds”, so Please Do Not @ Me.</p>
+<center>
+<iframe src="https://gfycat.com/ifr/ScaredRecklessCopperbutterfly" frameborder="0" scrolling="no" allowfullscreen width="320" height="184">
+</iframe>
+</center>
+<p><br></p>
+<div class="sourceCode" id="cb14"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb14-1"><a href="organizing-an-r-package.html#cb14-1"></a>bigshaqdf =<span class="st"> </span><span class="kw">data.frame</span>(<span class="dt">wav_names =</span> <span class="st">&quot;bigshaq&quot;</span>, <span class="dt">artist =</span> <span class="st">&quot;bigshaq&quot;</span>, <span class="dt">n =</span> <span class="dv">0</span>, <span class="dt">newnames =</span> <span class="st">&quot;bigshaq&quot;</span>)</span>
+<span id="cb14-2"><a href="organizing-an-r-package.html#cb14-2"></a>filtered_names =<span class="st"> </span><span class="kw">bind_rows</span>(filtered_names, bigshaqdf) <span class="op">%&gt;%</span><span class="st"> </span></span>
+<span id="cb14-3"><a href="organizing-an-r-package.html#cb14-3"></a><span class="st">  </span><span class="kw">arrange</span>(newnames)</span></code></pre></div>
+<p>Let’s take a look at the table we used to transfer the old names to the new ones:</p>
+<div class="sourceCode" id="cb15"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb15-1"><a href="organizing-an-r-package.html#cb15-1"></a>knitr<span class="op">::</span><span class="kw">kable</span>(<span class="kw">head</span>(filtered_names))</span></code></pre></div>
+<table>
+<thead>
+<tr class="header">
+<th align="left">wav_names</th>
+<th align="left">artist</th>
+<th align="right">n</th>
+<th align="left">newnames</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">2chainz_tru</td>
+<td align="left">2chainz</td>
+<td align="right">0</td>
+<td align="left">2chainz</td>
+</tr>
+<tr class="even">
+<td align="left">2chainz_whistle</td>
+<td align="left">2chainz</td>
+<td align="right">1</td>
+<td align="left">2chainz1</td>
+</tr>
+<tr class="odd">
+<td align="left">bigboi_1</td>
+<td align="left">bigboi</td>
+<td align="right">0</td>
+<td align="left">bigboi</td>
+</tr>
+<tr class="even">
+<td align="left">biggie_2</td>
+<td align="left">biggie</td>
+<td align="right">0</td>
+<td align="left">biggie</td>
+</tr>
+<tr class="odd">
+<td align="left">bigsean_boi2</td>
+<td align="left">bigsean</td>
+<td align="right">0</td>
+<td align="left">bigsean</td>
+</tr>
+<tr class="even">
+<td align="left">bigsean_doit</td>
+<td align="left">bigsean</td>
+<td align="right">1</td>
+<td align="left">bigsean1</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+<div id="renaming-file-paths-from-within-r" class="section level2">
+<h2><span class="header-section-number">3.4</span> Renaming file paths from within R</h2>
+<p>Now I have to use the information in the data frame to rename the actual files. The easiest way for me to do that is to rename them while moving them into a new directory. I can then delete the entire old directory.</p>
+<p>Conveniently, R packages store all files that they need in the <code>inst/</code> folder, so I have to get these babies there at some point. Let’s do it now.</p>
+<div class="sourceCode" id="cb16"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb16-1"><a href="organizing-an-r-package.html#cb16-1"></a><span class="co"># create a new directory, inst/adlibs </span></span>
+<span id="cb16-2"><a href="organizing-an-r-package.html#cb16-2"></a><span class="kw">dir.create</span>(<span class="st">&quot;inst&quot;</span>)</span>
+<span id="cb16-3"><a href="organizing-an-r-package.html#cb16-3"></a><span class="kw">dir.create</span>(<span class="st">&quot;inst/adlibs&quot;</span>)</span>
+<span id="cb16-4"><a href="organizing-an-r-package.html#cb16-4"></a></span>
+<span id="cb16-5"><a href="organizing-an-r-package.html#cb16-5"></a><span class="co"># make character vectors that map the old file paths to the new file paths </span></span>
+<span id="cb16-6"><a href="organizing-an-r-package.html#cb16-6"></a>filtered_names &lt;-<span class="st"> </span>filtered_names <span class="op">%&gt;%</span><span class="st"> </span></span>
+<span id="cb16-7"><a href="organizing-an-r-package.html#cb16-7"></a><span class="st">  </span><span class="kw">mutate</span>(<span class="dt">old_filepaths =</span> <span class="kw">paste0</span>(<span class="st">&quot;wav/&quot;</span>, wav_names, <span class="st">&quot;.wav&quot;</span>),</span>
+<span id="cb16-8"><a href="organizing-an-r-package.html#cb16-8"></a>         <span class="dt">new_filepaths =</span> <span class="kw">paste0</span>(<span class="st">&quot;inst/adlibs/&quot;</span>, newnames, <span class="st">&quot;.wav&quot;</span>))</span>
+<span id="cb16-9"><a href="organizing-an-r-package.html#cb16-9"></a></span>
+<span id="cb16-10"><a href="organizing-an-r-package.html#cb16-10"></a><span class="co"># rename the old paths to the new paths </span></span>
+<span id="cb16-11"><a href="organizing-an-r-package.html#cb16-11"></a><span class="kw">map2</span>(filtered_names<span class="op">$</span>old_filepaths, filtered_names<span class="op">$</span>new_filepaths, file.rename)</span>
+<span id="cb16-12"><a href="organizing-an-r-package.html#cb16-12"></a></span>
+<span id="cb16-13"><a href="organizing-an-r-package.html#cb16-13"></a><span class="co"># delete the old file path </span></span>
+<span id="cb16-14"><a href="organizing-an-r-package.html#cb16-14"></a><span class="kw">unlink</span>(<span class="st">&quot;wav&quot;</span>, <span class="dt">recursive =</span> <span class="ot">TRUE</span>, <span class="dt">force =</span> <span class="ot">TRUE</span>)</span></code></pre></div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="javascript-webscraping-in-r.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="remixing-the-beep-function.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

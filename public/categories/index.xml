@@ -6,22 +6,31 @@
     <description>Recent content in Categories on R-Ladies NYC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Dec 2017 00:00:00 +0000</lastBuildDate>
+    <copyright>&amp;copy; 2017 R-Ladies NYC</copyright>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Bookclub</title>
+      <title>blog</title>
+      <link>/categories/blog/</link>
+      <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bookclub</title>
       <link>/categories/bookclub/</link>
-      <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 20 Aug 2022 00:00:00 +0000</pubDate>
       
       <guid>/categories/bookclub/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Datadive</title>
+      <title>datadive</title>
       <link>/categories/datadive/</link>
       <pubDate>Tue, 24 Oct 2017 00:00:00 +0000</pubDate>
       
@@ -30,36 +39,63 @@
     </item>
     
     <item>
-      <title>Event</title>
+      <title>event</title>
       <link>/categories/event/</link>
-      <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>/categories/event/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Social</title>
+      <title>panel</title>
+      <link>/categories/panel/</link>
+      <pubDate>Mon, 23 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/panel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>q&amp;a</title>
+      <link>/categories/qa/</link>
+      <pubDate>Thu, 23 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/qa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>social</title>
       <link>/categories/social/</link>
-      <pubDate>Sat, 08 Jul 2017 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 08 Dec 2022 00:00:00 +0000</pubDate>
       
       <guid>/categories/social/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Talk</title>
+      <title>talk</title>
       <link>/categories/talk/</link>
-      <pubDate>Mon, 04 Dec 2017 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 07 Dec 2022 00:00:00 +0000</pubDate>
       
       <guid>/categories/talk/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Workshop</title>
+      <title>tidytuesday</title>
+      <link>/categories/tidytuesday/</link>
+      <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/tidytuesday/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>workshop</title>
       <link>/categories/workshop/</link>
-      <pubDate>Thu, 17 Aug 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 10 Oct 2022 00:00:00 +0000</pubDate>
       
       <guid>/categories/workshop/</guid>
       <description></description>

@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.52" />
+  <meta name="author" content="R-Ladies NYC">
+  
+
+  
+  <link rel="alternate" hreflang="en-us" href="/post/the-epidemiologist-r-handbook/">
+
+  
+  
+
+
+  
+
+  
+  
+  
+  
+    
+  
+  
+    
+    
+      
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+      
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  
+  
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="/styles.css">
+  
+  <link rel="stylesheet" href="/css/rladies.css">
+  
+
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="R-Ladies NYC">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="R-Ladies NYC">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/post/the-epidemiologist-r-handbook/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@RLadiesNYC">
+  <meta property="twitter:creator" content="@RLadiesNYC">
+  
+  <meta property="og:site_name" content="R-Ladies NYC">
+  <meta property="og:url" content="/post/the-epidemiologist-r-handbook/">
+  <meta property="og:title" content="The Epidemiologist R Handbook | R-Ladies NYC">
+  <meta property="og:description" content="">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2021-07-08T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2021-07-08T00:00:00&#43;00:00">
+  
+
+  
+
+  <title>The Epidemiologist R Handbook | R-Ladies NYC</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/"><img src="/img/R-LadiesNYC_RBG_online_LogoWithText_Horizontal.png" alt="R-Ladies NYC"></a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>About</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#posts_events">
+            
+            <span>Events</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#posts_blog">
+            
+            <span>Blog</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#board">
+            
+            <span>Board</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+  <div class="article-container">
+    <div class="article-inner">
+      <h1 itemprop="name">The Epidemiologist R Handbook</h1>
+
+      
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2021-07-08 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Jul 8, 2021
+    </time>
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    3 min read
+  </span>
+  
+
+  
+  
+
+  
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fa fa-folder"></i>
+    
+    <a href="/categories/talk">talk</a
+    >, 
+    
+    <a href="/categories/event">event</a
+    >
+    
+  </span>
+  
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=The%20Epidemiologist%20R%20Handbook&amp;url=%2fpost%2fthe-epidemiologist-r-handbook%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=%2fpost%2fthe-epidemiologist-r-handbook%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpost%2fthe-epidemiologist-r-handbook%2f&amp;title=The%20Epidemiologist%20R%20Handbook"
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=%2fpost%2fthe-epidemiologist-r-handbook%2f&amp;title=The%20Epidemiologist%20R%20Handbook"
+         target="_blank" rel="noopener">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=The%20Epidemiologist%20R%20Handbook&amp;body=%2fpost%2fthe-epidemiologist-r-handbook%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+      <div class="article-style" itemprop="articleBody">
+        
+
+<h2 id="details">Details</h2>
+
+<p>For our July event, we are excited to host authors Neale Batra, Aminata Ndiaye, and Paula Blomquist, who will present the Epidemiologist R Handbook, a free new code reference book targeted to R users working in applied epidemiology and public health, but handy for anyone.</p>
+
+<p>This event will be hosted over Zoom, and the link will be available on this Meetup page at noon on the day of the event.</p>
+
+<p>Agenda (times approximate):
+7-7:05 pm: R-Ladies NYC Announcements
+7:05-7:50: &ldquo;The Epidemiologist R Handbook - a new resource for public health practitioners (and everyone else)&rdquo;
+7:50-8:15: Questions and wrap-up</p>
+
+<p>&mdash; Talk Abstract &mdash;</p>
+
+<p>Abstract: Amidst the COVID-19 pandemic, 50 epidemiologists from across the world joined forces seeking to improve access to R and elevate the quality of analytics in public health. Writing in their spare time, they produced The Epidemiologist R Handbook (epiRhandbook.com), a free new code reference book targeted to R users working in applied epidemiology and public health, but handy for anyone. The &ldquo;Epi R Handbook&rdquo; is full of code snippets and tutorials addressing day-to-day data cleaning, analysis, visualization, reporting, and collaboration challenges. The handbook also comes in an offline version for use in settings with low internet connectivity. Since its launch, the handbook has been used 200,000 times by 36,000 people in 203 countries/territories. In this session, founder Neale Batra is joined by co-authors Paula Blomquist and Aminata Ndiaye to discuss the handbook&rsquo;s utility for you, the intersection of R and public health, the project&rsquo;s next steps, and the editorial and technical challenges they faced creating this resource for the community.</p>
+
+<p>&mdash; Bios &mdash;</p>
+
+<p>Neale Batra is the founder and editor of the Epidemiologist R Handbook project. As an applied epidemiologist, he tries to leverage R to better inform decision-making in health emergencies. Currently he works for the COVID-19 analytics team at the World Health Organization (Geneva), but has previously worked internationally for Doctors without Borders and in the US for the public health departments of Philadelphia and Santa Clara County. He loves teaching, and in his spare time enjoys guiding rock climbing and backpacking trips.</p>
+
+<p>Paula Blomquist is an epidemiologist in Public Health England, where she works on the national surveillance of COVID-19. She spends much of her day job creating data visualisations and R markdown reports to monitor variants, with a particular fondness of {patchwork} and {flextable}. Paula has also used R for analyses in international deployments, most recently with the UK Emergency Medical Team to Samoa during the 2019 measles epidemic. Paula is a contributor to the Epidemiologist R Handbook, and excited to encourage more people in public health to learn to code.</p>
+
+<p>Aminata NDIAYE is a Biostatistician at Epicentre Research Department-MSF (Doctors without Borders). She graduated from Paris Descartes University School of Medicine in Public health and from Paris Saclay University School of Sciences in Bioinformatics and Biostatistics. She previously worked at World Health Organization (WHO) as an analyst during the 10th Ebola virus disease (EVD) outbreak in the Democratic Republic of the Congo (DRC) and at Karolinska Institute’s department of medical epidemiology and biostatistics as a Research assistant. She is co-organizer and member of the R-ladies Stockholm group since its creation, in 2018.</p>
+
+<p><a href="https://www.meetup.com/rladies-newyork/events/278990032/" target="_blank">Meetup page</a></p>
+
+      </div>
+
+      
+
+
+<div class="article-tags">
+  
+  <a class="btn btn-primary btn-outline" href="/tags/talk">talk</a>
+  
+  <a class="btn btn-primary btn-outline" href="/tags/event">event</a>
+  
+</div>
+
+
+
+    </div>
+  </div>
+
+</article>
+
+
+
+<div class="article-container article-widget">
+  <div class="hr-light"></div>
+  <h3>Related</h3>
+  <ul>
+    
+    <li><a href="/post/data-visualization-color-palettes-themes-and-schemes/">Data Visualization - Color Palettes, Themes, and Schemes</a></li>
+    
+    <li><a href="/post/from-wrangling-to-writing-analyzing-data-and-creating-production-level-code/">From Wrangling to Writing - Analyzing Data and Creating Production-Level Code</a></li>
+    
+    <li><a href="/post/focus-on-content-create-enterprise-worthy-shiny-applications-with-periscope/">Focus on Content - Create Enterprise-Worthy Shiny Applications with Periscope</a></li>
+    
+    <li><a href="/post/join-our-team-r-ladies-nyc-board-information-session/">Join our team! R-Ladies NYC Board Information Session</a></li>
+    
+    <li><a href="/post/end-of-year-celebration-for-women-and-gender-minorities/">End-of-Year Celebration for Women and Gender Minorities</a></li>
+    
+  </ul>
+</div>
+
+
+
+
+<div class="article-container">
+  
+
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2017 R-Ladies NYC &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+
+  </body>
+</html>
+

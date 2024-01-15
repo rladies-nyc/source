@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Datadive on R-Ladies NYC</title>
+    <title>datadive on R-Ladies NYC</title>
     <link>/tags/datadive/</link>
-    <description>Recent content in Datadive on R-Ladies NYC</description>
+    <description>Recent content in datadive on R-Ladies NYC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>&amp;copy; 2017 R-Ladies NYC</copyright>
     <lastBuildDate>Tue, 24 Oct 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/datadive/index.xml" rel="self" type="application/rss+xml" />
@@ -13,11 +14,11 @@
     
     <item>
       <title>Data Dive Night with Data for Democracy</title>
-      <link>/2017/10/24/data-dive-night-with-data-for-democracy/</link>
+      <link>/post/data-dive-night-with-data-for-democracy/</link>
       <pubDate>Tue, 24 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>/2017/10/24/data-dive-night-with-data-for-democracy/</guid>
-      <description>Let’s get together with our laptops and R skills and code to continue to explore Medicare spending data. Visit our Meetup page for more details and to RSVP.
+      <guid>/post/data-dive-night-with-data-for-democracy/</guid>
+      <description>Let&amp;rsquo;s get together with our laptops and R skills and code to continue to explore Medicare spending data. Visit our Meetup page for more details and to RSVP.
 Date: Tuesday, October 24, 2017
 Time: 6:30pm
 Host: Quartet Health</description>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>q&amp;a on R-Ladies NYC</title>
+    <link>/categories/qa/</link>
+    <description>Recent content in q&amp;a on R-Ladies NYC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 R-Ladies NYC</copyright>
+    <lastBuildDate>Thu, 23 Sep 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/qa/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>R-Ladies NYC Lightning Talks (Prep and Submission Workshop)</title>
+      <link>/post/lightning-talks-2021-prep/</link>
+      <pubDate>Thu, 23 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/lightning-talks-2021-prep/</guid>
+      <description>Details We are excited to host an online version of one our most popular events this fall - R-Ladies NYC Lightning Talks! We are extending the submission deadline, and are holding this workshop to provide guidance and support for interested speakers. If you are interested in proposing a talk but want to brainstorm ideas, get feedback, or some encouragement, join us!
+&amp;mdash; Talk Abstract &amp;mdash;
+Lighting talks are five minute talks.</description>
+    </item>
+    
+  </channel>
+</rss>

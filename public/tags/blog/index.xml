@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blog on R-Ladies NYC</title>
+    <link>/tags/blog/</link>
+    <description>Recent content in blog on R-Ladies NYC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 R-Ladies NYC</copyright>
+    <lastBuildDate>Sat, 18 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Resources for self-guided learning</title>
+      <link>/post/resources-for-self-guided-learning/</link>
+      <pubDate>Sat, 18 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/resources-for-self-guided-learning/</guid>
+      <description>As New Yorkers do all we can to stay well in the times of coronavirus, all of our routines have changed. For some of us, this may mean more time devoted to strengthening our data skills. If this is you, here is a collection of resources that can get you up and running with learning a new skill in R. These were originally compiled for the R-Ladies NYC Code-llaboration Hangout back in January, and are organized by topic: Tidy Tuesday, Building a Package, Building a Website, Time Series Analysis and Everything Else.</description>
+    </item>
+    
+    <item>
+      <title>Build a Career in Data Science</title>
+      <link>/post/build-a-career-in-data-science/</link>
+      <pubDate>Mon, 12 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/build-a-career-in-data-science/</guid>
+      <description>R-Ladies NYC is proud and excited that one of our members, Emily Robinson, is co-authoring a book with a fellow R-lady, Jacqueline Nolis! The book, Build a Career in Data Science, is available for pre-order, which comes with online access to all currently available chapters (1-9) access to the rest of the chapters as they come out. This book is a practical guide to preparing for, finding, and excelling in a data science role.</description>
+    </item>
+    
+    <item>
+      <title>Hex Sticker Result</title>
+      <link>/post/hex-sticker-result/</link>
+      <pubDate>Wed, 03 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/hex-sticker-result/</guid>
+      <description>The R-Ladies NYC call for a hex sticker design produced three creative and unique submissions. We would like to thank Ayanthi Gunawardana, Kat Hoffman, and Ludmila Janda for their involvement with the R-Ladies NYC community and time spent crafting their designs! Below, each of these R-Ladies shares her inspiration behind her design:
+Ayanthi Gunawardana: My goal was the keep the logo and colors as simple as possible to ensure it could be scaled to any size.</description>
+    </item>
+    
+    <item>
+      <title>Data Science and Fantasy Baseball?</title>
+      <link>/post/data-science-and-fantasy-baseball/</link>
+      <pubDate>Thu, 06 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/data-science-and-fantasy-baseball/</guid>
+      <description>Thank you so much to Anisha BharathSingh, who originally wrote this post for her blog, found here. We are reposting her post with her consent. If you are an R-Lady interested in writing a blog post or cross-posting a blog post on your own blog, please let us know (via email nyc@rladies.org or via DM on twitter @RLadiesNYC)!
+On Thursday, May 23, I attended my first R-Ladies NYC meetup! R-Ladies NYC is an organization that promotes gender diversity amongst the R community by organizing a series of events (including this meetup) to support women who want to learn R or want to share their experiences as R programmers.</description>
+    </item>
+    
+    <item>
+      <title>NYR 2019 Speaker Experience and Tips</title>
+      <link>/post/2019-nyr-conference-tips/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019-nyr-conference-tips/</guid>
+      <description>The New York R conference attracts a diverse yet technical audience which means the bar is high for all invited speakers. This year, over half the speakers were women, including several R-Ladies NYC members. It was such a fun and good experience that we decided to collaborate and write a blog post to encourage others to speak at conferences and provide some tips.
+Speakers: Ludmila Janda, Emily Robinson, Emily Dodwell, Gabriela Hempfling, Elizabeth Sweeny, Soumya Kalra, Brooke Watson, Amanda Dobbyn, Letisha Smith</description>
+    </item>
+    
+    <item>
+      <title>Benjana Guraziu: An RLady’s First R Conference</title>
+      <link>/post/an-rladys-first-r-conference/</link>
+      <pubDate>Wed, 27 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/an-rladys-first-r-conference/</guid>
+      <description>The 2018 New York R Conference was my first ever R conference, and it was great. I’ll write here about my experience, with links to resources from the widely varying talks.
+First and foremost, I want to thank RLadiesNYC for the scholarship which allowed me to attend the conference. As a self-taught R newbie and incoming grad student, I greatly benefitted from attending this conference, and I so appreciate the opportunity from this great group!</description>
+    </item>
+    
+    <item>
+      <title>Jasmine Williams: My first step to healing from WISDOM (Women in Stats, Data Science, and Omics)</title>
+      <link>/post/my-first-step-to-healing-from-wisdom-women-in-stats-data-science-and-omics/</link>
+      <pubDate>Wed, 27 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/my-first-step-to-healing-from-wisdom-women-in-stats-data-science-and-omics/</guid>
+      <description>As it grew nearer to the fall season my heart and mind grew heavier. This was the first birthday and holiday gatherings without grandma. I became distant from everything outside of my family and work, and knew I had to get out of this emotional funk. The 2017 Women in Statistics and Data Science conference brought together hundreds of data scientists and statisticians from all walks of life in an intimate setting to share their personal and professional experiences.</description>
+    </item>
+    
+    <item>
+      <title>Coming soon!</title>
+      <link>/post/coming-soon/</link>
+      <pubDate>Thu, 07 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/coming-soon/</guid>
+      <description>Stay tuned in 2018 for the R-Ladies NYC blog, which will feature guest bloggers from the R-Ladies NYC community. Interested in writing a blog post? Contact us at nyc@rladies.org.</description>
+    </item>
+    
+  </channel>
+</rss>

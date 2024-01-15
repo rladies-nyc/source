@@ -11,160 +11,513 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Book club: Everybody Lies</title>
-      <link>/post/book-club-everybody-lies/</link>
-      <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
+      <title>R-Ladies Logo Contest Announcement</title>
+      <link>/post/request-for-r-ladies-logo-submissions-2024/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>/post/book-club-everybody-lies/</guid>
-      <description>&lt;p&gt;Please join us for our first book club discussion of 2018! Visit our &lt;a href=&#34;https://www.meetup.com/rladies-newyork/events/245465157/&#34;&gt;Meetup&lt;/a&gt; page for more details and to RSVP.&lt;/p&gt;
-&lt;p&gt;Date: Saturday, January 20, 2018&lt;/p&gt;
-&lt;p&gt;Time: 3pm&lt;/p&gt;
-&lt;p&gt;Book: &lt;a href=&#34;https://www.rizzolibookstore.com/everybody-lies-big-data-new-data-and-what-internet-can-tell-us-about-who-we-really-are-0&#34;&gt;Everybody Lies: Big Data, New Data, and What the Internet Can Tell Us About Who We Really Are&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Author: Seth Stephens-Davidowitz&lt;/p&gt;
-&lt;p&gt;Host: &lt;a href=&#34;https://www.rizzolibookstore.com/&#34;&gt;Rizzoli Bookstore&lt;/a&gt;&lt;/p&gt;
+      <guid>/post/request-for-r-ladies-logo-submissions-2024/</guid>
+      <description>&lt;p&gt;It has been four years since we did an open call for a new R-Ladies logo, which means R-Ladies NYC is in the market for a new look! We are excited to announce a new R-Ladies NYC logo contest. Please email your submissions to &lt;a href=&#34;mailto:nyc@rladies.org&#34; target=&#34;_blank&#34;&gt;nyc\@rladies.org&lt;/a&gt;{.email} with the subject line &amp;ldquo;hex sticker design&amp;rdquo;. Submissions are due by the end of January and we will hold a public vote during the first two weeks of February. The winner will be announced on Valentines Day.&lt;/p&gt;
+
+&lt;p&gt;The R-Ladies font is Open Sans and the colors are #88398a (purple) &amp;amp; #a7a9ac (grey). Check the &lt;a href=&#34;https://github.com/rladies/branding-materials/tree/main/logo&#34; target=&#34;_blank&#34;&gt;R-Ladies Global repository&lt;/a&gt; for reference. You are welcome to use any tool you desire!&lt;/p&gt;
+
+&lt;p&gt;Below are a few examples of other chapter&amp;rsquo;s logos for inspiration:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.meetup.com/rladies-philly/&#34; target=&#34;_blank&#34;&gt;R-Ladies Philly&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.meetup.com/rladies-rome/&#34; target=&#34;_blank&#34;&gt;R-Ladies Rome&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.meetup.com/rladies-montreal&#34; target=&#34;_blank&#34;&gt;R-Ladies Montreal&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.meetup.com/rladies-cologne&#34; target=&#34;_blank&#34;&gt;R-Ladies Cologne&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.meetup.com/rladies-cdmx&#34; target=&#34;_blank&#34;&gt;R-Ladies CDMX&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.meetup.com/rladies-xalapa&#34; target=&#34;_blank&#34;&gt;R-Ladies Xalapa&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Happy designing!&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>R in the World of Education</title>
-      <link>/post/r-in-the-world-of-education/</link>
-      <pubDate>Mon, 04 Dec 2017 00:00:00 +0000</pubDate>
+      <title>End-of-Year Celebration for Women and Gender Minorities</title>
+      <link>/post/eoy-celebration-2022/</link>
+      <pubDate>Thu, 08 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>/post/r-in-the-world-of-education/</guid>
-      <description>&lt;p&gt;Join us for our last event of 2017!&lt;/p&gt;
-&lt;p&gt;Erin Grand will speak about how she uses R in the World of Eduction. Visit our &lt;a href=&#34;https://www.meetup.com/rladies-newyork/events/245064725/&#34;&gt;Meetup&lt;/a&gt; for more details and to RSVP.&lt;/p&gt;
-&lt;p&gt;Date: Tuesday, December 12, 2017&lt;/p&gt;
-&lt;p&gt;Time: 6:30pm&lt;/p&gt;
-&lt;p&gt;Speaker: Erin Grand&lt;/p&gt;
-&lt;p&gt;Host: &lt;a href=&#34;http://www.research.att.com/editions/201704_home.html?fbid=zhT-ct1cN_d&#34;&gt;AT&amp;amp;T NYC Data Science Research Center&lt;/a&gt;&lt;/p&gt;
+      <guid>/post/eoy-celebration-2022/</guid>
+      <description>&lt;p&gt;Happy Holidays! Come celebrate how far R-Ladies New York has come this year at this fun, end-of-the-year social at Whiskey Ward. This event will be in-person, and a great gathering to close out our year!&lt;/p&gt;
+
+&lt;p&gt;We want to thank you all for your incredible support and for being part of the R-Ladies community. We hope to see you there!&lt;/p&gt;
+
+&lt;p&gt;Drinks will be available for purchase. Dress in casual or holiday gear - we welcome it all!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.meetup.com/rladies-newyork/events/289762137/&#34; target=&#34;_blank&#34;&gt;Meetup page&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Data Dive Night with Data for Democracy</title>
-      <link>/post/data-dive-night-with-data-for-democracy/</link>
-      <pubDate>Tue, 24 Oct 2017 00:00:00 +0000</pubDate>
+      <title>Data Science Salon NYC AI and Machine Learning in Finance and Technology</title>
+      <link>/post/data-science-salon-ai/</link>
+      <pubDate>Wed, 07 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>/post/data-dive-night-with-data-for-democracy/</guid>
-      <description>&lt;p&gt;Let’s get together with our laptops and R skills and code to continue to explore Medicare spending data. Visit our &lt;a href=&#34;https://www.meetup.com/rladies-newyork/events/242471496/&#34;&gt;Meetup&lt;/a&gt; page for more details and to RSVP.&lt;/p&gt;
-&lt;p&gt;Date: Tuesday, October 24, 2017&lt;/p&gt;
-&lt;p&gt;Time: 6:30pm&lt;/p&gt;
-&lt;p&gt;Host: &lt;a href=&#34;https://www.quartethealth.com/&#34;&gt;Quartet Health&lt;/a&gt;&lt;/p&gt;
+      <guid>/post/data-science-salon-ai/</guid>
+      <description>
+
+&lt;h2 id=&#34;details&#34;&gt;Details&lt;/h2&gt;
+
+&lt;p&gt;R-Ladies NYC are excited to be community partners with Data Science Salon NYC to promote their upcoming one-day event.&lt;/p&gt;
+
+&lt;p&gt;Join the only industry conference that brings together specialists in finance and technology data science field! The one-day event will take place at The Theater Center, located in Broadway&amp;rsquo;s Theater District and features speakers from S&amp;amp;P Global, Capital One, Freddie Mac, Point72, Morgan Stanley, Sofi, Federal Reserve Bank of NY and many others!&lt;/p&gt;
+
+&lt;p&gt;What you can expect from DSS NYC:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;200+ attendees&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;20 talks and panels covering cutting-edge AI research and use cases&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Q&amp;amp;A sessions with expert speakers and industry leaders&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Access the recordings of all sessions until two weeks after the event&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Surprise act!&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Must Register &lt;a href=&#34;https://www.datascience.salon/newyork/&#34; target=&#34;_blank&#34;&gt;HERE&lt;/a&gt; to attend.&lt;/p&gt;
+
+&lt;p&gt;GET FREE PASSES!!!
+R-Ladies NYC members have the opportunity to win free passes to this event. The first 8 members to e-mail nyc@rladies.org will received a pass. In the e-mail, let us know if you want an in-person or virtual pass.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.datascience.salon/&#34; target=&#34;_blank&#34;&gt;Data Science Salon&lt;/a&gt; is a unique vertical focused conference which grew into a diverse community of data scientists, machine learning engineers, analysts and other senior data specialists. Join the DSS experience in person or virtually and improve your skills while connecting to like-minded people.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.meetup.com/rladies-newyork/events/289794490/&#34; target=&#34;_blank&#34;&gt;Meetup page&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Book club: Truth of Truthiness</title>
-      <link>/post/book-club-truth-of-truthiness/</link>
-      <pubDate>Sat, 30 Sep 2017 00:00:00 +0000</pubDate>
+      <title>All Aboard Transportation and Data (RSVP Link in Description)</title>
+      <link>/post/all-aboard-transportation-talks/</link>
+      <pubDate>Tue, 15 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>/post/book-club-truth-of-truthiness/</guid>
-      <description>&lt;p&gt;Come join us for a discussion for our next book club discussion! Visit our &lt;a href=&#34;https://www.meetup.com/rladies-newyork/events/242382626/&#34;&gt;Meetup&lt;/a&gt; page for more details and to RSVP.&lt;/p&gt;
-&lt;p&gt;Date: Saturday, September 30, 2017&lt;/p&gt;
-&lt;p&gt;Time: 12pm&lt;/p&gt;
-&lt;p&gt;Book: &lt;a href=&#34;https://www.rizzolibookstore.com/truth-or-truthiness-distinguishing-fact-fiction-learning-think-data-scientist&#34;&gt;Truth or Truthiness: Distinguishing Fact from Fiction by Learning to Think Like a Data Scientist&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Author: Howard Wainer&lt;/p&gt;
-&lt;p&gt;Host: &lt;a href=&#34;https://www.rizzolibookstore.com/&#34;&gt;Rizzoli Bookstore&lt;/a&gt;&lt;/p&gt;
+      <guid>/post/all-aboard-transportation-talks/</guid>
+      <description>
+
+&lt;h2 id=&#34;details&#34;&gt;Details&lt;/h2&gt;
+
+&lt;p&gt;For our November Meetup, we excited to spend the evening with Mikaela Jordan and Lisa Mae Fiedler who are both seasoned professionals in the world of transportation and data analytics. Our speakers will be discussing 2 different perspectives of working in transportation and data. Mikaela is currently a Senior Data Scientist at Revel and she is reflecting on her experience in building a data science practice. Lisa is the Acting Manager of Data and Analytics at the MTA who will present on a dashboarding project using Streamlit.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;IMPORTANT NOTE ABOUT RSVPs!&lt;/strong&gt;
+This will be an online event, please also rsvp via this &lt;a href=&#34;https://docs.google.com/forms/d/e/1FAIpQLScOzHzyQC15HfA-giclFioIfIVtW3Xyn3-HaGQOrpU8267t1Q/viewform&#34; target=&#34;_blank&#34;&gt;google form&lt;/a&gt; so we can reach out to you about zoom link details closer to the event date.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title: Building a Data Science Practice &amp;amp; a Data-Driven Business from the “Ground Up”: The Evolution of a Team, a Company, and Myself&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Abstract: Being the first IC hire at a company is a lot of things, but there’s some main things that it’s been:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;it’s challenging - there’s a lot happening, and there’s not always a lot of people to support the work&lt;/li&gt;
+&lt;li&gt;it’s exciting - your work matters. there’s a ton of influence &amp;amp; reach that your work has&lt;/li&gt;
+&lt;li&gt;it allows for opportunities of reflection - there’s typically a lot of growth in a short period of time, so it’s easy to see how far the business has come, how far the team has come, and how far your personal growth has come&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In this talk, we’ll explore the evolution of data science &amp;amp; decision making at Revel from several different points of view (team practices, decision making processes, and personal philosophies / work styles).&lt;/p&gt;
+
+&lt;p&gt;Bio: Mikaela has a Master’s degree in Mathematics with over 5 years of experience in data science &amp;amp; analytics. She has worked across multiple industries with a focus on implementing data-driven strategies and measurement. In her current role at Revel, she is the technical lead for consumer data science &amp;amp; analytics on the rideshare business.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Title: Centralizing external reporting via metrics.mta.info&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Abstract: As a public agency, the MTA shares a lot of data! I will overview the past, current, and future situation of MTA’s public performance metric reporting and how our recent launch of metrics.mta.info (beta) attempts to solve for some of the issues. I will briefly go into more detail about how the site was developed using the python package Streamlit and our plans to make the entire site open source.&lt;/p&gt;
+
+&lt;p&gt;Bio: Lisa Mae Fiedler is Acting Manager of Reporting and Analytics for the MTA. She leads MTA’s open data program and is working to revamp data-driven reporting for the agency.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;R-Ladies is dedicated to providing a harassment-free experience for everyone. We do not tolerate harassment of participants in any form. Please take a moment to review the R-Ladies Global code of conduct (particularly if this is your first time attending!): &lt;a href=&#34;https://rladies.org/code-of-conduct&#34; target=&#34;_blank&#34;&gt;https://rladies.org/code-of-conduct&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For questions regarding accessibility, please email us at nyc@rladies.org.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;R-Ladies is dedicated to providing a harassment-free experience for everyone. We do not tolerate harassment of participants in any form. Please take a moment to review the R-Ladies Global code of conduct (particularly if this is your first time attending!): &lt;a href=&#34;https://rladies.org/code-of-conduct&#34; target=&#34;_blank&#34;&gt;https://rladies.org/code-of-conduct&lt;/a&gt;
+For questions regarding accessibility, please email us at nyc@rladies.org.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.meetup.com/rladies-newyork/events/289547402/&#34; target=&#34;_blank&#34;&gt;Meetup page&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Data Visualization Workshop, Part 1</title>
-      <link>/post/data-visualization-workshop-part-1/</link>
-      <pubDate>Thu, 17 Aug 2017 00:00:00 +0000</pubDate>
+      <title>R-Ladies NYC Board Information Session</title>
+      <link>/post/join-r-ladies-board/</link>
+      <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>/post/data-visualization-workshop-part-1/</guid>
-      <description>&lt;p&gt;Joyce Robbins presents a workshop on creating heatmaps in R, and other more general data visualization tips and tricks. Visit our &lt;a href=&#34;https://www.meetup.com/rladies-newyork/events/242371329/&#34;&gt;Meetup&lt;/a&gt; page for more details and to RSVP.&lt;/p&gt;
-&lt;p&gt;Joyce’s GitHub repo for this talk can be found &lt;a href=&#34;https://github.com/jtr13/RLadies&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Date: Thursday, August 17, 2017&lt;/p&gt;
-&lt;p&gt;Time: 7pm&lt;/p&gt;
-&lt;p&gt;Instructor: Joyce Robbins&lt;/p&gt;
-&lt;p&gt;Host: &lt;a href=&#34;http://byteacademy.co/&#34;&gt;Byte Academy&lt;/a&gt;&lt;/p&gt;
+      <guid>/post/join-r-ladies-board/</guid>
+      <description>
+
+&lt;h2 id=&#34;details&#34;&gt;Details&lt;/h2&gt;
+
+&lt;p&gt;If you ever wanted to be more involved with your local R-Ladies New York chapter, it&amp;rsquo;s not too late! We are looking for new members to join us as event organizers on the R-Ladies NYC Board.&lt;/p&gt;
+
+&lt;p&gt;This information session will be a meet and greet with current board members: we’ll introduce ourselves, explain responsibilities and the expected time commitment of a board member. The application for new board members is now available (due Sunday, November 20th): &lt;a href=&#34;https://forms.gle/owAthwN8crL6CcZe9&#34; target=&#34;_blank&#34;&gt;https://forms.gle/owAthwN8crL6CcZe9&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;We are happy to take questions and suggestions for future meetups from our community, so please feel free to attend with feedback even if you may not be interested in joining the board as an organizer.&lt;/p&gt;
+
+&lt;p&gt;If you are interested in joining the board but are unable to attend this meeting, please connect with us via Slack or email us at nyc@rladies.org with your questions, thoughts, and comments. We’ll be happy to follow up with more information!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;This event will be hosted over Zoom, and the link will be available on this Meetup page on the day of the event. We will request your email address upon registration to ensure you receive the Zoom passcode.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;R-Ladies is dedicated to providing a harassment-free experience for everyone. We do not tolerate harassment of participants in any form. Please take a moment to review the R-Ladies Global code of conduct (particularly if this is your first time attending!): &lt;a href=&#34;https://rladies.org/code-of-conduct&#34; target=&#34;_blank&#34;&gt;https://rladies.org/code-of-conduct&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.meetup.com/rladies-newyork/events/289278809/&#34; target=&#34;_blank&#34;&gt;Meetup page&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Summer Social!</title>
+      <title>Workshop Writing Meaningful Alt-Texts for Data Visualizations in R</title>
+      <link>/post/workshop-alt-text/</link>
+      <pubDate>Mon, 10 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/post/workshop-alt-text/</guid>
+      <description>
+
+&lt;h2 id=&#34;details&#34;&gt;Details&lt;/h2&gt;
+
+&lt;p&gt;For our October Meetup, we welcome Liz Hare, who will lead a workshop titled &amp;ldquo;Writing Meaningful Alt-Texts for Data Visualizations in R.&amp;rdquo; Liz will introduce &amp;ldquo;alt-text&amp;rdquo; and offer guidance on best practices. Alt-text is important to incorporated into your work not only to adhere to accessibility laws but also to ensure your work reaches everyone.&lt;/p&gt;
+
+&lt;p&gt;During the workshop, Liz will give the audience an opportunity to share their own data visualizations and discuss how they could be improved with alt-text. So, &lt;strong&gt;please bring a data visualization to share with the group!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The presentation is available on Liz&amp;rsquo;s GitHub (for the latest slides, use this link right before the event): &lt;a href=&#34;https://LizHareDogs.github.io/RLadiesNYAltText&#34; target=&#34;_blank&#34;&gt;https://LizHareDogs.github.io/RLadiesNYAltText&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Instructor Biography:
+Liz Hare is a quantitative geneticist focusing on working dog behavior, health, and welfare. As a blind R user, she works on inclusion and accessibility of software and events.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;R-Ladies is dedicated to providing a harassment-free experience for everyone. We do not tolerate harassment of participants in any form. Please take a moment to review the R-Ladies Global code of conduct (particularly if this is your first time attending!): &lt;a href=&#34;https://rladies.org/code-of-conduct&#34; target=&#34;_blank&#34;&gt;https://rladies.org/code-of-conduct&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.meetup.com/rladies-newyork/events/288750939/&#34; target=&#34;_blank&#34;&gt;Meetup page&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>R-Ladies NYC Lightning Talks - RSVP and Call for Speakers</title>
+      <link>/post/lightning-talks-sept22/</link>
+      <pubDate>Thu, 22 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/post/lightning-talks-sept22/</guid>
+      <description>
+
+&lt;h2 id=&#34;details&#34;&gt;Details&lt;/h2&gt;
+
+&lt;p&gt;Fill out this brief form by Thursday, September 1st to submit your application to be a speaker!
+&lt;a href=&#34;https://docs.google.com/forms/d/1vXC-iKiqCycnwD4sjqYMm9BgIOITHEvsPPdZBrVlEjg/edit&#34; target=&#34;_blank&#34;&gt;https://docs.google.com/forms/d/1vXC-iKiqCycnwD4sjqYMm9BgIOITHEvsPPdZBrVlEjg/edit&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Lighting talks are five minute talks. You can talk about anything R, Tech, and/or Data Science related. Looking for ideas? How about talking about a cool package you found, how you use R in your company, a favorite learning resource, your journey into Data Science, or a side project you&amp;rsquo;ve been working on?&lt;/p&gt;
+
+&lt;p&gt;We would especially love to hear from people who&amp;rsquo;ve never presented at a meetup or conference before and/or those who still don&amp;rsquo;t feel confident speaking publicly. A lightning talk can be a great way to start out speaking, as it&amp;rsquo;s quick, low-prep, and fun!&lt;/p&gt;
+
+&lt;p&gt;Interested in proposing a talk but want to brainstorm ideas, get feedback, or some encouragement? We&amp;rsquo;re here to help! You can join the #lightningtalks channel in our slack channel or email nyc@rladies.org. We would be happy to set up a time to talk with you!&lt;/p&gt;
+
+&lt;p&gt;&amp;mdash; Presentations and Speakers &amp;mdash;
+Tonight&amp;rsquo;s lineup of speakers is:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1. Clara Wang: Using Shiny to Avoid Boring Tasks at Work&lt;/strong&gt;
+&lt;strong&gt;2. Crystal Lewis: A Comparison of Packages to Generate Codebooks in R&lt;/strong&gt;
+&lt;strong&gt;3. Blaire Hamelehle: Mapmaking Data Stories&lt;/strong&gt;
+&lt;strong&gt;4. Susmita Paul, Northwell Health: Logistic Regression in the Tidyverse&lt;/strong&gt;
+&lt;strong&gt;5. Natalia Andriychuk: Creating an R Center for Excellence in a large pharma company&lt;/strong&gt;
+&lt;strong&gt;Twitter: @datascienceandi&lt;/strong&gt;
+&lt;strong&gt;6. Daniela Cortez: Air Analytics&lt;/strong&gt;
+&lt;strong&gt;7. Dorota Rizik: Base R vs. Tidyverse: Regular Expression Edition&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;To celebrate the diversity in the R Community, we&amp;rsquo;re prioritizing presenters who identify as a minority gender (including but not limited to cis/trans women, trans men, non-binary, genderqueer, agender).&lt;/p&gt;
+
+&lt;p&gt;Important Dates
+* Submissions due: Thursday Sept. 1&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Notification of acceptance: Sunday Sept. 4&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Speakers to Confirm Participation: Wednesday Sept. 7&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Submit slides to R-Ladies: Friday Sept. 16&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Lightning Talk Event: Tuesday Sept. 20&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;This event will be hosted over Zoom &amp;ndash; the link will be available on this Meetup page at noon on the day of the event, and the passcode will be shared via email.&lt;/p&gt;
+
+&lt;p&gt;R-Ladies is dedicated to providing a harassment-free experience for everyone. We do not tolerate harassment of participants in any form. Please take a moment to review the R-Ladies Global code of conduct (particularly if this is your first time attending!): &lt;a href=&#34;https://rladies.org/code-of-conduct&#34; target=&#34;_blank&#34;&gt;https://rladies.org/code-of-conduct&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For questions regarding accessibility, please email us at nyc@rladies.org.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.meetup.com/rladies-newyork/events/287520144/&#34; target=&#34;_blank&#34;&gt;Meetup page&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>R-Ladies Book Club</title>
+      <link>/post/r-ladies-book-club-shape-queer-data/</link>
+      <pubDate>Sat, 20 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/post/r-ladies-book-club-shape-queer-data/</guid>
+      <description>
+
+&lt;h2 id=&#34;details&#34;&gt;Details&lt;/h2&gt;
+
+&lt;p&gt;For our August book club, we&amp;rsquo;ll be discussing &amp;ldquo;Queer Data : Using Gender, Sex and Sexuality Data for Action&amp;rdquo; by Dr. Kevin Guyan. The New York Public Library has copies of this book.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;This event will be in person at the Great Hill in Central Park. Enter at Central Park West and 106th. Bring a blanket if you have one! We will be sitting on the grass.&lt;/p&gt;
+
+&lt;p&gt;In case of rain, this event will be held over zoom and the link and password will be shared the morning of the event.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;R-Ladies is dedicated to providing a harassment-free experience for everyone. We do not tolerate harassment of participants in any form. Please take a moment to review the R-Ladies Global code of conduct (particularly if this is your first time attending!): &lt;a href=&#34;https://rladies.org/code-of-conduct&#34; target=&#34;_blank&#34;&gt;https://rladies.org/code-of-conduct&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.meetup.com/rladies-newyork/events/287161869/&#34; target=&#34;_blank&#34;&gt;Meetup page&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Summer Social</title>
       <link>/post/summer-social/</link>
-      <pubDate>Sat, 08 Jul 2017 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 21 Jul 2022 00:00:00 +0000</pubDate>
       
       <guid>/post/summer-social/</guid>
-      <description>&lt;p&gt;Let’s take a break from the heat and our desks for an R-Ladies summer social event! Visit our &lt;a href=&#34;https://www.meetup.com/rladies-newyork/events/241262100/&#34;&gt;Meetup&lt;/a&gt; page for more details and to RSVP.&lt;/p&gt;
-&lt;p&gt;Date: Saturday, July 8, 2017&lt;/p&gt;
-&lt;p&gt;Time: 2pm&lt;/p&gt;
-&lt;p&gt;Where: &lt;a href=&#34;https://www.blueribbonrestaurants.com/restaurants/blue-ribbon-sushi-izakaya/&#34;&gt;Blue Ribbon Sushi Izakaya&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;Come hang out with R-Ladies at the Lucky backyard for an evening social full of fun and splendid R conversation!&lt;/p&gt;
+
+&lt;p&gt;Drinks will be available for purchase. But you are also welcome to bring in your own food!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.meetup.com/rladies-newyork/events/287161651/&#34; target=&#34;_blank&#34;&gt;Meetup page&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Book club: Weapons of Math Destruction</title>
-      <link>/post/book-club-weapons-of-math-destruction/</link>
-      <pubDate>Sat, 17 Jun 2017 00:00:00 +0000</pubDate>
+      <title>R-Ladies Book Club</title>
+      <link>/post/r-ladies-book-club-shape-flow/</link>
+      <pubDate>Sun, 26 Jun 2022 00:00:00 +0000</pubDate>
       
-      <guid>/post/book-club-weapons-of-math-destruction/</guid>
-      <description>&lt;p&gt;Come join us for a discussion for our next book club discussion! Visit our &lt;a href=&#34;https://www.meetup.com/rladies-newyork/events/239047532/&#34;&gt;Meetup&lt;/a&gt; page for more details and to RSVP.&lt;/p&gt;
-&lt;p&gt;Date: Saturday, June 17, 2017&lt;/p&gt;
-&lt;p&gt;Time: 11am&lt;/p&gt;
-&lt;p&gt;Book: &lt;a href=&#34;https://www.rizzolibookstore.com/weapons-math-destruction-how-big-data-increases-inequality-and-threatens-democracy-0&#34;&gt;Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Author: Cathy O’Neil&lt;/p&gt;
-&lt;p&gt;Host: &lt;a href=&#34;https://www.rizzolibookstore.com/&#34;&gt;Rizzoli Bookstore&lt;/a&gt;&lt;/p&gt;
+      <guid>/post/r-ladies-book-club-shape-flow/</guid>
+      <description>
+
+&lt;h2 id=&#34;details&#34;&gt;Details&lt;/h2&gt;
+
+&lt;p&gt;For our June book club, we&amp;rsquo;ll be discussing &amp;ldquo;Flow: The Psychology of Optimal Experience&amp;rdquo; by Mihaly Csikszentmihalyi.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;This event will be hosted over Zoom, and the link will be available on this Meetup page the morning of the event. We will request your email address upon registration to ensure you receive the Zoom passcode.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;R-Ladies is dedicated to providing a harassment-free experience for everyone. We do not tolerate harassment of participants in any form. Please take a moment to review the R-Ladies Global code of conduct (particularly if this is your first time attending!): &lt;a href=&#34;https://rladies.org/code-of-conduct&#34; target=&#34;_blank&#34;&gt;https://rladies.org/code-of-conduct&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.meetup.com/rladies-newyork/events/285964126/&#34; target=&#34;_blank&#34;&gt;Meetup page&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Tour of R in Peer to Peer Lending</title>
-      <link>/post/tour-of-r-in-peer-to-peer-lending/</link>
-      <pubDate>Tue, 18 Apr 2017 00:00:00 +0000</pubDate>
+      <title>Data Jobs Panel - your questions answered</title>
+      <link>/post/panel-data-jobs/</link>
+      <pubDate>Mon, 23 May 2022 00:00:00 +0000</pubDate>
       
-      <guid>/post/tour-of-r-in-peer-to-peer-lending/</guid>
-      <description>&lt;p&gt;Catherine Pargeter speaks about how Orchard Platform, a fintech company, uses R. Visit our &lt;a href=&#34;https://www.meetup.com/rladies-newyork/events/238954081/&#34;&gt;Meetup&lt;/a&gt; for more details and to RSVP.&lt;/p&gt;
-&lt;p&gt;Date: Tuesday, April 18, 2017&lt;/p&gt;
-&lt;p&gt;Time: 6:30pm&lt;/p&gt;
-&lt;p&gt;Speaker: Catherine Pargeter&lt;/p&gt;
-&lt;p&gt;Host: &lt;a href=&#34;https://www.orchardplatform.com/&#34;&gt;Orchard Platform&lt;/a&gt;&lt;/p&gt;
+      <guid>/post/panel-data-jobs/</guid>
+      <description>
+
+&lt;h2 id=&#34;details&#34;&gt;Details&lt;/h2&gt;
+
+&lt;p&gt;We’ve all been reading about The Great Resignation in the news and how the pandemic has utterly changed the way we think about our professional selves. So how does that apply to current data workers, recent college graduates, and career changers. In this panel discussion, we are thrilled to be joined by Rachel Cohen and Shivani Sood to share their expertise on how to navigate a job search for every stage of your career pathing.&lt;/p&gt;
+
+&lt;p&gt;This event will be hosted over Zoom; the link will be available on this page the morning of the event, and the passcode will be emailed to you.
+R-Ladies is dedicated to providing a harassment-free experience for everyone. We do not tolerate harassment of participants in any form. Please take a moment to review the R-Ladies Global code of conduct (particularly if this is your first time attending!): &lt;a href=&#34;https://rladies.org/code-of-conduct&#34; target=&#34;_blank&#34;&gt;https://rladies.org/code-of-conduct&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For questions regarding accessibility, please email us at nyc@rladies.org.&lt;/p&gt;
+
+&lt;p&gt;&amp;mdash; Bio &amp;mdash;&lt;/p&gt;
+
+&lt;p&gt;Panelists:&lt;/p&gt;
+
+&lt;p&gt;Rachel Cohen
+Rachel Fuld Cohen leads the Job Search program and Career Coaching team at BloomTech. She previously worked as Bloomtech&amp;rsquo;s Data Science Career Lead and the Assistant Director for Career Development at Columbia University&amp;rsquo;s Data Science Institute. Rachel has prior experience working as a Career Consultant at Golden Gate University and a Graduate Advisor at San Francisco State University. Rachel’s corporate experience is in recruiting for companies such as HBO and Axiom Law. She received her Masters in Counseling, with a specialization in Career Counseling, from San Francisco State University and a Bachelor of Science in Psychology from Columbia University.&lt;/p&gt;
+
+&lt;p&gt;Shivani Sood
+Shivani Sood works in Talent Acquisition, and is an advocate for fair and equitable hiring practices. In her professional journey of around 8 years, she have worked in Education and Technology. She currently works with a small SaaS company called Laika. For the past 6 years, she have been recruiting. Before that, she was an SQL developer for the first two years of her career. Shivani is passionate about finding that right fit - between an individual&amp;rsquo;s aspirations and a team&amp;rsquo;s vision. At school, Computer Applications and Human Resources were her most favorite subjects and she enjoys combining the two in her work.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.meetup.com/rladies-newyork/events/285995972/&#34; target=&#34;_blank&#34;&gt;Meetup page&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Book club: Dear Data</title>
-      <link>/post/book-club-dear-data/</link>
-      <pubDate>Sat, 11 Mar 2017 00:00:00 +0000</pubDate>
+      <title>R Code-llaboration</title>
+      <link>/post/r-code-illaboration-2022/</link>
+      <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>/post/book-club-dear-data/</guid>
-      <description>&lt;p&gt;Please join us for our inaugural book club event! Visit our &lt;a href=&#34;https://www.meetup.com/rladies-newyork/events/237573729/&#34;&gt;Meetup&lt;/a&gt; page for more details and to RSVP.&lt;/p&gt;
-&lt;p&gt;Date: Saturday, March 11, 2017&lt;/p&gt;
-&lt;p&gt;Time: 11am&lt;/p&gt;
-&lt;p&gt;Book: &lt;a href=&#34;https://www.rizzolibookstore.com/dear-data&#34;&gt;Dear Data&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Authors: Giorgia Lupi and Stefanie Posavec&lt;/p&gt;
-&lt;p&gt;Host: &lt;a href=&#34;https://www.rizzolibookstore.com/&#34;&gt;Rizzoli Bookstore&lt;/a&gt;&lt;/p&gt;
+      <guid>/post/r-code-illaboration-2022/</guid>
+      <description>
+
+&lt;h2 id=&#34;details&#34;&gt;Details&lt;/h2&gt;
+
+&lt;p&gt;Are you stuck on a coding challenge? Do you want dedicated time to work on your programming skills? Well then, look no further, because this &amp;ldquo;code-llaboration&amp;rdquo; event is for you! Join our virtual coding session where you can get help from fellow R-Ladies or work on a coding challenge together.&lt;/p&gt;
+
+&lt;p&gt;This event will be hosted over Zoom. The link (with embedded passcode) will be shared on this Meetup page 15 minutes before the start of the event.&lt;/p&gt;
+
+&lt;p&gt;Materials are available here: &lt;a href=&#34;https://github.com/dorota-biedzio/R-Ladies-April-2022-Code-llaboration&#34; target=&#34;_blank&#34;&gt;https://github.com/dorota-biedzio/R-Ladies-April-2022-Code-llaboration&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;R-Ladies is dedicated to providing a harassment-free experience for everyone. We do not tolerate harassment of participants in any form. Please take a moment to review the R-Ladies Global code of conduct (particularly if this is your first time attending!): &lt;a href=&#34;https://rladies.org/code-of-conduct&#34; target=&#34;_blank&#34;&gt;https://rladies.org/code-of-conduct&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For questions regarding accessibility, please email us at nyc@rladies.org.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.meetup.com/rladies-newyork/events/285241537/&#34; target=&#34;_blank&#34;&gt;Meetup page&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>A Focus on Health</title>
-      <link>/post/a-focus-on-health/</link>
-      <pubDate>Tue, 21 Feb 2017 00:00:00 +0000</pubDate>
+      <title>Virtual Code-laboration TidyTuesday (RSVP Link in Description)</title>
+      <link>/post/r-code-illaboration-tidy-tuesday/</link>
+      <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>/post/a-focus-on-health/</guid>
-      <description>&lt;p&gt;Elena Colicino and Daniela Vazquez speak about how they use R. Vist our &lt;a href=&#34;https://www.meetup.com/rladies-newyork/events/237328664/&#34;&gt;Meetup&lt;/a&gt; page for more details and to RSVP.&lt;/p&gt;
-&lt;p&gt;Date: Tuesday, February 21, 2017&lt;/p&gt;
-&lt;p&gt;Time: 6:30pm&lt;/p&gt;
-&lt;p&gt;Speakers: Elena Colicino and Daniela Vazquez&lt;/p&gt;
-&lt;p&gt;Host: &lt;a href=&#34;https://flatiron.com/&#34;&gt;Flatiron Health&lt;/a&gt;&lt;/p&gt;
+      <guid>/post/r-code-illaboration-tidy-tuesday/</guid>
+      <description>
+
+&lt;h2 id=&#34;details&#34;&gt;Details&lt;/h2&gt;
+
+&lt;p&gt;Want to come code and learn with us? For June’s NYC R-ladies meetup, we are planning a #TidyTuesday code-laboration event! This event will be held online via Zoom. Please register via the Google Form below:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://forms.gle/RN5FkyEaRGnLbxx37&#34; target=&#34;_blank&#34;&gt;https://forms.gle/RN5FkyEaRGnLbxx37&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The zoom link will be emailed ONLY to those who register in advance via the form above the morning of the event.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;We ask participants to pick a TidyTuesday dataset from the month of May or June and create (or attempt to create!) a visualization of the dataset before the meetup. At the meetup, participants will have the opportunity to:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Share something you learned in making the TidyTuesday&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Did you learn a new function in the process?&lt;/li&gt;
+&lt;li&gt;Did you discover a new package?&lt;/li&gt;
+&lt;li&gt;Did you learn something new with the data you explored?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Share your process or tips for making the TidyTuesday&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;What TidyTuesday tips do you have?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Share something you struggled with&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;What is a barrier you ran into while trying to create your TidyTuesday? We will work together to answer questions people ran into&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Share your visualization!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;We will showcase the visualizations and works-in-progress we made with each other!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Even if you don’t have time to work on a #TidyTuesday before the meetup, &lt;strong&gt;we hope you will still join us to collaboratively learn and code with each other!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;strong&gt;What is #TidyTuesday?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;TidyTuesday is a weekly social data project hosted by the R for Data Science community. Every Tuesday a new dataset is posted, and everyone is invited to explore and visualize the data. “The intent of Tidy Tuesday is to provide a safe and supportive forum for individuals to practice their wrangling and data visualization skills” (TidyTuesday repository on GitHub &lt;a href=&#34;https://github.com/rfordatascience/tidytuesday&#34; target=&#34;_blank&#34;&gt;https://github.com/rfordatascience/tidytuesday&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;How can I see what other people have created?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;People will often post their final TidyTuesday creations on twitter with the #TidyTuesday hashtag.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;R-Ladies is dedicated to providing a harassment-free experience for everyone. We do not tolerate harassment of participants in any form. Please take a moment to review the R-Ladies Global code of conduct (particularly if this is your first time attending!): &lt;a href=&#34;https://rladies.org/code-of-conduct&#34; target=&#34;_blank&#34;&gt;https://rladies.org/code-of-conduct&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For questions regarding accessibility, please email us at nyc@rladies.org.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.meetup.com/rladies-newyork/events/286558385/&#34; target=&#34;_blank&#34;&gt;Meetup page&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Launching R-Ladies NYC!</title>
-      <link>/post/launching-r-ladies-nyc/</link>
-      <pubDate>Mon, 21 Nov 2016 00:00:00 +0000</pubDate>
+      <title>R-Ladies Book Club</title>
+      <link>/post/r-ladies-book-club-shape-ellenberg/</link>
+      <pubDate>Sat, 19 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>/post/launching-r-ladies-nyc/</guid>
-      <description>&lt;p&gt;Come meet other local R-Ladies and hear Carissa Shafto speak about her use of R for data science at the Galen College of Nursing. Vist our &lt;a href=&#34;https://www.meetup.com/rladies-newyork/events/235073330/&#34;&gt;Meetup&lt;/a&gt; page for more details and to RSVP.&lt;/p&gt;
-&lt;p&gt;Date: Monday, November 21, 2016&lt;/p&gt;
-&lt;p&gt;Time: 6:15pm&lt;/p&gt;
-&lt;p&gt;Speaker: Carissa Shafto&lt;/p&gt;
-&lt;p&gt;Host: &lt;a href=&#34;https://www.rggi.org/rggi&#34;&gt;RGGI Inc.&lt;/a&gt;&lt;/p&gt;
+      <guid>/post/r-ladies-book-club-shape-ellenberg/</guid>
+      <description>
+
+&lt;h2 id=&#34;details&#34;&gt;Details&lt;/h2&gt;
+
+&lt;p&gt;For our March book club, we&amp;rsquo;ll be discussing &amp;ldquo;Shape: The Hidden Geometry of Information, Biology, Strategy, Democracy, and Everything Else&amp;rdquo; by Jordan Ellenberg.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;This event will be hosted over Zoom, and the link will be available on this Meetup page the morning of the event. We will request your email address upon registration to ensure you receive the Zoom passcode.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;R-Ladies is dedicated to providing a harassment-free experience for everyone. We do not tolerate harassment of participants in any form. Please take a moment to review the R-Ladies Global code of conduct (particularly if this is your first time attending!): &lt;a href=&#34;https://rladies.org/code-of-conduct&#34; target=&#34;_blank&#34;&gt;https://rladies.org/code-of-conduct&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.meetup.com/rladies-newyork/events/284220975/&#34; target=&#34;_blank&#34;&gt;Meetup page&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Behind the scenes of visual journalism</title>
+      <link>/post/behind-scenes-visual-journalism/</link>
+      <pubDate>Mon, 07 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/post/behind-scenes-visual-journalism/</guid>
+      <description>
+
+&lt;h2 id=&#34;details&#34;&gt;Details&lt;/h2&gt;
+
+&lt;p&gt;For our March event, we are excited to host Will Chase, who will be discussing data visualization and visual journalism.&lt;/p&gt;
+
+&lt;p&gt;This event will be hosted over Zoom. The link will be emailed to those who are registered, as well as posted on this Meetup page at noon on the day of the event.&lt;/p&gt;
+
+&lt;p&gt;Agenda (times approximate):
+7-7:05 pm: R-Ladies NYC Announcements
+7:05-7:50: Behind the scenes of visual journalism
+7:50-8:15: Questions and wrap-up&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;R-Ladies is dedicated to providing a harassment-free experience for everyone. We do not tolerate harassment of participants in any form. Please take a moment to review the R-Ladies Global code of conduct (particularly if this is your first time attending!): &lt;a href=&#34;https://rladies.org/code-of-conduct&#34; target=&#34;_blank&#34;&gt;https://rladies.org/code-of-conduct&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;For questions regarding accessibility, please email us at nyc@rladies.org.&lt;/p&gt;
+
+&lt;p&gt;&amp;mdash; Talk Abstract &amp;mdash;&lt;/p&gt;
+
+&lt;p&gt;Abstract:
+In this talk, I&amp;rsquo;ll take you behind the scenes of how visual journalism works on the day to day. I&amp;rsquo;ll talk about the tools we use, the challenges and rewards of journalism, and show the process of developing a visual story. I&amp;rsquo;ll also discuss my own journey of being self-taught in data visualization and going from academia, to business, to journalism.&lt;/p&gt;
+
+&lt;p&gt;&amp;mdash; Speaker Bio &amp;mdash;&lt;/p&gt;
+
+&lt;p&gt;Bio:
+Will is a developer, designer, journalist, and artist. He uses his background as a researcher to better understand the world through data and he shares those insights by designing and coding visual essays. Will has done dataviz in academia, business, freelance, and he currently works at Axios as a visual journalist. He also likes to make experimental stuff for the web and generative art.&lt;/p&gt;
+
+&lt;p&gt;R-Ladies is dedicated to providing a harassment-free experience for everyone. We do not tolerate harassment of participants in any form. Please take a moment to review the R-Ladies Global code of conduct (particularly if this is your first time attending!): &lt;a href=&#34;https://rladies.org/code-of-conduct&#34; target=&#34;_blank&#34;&gt;https://rladies.org/code-of-conduct&lt;/a&gt;
+For questions regarding accessibility, please email us at nyc@rladies.org.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.meetup.com/rladies-newyork/events/284084967/&#34; target=&#34;_blank&#34;&gt;Meetup page&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

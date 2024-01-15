@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>panel on R-Ladies NYC</title>
+    <link>/tags/panel/</link>
+    <description>Recent content in panel on R-Ladies NYC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 R-Ladies NYC</copyright>
+    <lastBuildDate>Mon, 23 May 2022 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/panel/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Data Jobs Panel - your questions answered</title>
+      <link>/post/panel-data-jobs/</link>
+      <pubDate>Mon, 23 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/post/panel-data-jobs/</guid>
+      <description>Details We’ve all been reading about The Great Resignation in the news and how the pandemic has utterly changed the way we think about our professional selves. So how does that apply to current data workers, recent college graduates, and career changers. In this panel discussion, we are thrilled to be joined by Rachel Cohen and Shivani Sood to share their expertise on how to navigate a job search for every stage of your career pathing.</description>
+    </item>
+    
+    <item>
+      <title>Panel Discussion Working with and Learning from COVID-19 data</title>
+      <link>/post/panel-working-with-covid-data/</link>
+      <pubDate>Mon, 04 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/panel-working-with-covid-data/</guid>
+      <description>Details We are thrilled to host a series of experts to discuss their experiences working with different types of COVID-19 data, insights they&amp;rsquo;ve gleaned, and challenges they&amp;rsquo;ve encountered with these complex and rapidly evolving data.
+This event will be hosted over Zoom; the link will be available on this page the morning of the event, and the passcode will be emailed to you. R-Ladies is dedicated to providing a harassment-free experience for everyone.</description>
+    </item>
+    
+  </channel>
+</rss>

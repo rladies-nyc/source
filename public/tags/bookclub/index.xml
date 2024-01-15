@@ -1,22 +1,194 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Bookclub on R-Ladies NYC</title>
+    <title>bookclub on R-Ladies NYC</title>
     <link>/tags/bookclub/</link>
-    <description>Recent content in Bookclub on R-Ladies NYC</description>
+    <description>Recent content in bookclub on R-Ladies NYC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Dec 2017 00:00:00 +0000</lastBuildDate>
+    <copyright>&amp;copy; 2017 R-Ladies NYC</copyright>
+    <lastBuildDate>Sat, 20 Aug 2022 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/bookclub/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>R-Ladies Book Club</title>
+      <link>/post/r-ladies-book-club-shape-queer-data/</link>
+      <pubDate>Sat, 20 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/post/r-ladies-book-club-shape-queer-data/</guid>
+      <description>Details For our August book club, we&amp;rsquo;ll be discussing &amp;ldquo;Queer Data : Using Gender, Sex and Sexuality Data for Action&amp;rdquo; by Dr. Kevin Guyan. The New York Public Library has copies of this book.
+This event will be in person at the Great Hill in Central Park. Enter at Central Park West and 106th. Bring a blanket if you have one! We will be sitting on the grass.
+In case of rain, this event will be held over zoom and the link and password will be shared the morning of the event.</description>
+    </item>
+    
+    <item>
+      <title>R-Ladies Book Club</title>
+      <link>/post/r-ladies-book-club-shape-flow/</link>
+      <pubDate>Sun, 26 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/post/r-ladies-book-club-shape-flow/</guid>
+      <description>Details For our June book club, we&amp;rsquo;ll be discussing &amp;ldquo;Flow: The Psychology of Optimal Experience&amp;rdquo; by Mihaly Csikszentmihalyi.
+This event will be hosted over Zoom, and the link will be available on this Meetup page the morning of the event. We will request your email address upon registration to ensure you receive the Zoom passcode.
+R-Ladies is dedicated to providing a harassment-free experience for everyone. We do not tolerate harassment of participants in any form.</description>
+    </item>
+    
+    <item>
+      <title>R-Ladies Book Club</title>
+      <link>/post/r-ladies-book-club-shape-ellenberg/</link>
+      <pubDate>Sat, 19 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/post/r-ladies-book-club-shape-ellenberg/</guid>
+      <description>Details For our March book club, we&amp;rsquo;ll be discussing &amp;ldquo;Shape: The Hidden Geometry of Information, Biology, Strategy, Democracy, and Everything Else&amp;rdquo; by Jordan Ellenberg.
+This event will be hosted over Zoom, and the link will be available on this Meetup page the morning of the event. We will request your email address upon registration to ensure you receive the Zoom passcode.
+R-Ladies is dedicated to providing a harassment-free experience for everyone.</description>
+    </item>
+    
+    <item>
+      <title>R-Ladies Book Club</title>
+      <link>/post/r-ladies-book-club-data-feminism/</link>
+      <pubDate>Sat, 20 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/r-ladies-book-club-data-feminism/</guid>
+      <description>Details For our November book club, we&amp;rsquo;ll be discussing &amp;ldquo;The Manager&amp;rsquo;s Path: A Guide for Tech Leaders Navigating Growth and Change&amp;rdquo; by Camille Fournier.
+This event will be hosted over Zoom, and the link will be available on this Meetup page the morning of the event. We will request your email address upon registration to ensure you receive the Zoom passcode.
+R-Ladies is dedicated to providing a harassment-free experience for everyone.</description>
+    </item>
+    
+    <item>
+      <title>R-Ladies Book Club - Algorithms of Oppression</title>
+      <link>/post/r-ladies-book-club-algorithms-of-oppression/</link>
+      <pubDate>Sat, 14 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/r-ladies-book-club-algorithms-of-oppression/</guid>
+      <description>Details For our August book club, we&amp;rsquo;ll be discussing &amp;ldquo;Algorithms of Oppression: How Search Engines Reinforce Racism&amp;rdquo; by Safiya Umoja Noble.
+Important Update: While this month&amp;rsquo;s Book Club was originally scheduled to be in person, in light of oppressive heat this week in NYC and expected thunderstorms throughout the afternoon of Saturday, August 14th, this will now be an online event. The zoom link will be available on this page Saturday morning, and a message with the meeting passcode will go out at that time.</description>
+    </item>
+    
+    <item>
+      <title>R-Ladies Book Club</title>
+      <link>/post/r-ladies-book-club-data-feminism/</link>
+      <pubDate>Sat, 27 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/post/r-ladies-book-club-data-feminism/</guid>
+      <description>Details Details For our February book club, we&amp;rsquo;ll be discussing &amp;ldquo;Data Feminism&amp;rdquo; by Catherine D&amp;rsquo;Ignazio and Lauren F. Klein.
+This event will be hosted over Zoom, and the link will be available on this Meetup page the morning of the event. We will request your email address upon registration to ensure you receive the Zoom passcode on the day of the event.
+Meetup page</description>
+    </item>
+    
+    <item>
+      <title>Book Club Meeting</title>
+      <link>/post/book-club-how-charts-lie/</link>
+      <pubDate>Sat, 26 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/post/book-club-how-charts-lie/</guid>
+      <description>Details For our September book club, we&amp;rsquo;ll be discussing &amp;ldquo;How Charts Lie: Getting Smarter about Visual Information&amp;rdquo; by Alberto Cairo.
+Zoom link will be available to attendees on the Meetup event page as of 9 am Eastern on September 26th.
+Meetup page</description>
+    </item>
+    
+    <item>
+      <title>Book Club Meeting</title>
+      <link>/post/book-club-invisible-women/</link>
+      <pubDate>Tue, 22 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/book-club-invisible-women/</guid>
+      <description>Join us to discuss Invisible Women: Data Bias in a World Designed for Men by Caroline Criado-Pérez
+Date: Saturday, November 9, 2019
+Time: 2:00pm
+Host: Rizzoli Bookstore, 1133 Broadway (between 25th &amp;amp; 26th)
+Meetup page</description>
+    </item>
+    
+    <item>
+      <title>Book Club Meeting</title>
+      <link>/post/book-club-how-not-to-be-wrong/</link>
+      <pubDate>Mon, 22 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/book-club-how-not-to-be-wrong/</guid>
+      <description>Join us to discuss Data Visualization: A Practical Introduction by Kieran Healy
+Date: Saturday, August 31, 2019
+Time: 2:00pm
+Host: Rizzoli Bookstore, 1133 Broadway (between 25th &amp;amp; 26th)
+Meetup page</description>
+    </item>
+    
+    <item>
+      <title>Book Club Meeting</title>
+      <link>/post/book-club-how-not-to-be-wrong/</link>
+      <pubDate>Thu, 09 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/book-club-how-not-to-be-wrong/</guid>
+      <description>Join us to discuss How Not To Be Wrong by Jordan Ellenberg
+Date: Saturday, May 25th, 2019
+Time: 2:00pm
+Host: Rizzoli Bookstore, 1133 Broadway (between 25th &amp;amp; 26th)
+Meetup page</description>
+    </item>
+    
+    <item>
+      <title>Book club: Algorithms to live by</title>
+      <link>/post/book-club-algorithms-to-live-by/</link>
+      <pubDate>Sat, 26 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/book-club-algorithms-to-live-by/</guid>
+      <description>At our next book club meeting, we&amp;rsquo;ll discuss Algorithms to Live By, by Brian Christian and Tom Griffiths.
+Visit our Meetup page to RSVP.
+Details Please support our wonderful host bookstore, Rizzoli, by ordering the book directly from them through this link
+Date Saturday, January 26, 2019
+Time 2:00pm
+Host Rizzoli Bookstore (1133 Broadway Ave)</description>
+    </item>
+    
+    <item>
+      <title>Book club: R Packages by Hadley Wickham</title>
+      <link>/post/book-club-r-packages-by-hadley-wickham/</link>
+      <pubDate>Tue, 18 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/book-club-r-packages-by-hadley-wickham/</guid>
+      <description>Please join us for our next book club discussion! Visit our Meetup page for more details and to RSVP. Bonus points if you try writing an R package and come to share your experience!
+Date: Saturday, October 20, 2018
+Time: 2pm
+Book: R Packages
+Author: Hadley Wickham
+Host: Rizzoli Bookstore</description>
+    </item>
+    
+    <item>
+      <title>Book club: Artificial Unintelligence</title>
+      <link>/post/book-club-artificial-unintelligence/</link>
+      <pubDate>Wed, 27 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/book-club-artificial-unintelligence/</guid>
+      <description>Please join us for our next book club discussion! This book club event will include a very special appearance by the author, Meredith Broussard, so don&amp;rsquo;t miss out. Visit our Meetup page for more details and to RSVP.
+Date: Saturday, July 14, 2018
+Time: 11am
+Book: Artificial Intelligence: How Computers Misunderstand the World
+Author: Meredith Broussard
+Host: Rizzoli Bookstore</description>
+    </item>
+    
+    <item>
+      <title>Book club: Storytelling with Data</title>
+      <link>/post/book-club-storytelling-with-data/</link>
+      <pubDate>Mon, 23 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/book-club-storytelling-with-data/</guid>
+      <description>Please join us for our next book club discussion! Visit our Meetup page for more details and to RSVP.
+Date: Saturday, April 28, 2018
+Time: 3pm
+Book: STORYTELLING WITH DATA: A DATA VISUALIZATION GUIDE FOR BUSINESS PROFESSIONALS
+Author: Cole Nussbaumer Knaflic
+Host: Rizzoli Bookstore</description>
+    </item>
+    
+    <item>
       <title>Book club: Everybody Lies</title>
-      <link>/2017/12/05/book-club-everybody-lies/</link>
+      <link>/post/book-club-everybody-lies/</link>
       <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>/2017/12/05/book-club-everybody-lies/</guid>
+      <guid>/post/book-club-everybody-lies/</guid>
       <description>Please join us for our first book club discussion of 2018! Visit our Meetup page for more details and to RSVP.
 Date: Saturday, January 20, 2018
 Time: 3pm
@@ -26,11 +198,11 @@ Host: Rizzoli Bookstore</description>
     </item>
     
     <item>
-      <title>Book club: Truth of Truthiness</title>
-      <link>/2017/09/30/book-club-truth-of-truthiness/</link>
+      <title>Book club: Truth or Truthiness</title>
+      <link>/post/book-club-truth-or-truthiness/</link>
       <pubDate>Sat, 30 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/2017/09/30/book-club-truth-of-truthiness/</guid>
+      <guid>/post/book-club-truth-or-truthiness/</guid>
       <description>Come join us for a discussion for our next book club discussion! Visit our Meetup page for more details and to RSVP.
 Date: Saturday, September 30, 2017
 Time: 12pm
@@ -41,24 +213,24 @@ Host: Rizzoli Bookstore</description>
     
     <item>
       <title>Book club: Weapons of Math Destruction</title>
-      <link>/2017/06/17/book-club-weapons-of-math-destruction/</link>
+      <link>/post/book-club-weapons-of-math-destruction/</link>
       <pubDate>Sat, 17 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>/2017/06/17/book-club-weapons-of-math-destruction/</guid>
+      <guid>/post/book-club-weapons-of-math-destruction/</guid>
       <description>Come join us for a discussion for our next book club discussion! Visit our Meetup page for more details and to RSVP.
 Date: Saturday, June 17, 2017
 Time: 11am
 Book: Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy
-Author: Cathy O’Neil
+Author: Cathy O&amp;rsquo;Neil
 Host: Rizzoli Bookstore</description>
     </item>
     
     <item>
       <title>Book club: Dear Data</title>
-      <link>/2017/03/11/book-club-dear-data/</link>
+      <link>/post/book-club-dear-data/</link>
       <pubDate>Sat, 11 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>/2017/03/11/book-club-dear-data/</guid>
+      <guid>/post/book-club-dear-data/</guid>
       <description>Please join us for our inaugural book club event! Visit our Meetup page for more details and to RSVP.
 Date: Saturday, March 11, 2017
 Time: 11am

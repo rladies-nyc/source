@@ -47,7 +47,7 @@ Clara (she/her/hers) is a data scientist currently working on cloud resource usa
 
 #### Jacqueline Buros
 
-<img src="/img/Jacqui.jpg" style="width:20%";/>
+<img src="/img/Jacqui.jpeg" style="width:20%";/>
 
 Jacki (she/hers) is a co-founder and CTO at a start-up company called [Generable](https://www.generable.com), which uses biologically-inspired Bayesian models to estimate treatment effects for oncology drugs from small-sample clinical data. She has over 10 years of experience in R, is an experienced Python developer, and is either author of or contributor to several open-source packages. She is passionate about improving oncology through Bayesian analysis and bioinformatics.
 

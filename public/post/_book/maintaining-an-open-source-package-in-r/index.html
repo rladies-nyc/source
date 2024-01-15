@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>6 Maintaining an open source package in R | Brooke Watson: Scraping Javascript websites in R</title>
+  <meta name="description" content="6 Maintaining an open source package in R | Brooke Watson: Scraping Javascript websites in R" />
+  <meta name="generator" content="bookdown 0.12 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="6 Maintaining an open source package in R | Brooke Watson: Scraping Javascript websites in R" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="6 Maintaining an open source package in R | Brooke Watson: Scraping Javascript websites in R" />
+  
+  
+  
+
+<meta name="author" content="Brooke Watson" />
+
+
+<meta name="date" content="2018-03-18" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="wrapping-it-all-into-a-package.html">
+
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<style type="text/css">
+code.sourceCode > span { display: inline-block; line-height: 1.25; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; }  
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; }  
+code span.at { color: #7d9029; }  
+code span.bn { color: #40a070; }  
+code span.bu { }  
+code span.cf { color: #007020; font-weight: bold; }  
+code span.ch { color: #4070a0; }  
+code span.cn { color: #880000; }  
+code span.co { color: #60a0b0; font-style: italic; }  
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; }  
+code span.do { color: #ba2121; font-style: italic; }  
+code span.dt { color: #902000; }  
+code span.dv { color: #40a070; }  
+code span.er { color: #ff0000; font-weight: bold; }  
+code span.ex { }  
+code span.fl { color: #40a070; }  
+code span.fu { color: #06287e; }  
+code span.im { }  
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; }  
+code span.kw { color: #007020; font-weight: bold; }  
+code span.op { color: #666666; }  
+code span.ot { color: #007020; }  
+code span.pp { color: #bc7a00; }  
+code span.sc { color: #4070a0; }  
+code span.ss { color: #bb6688; }  
+code span.st { color: #4070a0; }  
+code span.va { color: #19177c; }  
+code span.vs { color: #4070a0; }  
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; }  
+</style>
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="1" data-path="background-remixing-packages-in-r.html"><a href="background-remixing-packages-in-r.html"><i class="fa fa-check"></i><b>1</b> Background: remixing packages in R</a></li>
+<li class="chapter" data-level="2" data-path="javascript-webscraping-in-r.html"><a href="javascript-webscraping-in-r.html"><i class="fa fa-check"></i><b>2</b> Javascript webscraping in R</a><ul>
+<li class="chapter" data-level="2.1" data-path="javascript-webscraping-in-r.html"><a href="javascript-webscraping-in-r.html#download-phantomjs-using-homebrew"><i class="fa fa-check"></i><b>2.1</b> Download PhantomJS using homebrew</a></li>
+<li class="chapter" data-level="2.2" data-path="javascript-webscraping-in-r.html"><a href="javascript-webscraping-in-r.html#writing-scrape.js"><i class="fa fa-check"></i><b>2.2</b> Writing scrape.js</a></li>
+<li class="chapter" data-level="2.3" data-path="javascript-webscraping-in-r.html"><a href="javascript-webscraping-in-r.html#scraping-therapboard.com"><i class="fa fa-check"></i><b>2.3</b> Scraping TheRapBoard.com</a></li>
+<li class="chapter" data-level="2.4" data-path="javascript-webscraping-in-r.html"><a href="javascript-webscraping-in-r.html#extracting-audio-files"><i class="fa fa-check"></i><b>2.4</b> Extracting audio files</a></li>
+<li class="chapter" data-level="2.5" data-path="javascript-webscraping-in-r.html"><a href="javascript-webscraping-in-r.html#downloading-mp3s"><i class="fa fa-check"></i><b>2.5</b> Downloading mp3s</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="organizing-an-r-package.html"><a href="organizing-an-r-package.html"><i class="fa fa-check"></i><b>3</b> Organizing an R package</a><ul>
+<li class="chapter" data-level="3.1" data-path="organizing-an-r-package.html"><a href="organizing-an-r-package.html#converting-mp3s-to-wavs"><i class="fa fa-check"></i><b>3.1</b> Converting mp3s to wavs</a></li>
+<li class="chapter" data-level="3.2" data-path="organizing-an-r-package.html"><a href="organizing-an-r-package.html#cleaning-up-and-filtering-.wav-file-names"><i class="fa fa-check"></i><b>3.2</b> Cleaning up and filtering .wav file names</a></li>
+<li class="chapter" data-level="3.3" data-path="organizing-an-r-package.html"><a href="organizing-an-r-package.html#tidying-file-names"><i class="fa fa-check"></i><b>3.3</b> Tidying file names</a></li>
+<li class="chapter" data-level="3.4" data-path="organizing-an-r-package.html"><a href="organizing-an-r-package.html#renaming-file-paths-from-within-r"><i class="fa fa-check"></i><b>3.4</b> Renaming file paths from within R</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="remixing-the-beep-function.html"><a href="remixing-the-beep-function.html"><i class="fa fa-check"></i><b>4</b> Remixing the beep() function</a></li>
+<li class="chapter" data-level="5" data-path="wrapping-it-all-into-a-package.html"><a href="wrapping-it-all-into-a-package.html"><i class="fa fa-check"></i><b>5</b> Wrapping it all into a package</a></li>
+<li class="chapter" data-level="6" data-path="maintaining-an-open-source-package-in-r.html"><a href="maintaining-an-open-source-package-in-r.html"><i class="fa fa-check"></i><b>6</b> Maintaining an open source package in R</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Brooke Watson: Scraping Javascript websites in R</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="maintaining-an-open-source-package-in-r" class="section level1">
+<h1><span class="header-section-number">6</span> Maintaining an open source package in R</h1>
+<p>Again, <a href="https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/">Hilary</a> and <a href="http://happygitwithr.com/">Jenny</a> have created more and better instructions on installing a package locally and from Github, so I won’t repeat what’s already been done.</p>
+<p>But once I pushed this to Github, I immediately became an open source developer and maintainer. That’s all it takes. Folks saw it on Twitter, got a good chuckle, and immediately started using it, fixing bugs and typos, and offering suggestions for the next version.</p>
+<p>This is the thing I didn’t realize before building this package. When you make something open source, and put it out into the world, people will often just start fixing things for you, for free. I got lucky with BRRR - apparently, the Venn diagram <a href="https://www.instagram.com/p/S6OS2YAWQI/">overlap</a> between rap nerds and stats nerds is much larger than I thought, and more people saw this package than I ever imagined. But this is the beauty of open source - projects become bigger, better, and more creative than they ever could if they live and die on one person’s computer. Four people have fixed bugs or typos in my repo, which I in turn built off the back of <a href="https://github.com/rasmusab">Rasmus’s</a>. Someone has already ported beepr into <a href="https://pypi.python.org/pypi/brrr">Python</a>. The community <a href="https://twitter.com/brookLYNevery1/status/940359216480636928">shared</a> beepr with friends and colleagues they thought would like it.</p>
+<p>Hopefully, someone else who has never made a package will take this and run with it, remixing the remix until it is unrecognizable. In the wise words of the Godfather of my very first R package:</p>
+<p><img src="/img/2018-03-18-scraping-javascript-websites-in-r/gucci-nevertoolate.png" /></p>
+<p><br></p>
+
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="wrapping-it-all-into-a-package.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
