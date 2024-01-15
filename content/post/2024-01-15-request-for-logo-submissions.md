@@ -2,7 +2,7 @@
 title: Request for R-Ladies Logo Submissions
 author: Mei Guan
 date: '2024-01-15'
-slug: request-for-r-ladies-logo-submissions
+slug: request-for-r-ladies-logo-submissions-24
 categories:
   - event
 tags:
@@ -11,7 +11,7 @@ tags:
 
 Its been four years since we did an open call for a new R-Ladies logo. R-Ladies NYC is in the market for a new look! We are excited to announce a new R-Ladies NYC logo contest. Please email your submissions to nyc@rladies.org with the subject line “hex sticker design”. Submissions are due by the end of January and we will hold a public vote during the first two weeks of February. The winner will be announced on Valentines Day.
 
-Design notes: the R-Ladies font is Open Sans and the colors are #88398a (Purple) & #a7a9ac (Gray), though the logo can use variants of these colors and other colors. [Here](https://github.com/rladies/branding-materials/tree/main/logo) is the repo for the R-Ladies logo as a reference. Also, the hexSticker package is useful, but you are welcome to use any tool you desire!
+Design notes: the R-Ladies font is Open Sans and the colors are #88398a (Purple) & #a7a9ac (Gray), though the logo can use variants of these colors and other colors. [Here](https://github.com/rladies/branding-materials/tree/main/logo/) is the repo for the R-Ladies logo as a reference. Also, the hexSticker package is useful, but you are welcome to use any tool you desire!
 
 Here are some examples for inspiration: 
 
