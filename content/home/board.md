@@ -35,7 +35,7 @@ Kristen Akey (she/her) is a Data Analyst at Civitech, where she helps build tool
 
 <img src="/img/mei-guan.jpg" style="width:20%";/>
 
-Mei Guan is a Lead Data Analyst at New Visions for Public Schools where she  helps build an academic planning data product used by every district public school in New York City. Previously, Mei has worked as high school science teacher in Brooklyn and as a data analyst at the New York City Department of Education. She holds a B.S. in Biology from Cornell University and a M.S. in Applied Urban Science and Informatics from New York University.
+Mei Guan(she/her/hers) is an Analytics Director at TNTP where she focuses her research on topics related to social and economic mobility for young people. Previously, Mei has worked as high school science teacher in Brooklyn and as a data analyst at the New York City Department of Education. She holds a B.S. in Biology from Cornell University and a M.S. in Applied Urban Science and Informatics from New York University.
 
 
 #### Clara Wang
