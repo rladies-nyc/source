@@ -8,6 +8,11 @@
   <div class="article-container">
     <div class="article-inner">
       <h1 itemprop="name">{{ .Title }}</h1>
+      <span>
+          {{ range .Param "authors" }}
+          {{ . }}
+          {{ end }}
+      </span>
 
       {{ partial "article_metadata" (dict "content" . "is_list" 0) }}
 
