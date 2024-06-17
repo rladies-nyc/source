@@ -1,6 +1,6 @@
 ---
 title: Omics Data Analysis in R
-author: Anni Liu
+authors: ["Anni Liu"]
 date: '2024-06-17'
 slug: omics-data-analysis-in-r
 categories:
